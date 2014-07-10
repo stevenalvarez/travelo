@@ -1,0 +1,8 @@
+body							{font-family:Tahoma, Arial, Helvetica, sans-serif;font-size:12px; color:#333;}
+#contents						{font-family:Verdana, Arial, Helvetica, sans-serif;min-height:200px;}
+#content_login					{width:345px; margin: 60px auto;text-align: center;}
+#login							{width:300px; }
+#login td						{height:32px;}
+#login .msg						{font-weight:bold; float:right; padding:1px 0px 0px 16px; background-image:url(../img/exclamation.png); background-repeat:no-repeat;}
+#login input, #form input		{border:1px solid #CCC; font-size:12px;}
+form #flashMessage.message      {float: right;}
