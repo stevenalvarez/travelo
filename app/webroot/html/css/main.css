@@ -269,17 +269,26 @@ ul.categories li a:hover span.number, ul.categories li a.selected span.number{co
 #content .we_dedicated .description h2{font-size: 32px;font-weight: normal;padding-bottom: 25px;}
 #content .we_dedicated .description p{font-size: 16px;margin-bottom: 15px;}
 #content .we_dedicated .description a.btn{text-transform: uppercase;position: absolute;bottom: 30px;}
+#content .how_expats{padding-bottom: 25px;}
+#content .how_expats li{margin-bottom: 30px;}
+#content .how_expats .box{width: 38%;height: 172px;background: #fdb714;}
+#content .how_expats .box img{height: 100%;width: 100%;}
+#content .how_expats .description{width: 56%;padding: 25px 35px;}
+#content .how_expats .description h2{font-weight: normal;margin-bottom: 20px;}
+#content .how_expats .description p{font-size: 14px;line-height: 20px;margin-bottom: 0;}
 #content .team, #content .know{overflow: hidden;padding: 30px 0;margin-bottom: 25px;}
 #content .team .box{height: 263px;position: relative;background: #01b7f2;}
-#content .team .box .social{position: absolute;bottom: 0;margin: 0 22px;}
-#content .team .info{background: #fff;padding: 14px;text-align: center;}
+#content .team .info{background: #fff;padding: 14px;text-align: center;overflow: hidden;}
 #content .team .info h4{font-size: 17px;font-weight: normal;}
 #content .team .info span{text-transform: uppercase;font-size: 10px;}
+#content .team .info p{padding: 20px 0 10px 0;margin-top: 15px; border-top: 1px solid #f5f5f5;line-height: 18px;font-size: 13px;}
+#content .team .info .social li{margin-right: 6px;}
+#content .team .info .social li.last{margin-right: 0;}
 #content .team h3, #content .know h3{font-size: 20px;font-weight: normal;margin-bottom: 20px;}
 #content .team > ul > li{float: left;width: 23%;margin-right: 31px;}
 #content .team > ul > li.last{margin-right: 0;}
 #content .team .social li{background: #d9d9d9;}
-#content .team .social li:hover, #content .team .social li.selected{background: #a6e6fa;}
+#content .team .social li:hover, #content .team .social li.selected{background: #01b7f2;}
 #content .know .items li{float: left;margin-right: 4px;}
 #content .know .items li a{background: #d9d9d9;color: #fff;display: block;font-size: 11px;padding: 10px 20px;text-transform: uppercase;}
 #content .know .items li > a:hover, #content .know .items li.selected > a{color: #01b7f2;background: #fff;}
@@ -298,6 +307,12 @@ ul.categories li a:hover span.number, ul.categories li a.selected span.number{co
 #content .total li span.number.airlines{background: url("../img/bg_airlines.png") no-repeat scroll 30px center transparent;}
 #content .total li span.number.transport{background: url("../img/bg_transport.png") no-repeat scroll 30px center transparent;}
 #content .total li span.text{text-transform: uppercase;text-align: center;padding: 10px 0;font-size: 11px;}
+#content .our_partners{padding-top: 30px;}
+#content .our_partners h3{font-size: 20px;font-weight: normal;text-align: center;}
+#content .our_partners p{text-align: center;margin-top: 5px;}
+#content .our_partners ul{padding-top: 20px;overflow: hidden;}
+#content .our_partners li{float: left;margin-right: 30px;width: 14.5%;background: #fff;height: 100px;}
+#content .our_partners li.last{margin-right: 0;}
 
 /*FAQ*/
 .list_faqs > li, .list_popular > ul{display: none;}

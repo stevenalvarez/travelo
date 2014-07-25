@@ -26,6 +26,43 @@
     		<?php include("includes/header.php"); ?>
     		<div id="content" class="page">
                 <div class="inner">
+                    <div class="how_expats">
+                        <ul>
+                            <li>
+                                <div class="bwhite overflow">
+                                    <div class="left box">
+                                        <img src="img/default_yellow.png" />
+                                    </div>
+                                    <div class="right description">
+                                        <h2>Expats who is?</h2>
+                                        <p>Vivamus a mauris vel nunc tristique volutpat. Aenean eu faucibus enim. Aenean blandit arcu lectus, in cursus elit porttitor non. Curabitur risus eros, mattis vitae nisl consequat, tincidunt commodo purus. Maecenas eu risus ac risus tempus iaculis. Duis cursus lectus sed dui imperdiet, id pharetra nunc ullamcorper. Donec luctus blandit metus, sed ultrices ipsum facilisis sit amet. Morbi congue ligula sit amet urna tincidunt.</p>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="bwhite overflow">
+                                    <div class="left description">
+                                        <h2>What do we do?</h2>
+                                        <p>Vivamus a mauris vel nunc tristique volutpat. Aenean eu faucibus enim. Aenean blandit arcu lectus, in cursus elit porttitor non. Curabitur risus eros, mattis vitae nisl consequat, tincidunt commodo purus. Maecenas eu risus ac risus tempus iaculis. Duis cursus lectus sed dui imperdiet, id pharetra nunc ullamcorper. Donec luctus blandit metus, sed ultrices ipsum facilisis sit amet. Morbi congue ligula sit amet urna tincidunt.</p>
+                                    </div>
+                                    <div class="right box">
+                                        <img src="img/default_yellow.png" />
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="bwhite overflow">
+                                    <div class="left box">
+                                        <img src="img/default_yellow.png" />
+                                    </div>
+                                    <div class="right description">
+                                        <h2>How we work?</h2>
+                                        <p>Vivamus a mauris vel nunc tristique volutpat. Aenean eu faucibus enim. Aenean blandit arcu lectus, in cursus elit porttitor non. Curabitur risus eros, mattis vitae nisl consequat, tincidunt commodo purus. Maecenas eu risus ac risus tempus iaculis. Duis cursus lectus sed dui imperdiet, id pharetra nunc ullamcorper. Donec luctus blandit metus, sed ultrices ipsum facilisis sit amet. Morbi congue ligula sit amet urna tincidunt.</p>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
                     <div class="know clear">
                         <div class="left cols">
                             <div class="width95p">
@@ -87,15 +124,23 @@
                         <ul>
                             <li>
                                 <div class="box">
+                                    <img src="img/default_blue.png" />
+                                </div>
+                                <div class="info clear">
+                                    <div class="details">
+                                        <h4>Jessica Brown</h4>
+                                        <span>Chief Executive</span>
+                                        <p>Nunc cursus libero purus ac congue arcu cursus ut sed vitae pulvinar massa idporta nequetiam.</p>
+                                    </div>
                                     <div class="social">
                                         <ul>
-                                            <li class="selected">
+                                            <li>
                                                 <a class="twitter" title="Twitter">Twitter</a>
                                             </li>
                                             <li>
                                                 <a class="google" title="Google+">Google+</a>
                                             </li>
-                                            <li>
+                                            <li class="selected">
                                                 <a class="facebook" title="Facebook">Facebook</a>
                                             </li>
                                             <li>
@@ -109,23 +154,27 @@
                                             </li>
                                         </ul>
                                     </div>
-                                </div>
-                                <div class="info clear">
-                                    <h4>Jessica Brown</h4>
-                                    <span>Chief Executive</span>
                                 </div>
                             </li>
                             <li>
                                 <div class="box">
+                                    <img src="img/default_blue.png" />
+                                </div>
+                                <div class="info clear">
+                                    <div class="details">
+                                        <h4>David Jackson</h4>
+                                        <span>Director - Hotels</span>
+                                        <p>Nunc cursus libero purus ac congue arcu cursus ut sed vitae pulvinar massa idporta nequetiam.</p>
+                                    </div>
                                     <div class="social">
                                         <ul>
-                                            <li class="selected">
+                                            <li>
                                                 <a class="twitter" title="Twitter">Twitter</a>
                                             </li>
                                             <li>
                                                 <a class="google" title="Google+">Google+</a>
                                             </li>
-                                            <li>
+                                            <li class="selected">
                                                 <a class="facebook" title="Facebook">Facebook</a>
                                             </li>
                                             <li>
@@ -139,23 +188,27 @@
                                             </li>
                                         </ul>
                                     </div>
-                                </div>
-                                <div class="info clear">
-                                    <h4>David Jackson</h4>
-                                    <span>Director - Hotels</span>
                                 </div>
                             </li>
                             <li>
                                 <div class="box">
+                                    <img src="img/default_blue.png" />
+                                </div>
+                                <div class="info clear">
+                                    <div class="details">
+                                        <h4>Kyle Martin</h4>
+                                        <span>Chief Operating Officer</span>
+                                        <p>Nunc cursus libero purus ac congue arcu cursus ut sed vitae pulvinar massa idporta nequetiam.</p>
+                                    </div>
                                     <div class="social">
                                         <ul>
-                                            <li class="selected">
+                                            <li>
                                                 <a class="twitter" title="Twitter">Twitter</a>
                                             </li>
                                             <li>
                                                 <a class="google" title="Google+">Google+</a>
                                             </li>
-                                            <li>
+                                            <li class="selected">
                                                 <a class="facebook" title="Facebook">Facebook</a>
                                             </li>
                                             <li>
@@ -169,23 +222,27 @@
                                             </li>
                                         </ul>
                                     </div>
-                                </div>
-                                <div class="info clear">
-                                    <h4>Kyle Martin</h4>
-                                    <span>Chief Operating Officer</span>
                                 </div>
                             </li>
                             <li class="last">
                                 <div class="box">
+                                    <img src="img/default_blue.png" />
+                                </div>
+                                <div class="info clear">
+                                    <div class="details">
+                                        <h4>David Robets</h4>
+                                        <span>Founder & Director</span>
+                                        <p>Nunc cursus libero purus ac congue arcu cursus ut sed vitae pulvinar massa idporta nequetiam.</p>
+                                    </div>
                                     <div class="social">
                                         <ul>
-                                            <li class="selected">
+                                            <li>
                                                 <a class="twitter" title="Twitter">Twitter</a>
                                             </li>
                                             <li>
                                                 <a class="google" title="Google+">Google+</a>
                                             </li>
-                                            <li>
+                                            <li class="selected">
                                                 <a class="facebook" title="Facebook">Facebook</a>
                                             </li>
                                             <li>
@@ -200,10 +257,30 @@
                                         </ul>
                                     </div>
                                 </div>
-                                <div class="info clear">
-                                    <h4>David Robets</h4>
-                                    <span>Founder & Director</span>
-                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="our_partners">
+                        <h3>Our partners who help us grow</h3>
+                        <p>Nunc cursus libero purus ac congue ar lorem cursus ut sed pulvinar massa idend porta nequetiam</p>
+                        <ul>
+                            <li>
+                                <img src="img/default_gray.jpg" />
+                            </li>
+                            <li>
+                                <img src="img/default_gray.jpg" />
+                            </li>
+                            <li>
+                                <img src="img/default_gray.jpg" />
+                            </li>
+                            <li>
+                                <img src="img/default_gray.jpg" />
+                            </li>
+                            <li>
+                                <img src="img/default_gray.jpg" />
+                            </li>
+                            <li class="last">
+                                <img src="img/default_gray.jpg" />
                             </li>
                         </ul>
                     </div>
