@@ -308,7 +308,47 @@
                         </ul>
                     </div>
                 </div><!--.videos--->
-                <div class="timeline">
+                <div class="we_dedicated  bgray tppadding20 clear">
+                    <div class="inner">
+                        <div class="box left">
+                            <ul class="imagen">
+                                <li>
+                                    <img src="img/default_blank.jpg" />
+                                </li>
+                                <li>
+                                    <img src="img/default_blank.jpg" />
+                                </li>
+                                <li>
+                                    <img src="img/default_blank.jpg" />
+                                </li>
+                                <li>
+                                    <img src="img/default_blank.jpg" />
+                                </li>
+                                <li>
+                                    <img src="img/default_blank.jpg" />
+                                </li>
+                                <li>
+                                    <img src="img/default_blank.jpg" />
+                                </li>
+                                <li>
+                                    <img src="img/default_blank.jpg" />
+                                </li>
+                                <li>
+                                    <img src="img/default_blank.jpg" />
+                                </li>
+                                <li>
+                                    <img src="img/default_blank.jpg" />
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="right description">
+                            <h2>Expats is a web pque helps you choose your destination, accommodation, schools, etc. .. to start your life in another country</h2>
+                            <p>Bringing you a modern, comfortable, and connected travel experience is one of our highest priorities and that’s why we continuously try to improve your experience when you book anything with us.</p>
+                            <p>We really appreciate and welcome any of suggstions you might have for us, so feel free drop us line anytime.</p>
+                        </div>
+                    </div>
+                </div>                
+                <div class="timeline bgray tppadding20 overflow">
                     <div class="inner">
                         <div class="left cols">
                             <div class="width90p">
