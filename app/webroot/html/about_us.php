@@ -26,44 +26,61 @@
     		<?php include("includes/header.php"); ?>
     		<div id="content" class="page">
                 <div class="inner">
-                    <div class="we_dedicated  clear">
-                        <div class="box left">
-                            <ul class="imagen">
+                    <div class="know clear">
+                        <div class="left cols">
+                            <div class="width95p">
+                                <h3>Know More About Us</h3>
+                                <ul class="toogle clear">
+                                    <li>
+                                        <a class="aleft selected" href="javascript:void(0)">Our Visions and Missions</a>
+                                        <div class="text aleft show">
+                                            <p>Nunc cursus libero purus ac congue ar lorem cursus ut sed pulvinar massa idend porta nequetiam elerisque mi id habitant morbi isnot possible nowadays tristique senectus et netus et malesuada fames. </p>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <a class="aleft" href="javascript:void(0)">Services we provide</a>
+                                        <div class="text aleft">
+                                            <p>&nbsp;</p>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <a class="aleft" href="javascript:void(0)">Travelo Corporate Responsibility</a>
+                                        <div class="text aleft">
+                                            <p>&nbsp;</p>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div><!--.cols-->
+                        <div class="right cols">
+                            <h3>Our Core Values</h3>
+                            <ul class="options clear items overflow">
                                 <li>
-                                    <img src="img/default_blank.jpg" />
+                                    <a href="javascript:void(0)" lang="satisfied">Satisfied customers</a>
+                                </li>
+                                <li class="selected">
+                                    <a href="javascript:void(0)" lang="tours">tours suggestions</a>
                                 </li>
                                 <li>
-                                    <img src="img/default_blank.jpg" />
-                                </li>
-                                <li>
-                                    <img src="img/default_blank.jpg" />
-                                </li>
-                                <li>
-                                    <img src="img/default_blank.jpg" />
-                                </li>
-                                <li>
-                                    <img src="img/default_blank.jpg" />
-                                </li>
-                                <li>
-                                    <img src="img/default_blank.jpg" />
-                                </li>
-                                <li>
-                                    <img src="img/default_blank.jpg" />
-                                </li>
-                                <li>
-                                    <img src="img/default_blank.jpg" />
-                                </li>
-                                <li>
-                                    <img src="img/default_blank.jpg" />
+                                    <a href="javascript:void(0)" lang="careers">Careers</a>
                                 </li>
                             </ul>
-                        </div>
-                        <div class="right description">
-                            <h2>We're truely dedicated to make your travel experience as much simple and fun as possible!</h2>
-                            <p>Bringing you a modern, comfortable, and connected travel experience is one of our highest priorities and that’s why we continuously try to improve your experience when you book anything with us.</p>
-                            <p>We really appreciate and welcome any of suggstions you might have for us, so feel free drop us line anytime.</p>
-                            <a class="btn green" href="#">drop us a line</a>
-                        </div>
+                            <div class="list">
+                                <ul>
+                                    <li class="item" id="satisfied"></li>
+                                    <li class="item selected" id="tours">
+                                        <div class="description">
+                                            <div class="left imagen">
+                                                <img src="img/default_gray.jpg" />
+                                            </div>
+                                            <h5>Ocean Park Tour</h5>
+                                            <p>Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Vivamus elementum, ligula vehicula enenatis semper, magna lorem aliquet lacus, in euismod sem lectus. ligula vehicula enenatis semper, magna lorem aliquet lacus euismod sem velit ve. <br /><br /> Ligula vehicula enenatis semper, magna lorem aliquet lacusin ante dapibus dictum. fugats vitaes nemo minima rerums unsers sadips amets.</p>
+                                        </div>
+                                    </li>
+                                    <li class="item" id="careers"></li>
+                                </ul><!--.ul-->
+                            </div>
+                        </div><!--.cols-->                        
                     </div>
                     <div class="team clear">
                         <h3>Travelo Dedicated Team</h3>
@@ -187,82 +204,6 @@
                                     <h4>David Robets</h4>
                                     <span>Founder & Director</span>
                                 </div>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="know clear">
-                        <div class="left cols">
-                            <div class="width95p">
-                                <h3>Know More About Us</h3>
-                                <ul class="toogle clear">
-                                    <li>
-                                        <a class="aleft selected" href="javascript:void(0)">Our Visions and Missions</a>
-                                        <div class="text aleft show">
-                                            <p>Nunc cursus libero purus ac congue ar lorem cursus ut sed pulvinar massa idend porta nequetiam elerisque mi id habitant morbi isnot possible nowadays tristique senectus et netus et malesuada fames. </p>
-                                        </div>
-                                    </li>
-                                    <li>
-                                        <a class="aleft" href="javascript:void(0)">Services we provide</a>
-                                        <div class="text aleft">
-                                            <p>&nbsp;</p>
-                                        </div>
-                                    </li>
-                                    <li>
-                                        <a class="aleft" href="javascript:void(0)">Travelo Corporate Responsibility</a>
-                                        <div class="text aleft">
-                                            <p>&nbsp;</p>
-                                        </div>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div><!--.cols-->
-                        <div class="right cols">
-                            <h3>Our Core Values</h3>
-                            <ul class="options clear items overflow">
-                                <li>
-                                    <a href="javascript:void(0)" lang="satisfied">Satisfied customers</a>
-                                </li>
-                                <li class="selected">
-                                    <a href="javascript:void(0)" lang="tours">tours suggestions</a>
-                                </li>
-                                <li>
-                                    <a href="javascript:void(0)" lang="careers">Careers</a>
-                                </li>
-                            </ul>
-                            <div class="list">
-                                <ul>
-                                    <li class="item" id="satisfied"></li>
-                                    <li class="item selected" id="tours">
-                                        <div class="description">
-                                            <div class="left imagen">
-                                                <img src="img/default_gray.jpg" />
-                                            </div>
-                                            <h5>Ocean Park Tour</h5>
-                                            <p>Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Vivamus elementum, ligula vehicula enenatis semper, magna lorem aliquet lacus, in euismod sem lectus. ligula vehicula enenatis semper, magna lorem aliquet lacus euismod sem velit ve. <br /><br /> Ligula vehicula enenatis semper, magna lorem aliquet lacusin ante dapibus dictum. fugats vitaes nemo minima rerums unsers sadips amets.</p>
-                                        </div>
-                                    </li>
-                                    <li class="item" id="careers"></li>
-                                </ul><!--.ul-->
-                            </div>
-                        </div><!--.cols-->                        
-                    </div>
-                    <div class="total clear">
-                        <ul>
-                            <li>
-                                <span class="number places">3200</span>
-                                <span class="text">Amazing Places To Visit</span>
-                            </li>
-                            <li>
-                                <span class="number hotels">5738</span>
-                                <span class="text">5 Star Hotels To Stay</span>
-                            </li>
-                            <li>
-                                <span class="number airlines">4509</span>
-                                <span class="text">Airlines To Travel the World</span>
-                            </li>
-                            <li class="last">
-                                <span class="number transport">3250</span>
-                                <span class="text">VIP Transport Options</span>
                             </li>
                         </ul>
                     </div>
