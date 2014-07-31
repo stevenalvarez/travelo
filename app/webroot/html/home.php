@@ -26,6 +26,7 @@
     		<?php include("includes/header.php"); ?>
     		<div id="content">
                 <div class="navigation">
+                    <!--
                     <div class="wrap">
                         <ul>
                             <li>
@@ -45,6 +46,7 @@
                             </li>
                         </ul>
                     </div>
+                    -->
                 </div><!--.navigation-->
                 <div class="search_destination">
                     <div class="wrap">
@@ -67,13 +69,15 @@
                                 </li>
                                 <li>
                                     <label>&nbsp;</label>
-                                    <button>ENCUENTRA TU SITIO</button>
+                                    <button>SELECCIONA</button>
                                 </li>
                             </ul>
                         </form>
+                        <div class="how_it_works">
+                        </div>
                     </div>
                 </div><!--.search_destination-->
-                <div class="how_it_works">
+                <div class="how_it_works_cicle">
                     <div class="wrap">
                         <h3>C&oacute;mo funciona <span>Expats?</span></h3>
                         <ul>

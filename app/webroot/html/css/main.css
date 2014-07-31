@@ -179,23 +179,23 @@ ul.categories li a:hover span.number, ul.categories li a.selected span.number{co
 #content .search_destination .info .pais, #content .search_destination .info .ciudad{width: 75%;padding:6px 0;height: 25px;}
 #content .search_destination .info span.customSelectInner {background:url(../img/bg_select_info.jpg) no-repeat center right #f5f5f5;padding: 8px;width: 92% !important;}
 #content .search_destination button{background: url('../img/bg_check.jpg') no-repeat center right #98ce44; border: none; height: 31px;cursor: pointer;padding: 0 45px 0 15px;margin-top: 6px;color:#fff;font-family: LatoBold;margin-left: 15px;}
-#content .how_it_works{background: url('../img/bg_map.jpg') no-repeat center center transparent;height: 436px;padding: 50px 0;}
+#content .how_it_works_cicle{background: url('../img/bg_map.jpg') no-repeat center center transparent;height: 436px;padding: 50px 0;}
 #content .write_your_story{background: url('../img/bg_map.jpg') no-repeat center 0 transparent;height: 277px;margin-top: 80px;}
 #content .write_your_story ul{margin: 0 auto;width: 1220px;position: relative;height: 277px;}
 #content .write_your_story li .box{padding-top: 22px;}
 #content .write_your_story li .text{color: #fff;padding: 110px 0 0 80px;}
 #content .write_your_story li .text span{display: block;font-size: 20px;}
 #content .write_your_story li .text span.have{font-size: 28px;}
-#content .how_it_works h3{text-align: center;color: #fff;font-weight: normal;font-size: 22px;}
-#content .how_it_works h3 span{font-family: LatoItalic;}
-#content .how_it_works ul{margin-top: 40px;}
-#content .how_it_works li.row{width: 25%;height: 340px;}
-#content .how_it_works li{float: left;position: relative;}
-#content .how_it_works li .top{position: absolute; top: 0;}
-#content .how_it_works li .bottom{position: absolute; bottom: 0;}
-#content .how_it_works li.row h4{color: #fff;font-weight: normal;font-size: 14px;margin-bottom: 10px;}
-#content .how_it_works li.row p{clear: both;color: #708cac;line-height: 25px;}
-#content .how_it_works li.center{width: 50%;text-align: center;}
+#content .how_it_works_cicle h3{text-align: center;color: #fff;font-weight: normal;font-size: 22px;}
+#content .how_it_works_cicle h3 span{font-family: LatoItalic;}
+#content .how_it_works_cicle ul{margin-top: 40px;}
+#content .how_it_works_cicle li.row{width: 25%;height: 340px;}
+#content .how_it_works_cicle li{float: left;position: relative;}
+#content .how_it_works_cicle li .top{position: absolute; top: 0;}
+#content .how_it_works_cicle li .bottom{position: absolute; bottom: 0;}
+#content .how_it_works_cicle li.row h4{color: #fff;font-weight: normal;font-size: 14px;margin-bottom: 10px;}
+#content .how_it_works_cicle li.row p{clear: both;color: #708cac;line-height: 25px;}
+#content .how_it_works_cicle li.center{width: 50%;text-align: center;}
 #content .videos{padding: 50px 0 25px; overflow: hidden;}
 #content .videos h3{margin-bottom: 20px;font-weight: normal;font-size: 18px;}
 #content .videos li{width: 23.1%;float: left;margin-right: 29px;}
