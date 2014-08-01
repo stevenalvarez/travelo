@@ -36,7 +36,7 @@
                                 </div>
                                 <div class="details padding20 bwhite">
                                     <h3>Canada</h3>
-                                    <span>3 Activities</span>
+                                    <span class="activities">3 Activities</span>
                                     <a href="#" class="btn gray">SEE ALL</a>
                                 </div>
                             </li>
@@ -48,7 +48,7 @@
                                 </div>
                                 <div class="details padding20 bwhite">
                                     <h3>Rome</h3>
-                                    <span>10 Activities</span>
+                                    <span class="activities">10 Activities</span>
                                     <a href="#" class="btn gray">SEE ALL</a>
                                 </div>
                             </li>
@@ -60,7 +60,7 @@
                                 </div>
                                 <div class="details padding20 bwhite">
                                     <h3>Paris</h3>
-                                    <span>22 Activities</span>
+                                    <span class="activities">22 Activities</span>
                                     <a href="#" class="btn gray">SEE ALL</a>
                                 </div>
                             </li>
@@ -72,7 +72,7 @@
                                 </div>
                                 <div class="details padding20 bwhite">
                                     <h3>Spain</h3>
-                                    <span>15 Activities</span>
+                                    <span class="activities">15 Activities</span>
                                     <a href="#" class="btn gray">SEE ALL</a>
                                 </div>
                             </li>
@@ -84,7 +84,7 @@
                                 </div>
                                 <div class="details padding20 bwhite">
                                     <h3>Egypt</h3>
-                                    <span>11 Activities</span>
+                                    <span class="activities">11 Activities</span>
                                     <a href="#" class="btn gray">SEE ALL</a>
                                 </div>
                             </li>
@@ -96,7 +96,7 @@
                                 </div>
                                 <div class="details padding20 bwhite">
                                     <h3>Africa</h3>
-                                    <span>19 Activities</span>
+                                    <span class="activities">19 Activities</span>
                                     <a href="#" class="btn gray">SEE ALL</a>
                                 </div>
                             </li>
@@ -108,7 +108,7 @@
                                 </div>
                                 <div class="details padding20 bwhite">
                                     <h3>Italy</h3>
-                                    <span>46 Activities</span>
+                                    <span class="activities">46 Activities</span>
                                     <a href="#" class="btn gray">SEE ALL</a>
                                 </div>
                             </li>
@@ -120,7 +120,7 @@
                                 </div>
                                 <div class="details padding20 bwhite">
                                     <h3>New York</h3>
-                                    <span>38 Activities</span>
+                                    <span class="activities">38 Activities</span>
                                     <a href="#" class="btn gray">SEE ALL</a>
                                 </div>
                             </li>
@@ -132,7 +132,7 @@
                                 </div>
                                 <div class="details padding20 bwhite">
                                     <h3>Sydney</h3>
-                                    <span>18 Activities</span>
+                                    <span class="activities">18 Activities</span>
                                     <a href="#" class="btn gray">SEE ALL</a>
                                 </div>
                             </li>
@@ -144,7 +144,7 @@
                                 </div>
                                 <div class="details padding20 bwhite">
                                     <h3>London</h3>
-                                    <span>23 Activities</span>
+                                    <span class="activities">23 Activities</span>
                                     <a href="#" class="btn gray">SEE ALL</a>
                                 </div>
                             </li>
@@ -156,7 +156,7 @@
                                 </div>
                                 <div class="details padding20 bwhite">
                                     <h3>Austrilia</h3>
-                                    <span>32 Activities</span>
+                                    <span class="activities">32 Activities</span>
                                     <a href="#" class="btn gray">SEE ALL</a>
                                 </div>
                             </li>
@@ -168,7 +168,7 @@
                                 </div>
                                 <div class="details padding20 bwhite">
                                     <h3>Greece</h3>
-                                    <span>19 Activities</span>
+                                    <span class="activities">19 Activities</span>
                                     <a href="#" class="btn gray">SEE ALL</a>
                                 </div>
                             </li>
@@ -180,7 +180,7 @@
                                 </div>
                                 <div class="details padding20 bwhite">
                                     <h3>Asia</h3>
-                                    <span>28 Activities</span>
+                                    <span class="activities">28 Activities</span>
                                     <a href="#" class="btn gray">SEE ALL</a>
                                 </div>
                             </li>
@@ -192,7 +192,7 @@
                                 </div>
                                 <div class="details padding20 bwhite">
                                     <h3>Hong Kong</h3>
-                                    <span>41 Activities</span>
+                                    <span class="activities">41 Activities</span>
                                     <a href="#" class="btn gray">SEE ALL</a>
                                 </div>
                             </li>
@@ -204,7 +204,7 @@
                                 </div>
                                 <div class="details padding20 bwhite">
                                     <h3>Singapore</h3>
-                                    <span>16 Activities</span>
+                                    <span class="activities">16 Activities</span>
                                     <a href="#" class="btn gray">SEE ALL</a>
                                 </div>
                             </li>
@@ -216,7 +216,7 @@
                                 </div>
                                 <div class="details padding20 bwhite">
                                     <h3>Bali</h3>
-                                    <span>9 Activities</span>
+                                    <span class="activities">9 Activities</span>
                                     <a href="#" class="btn gray">SEE ALL</a>
                                 </div>
                             </li>
@@ -228,7 +228,7 @@
                                 </div>
                                 <div class="details padding20 bwhite">
                                     <h3>Las Vegas</h3>
-                                    <span>38 Activities</span>
+                                    <span class="activities">38 Activities</span>
                                     <a href="#" class="btn gray">SEE ALL</a>
                                 </div>
                             </li>
@@ -240,7 +240,7 @@
                                 </div>
                                 <div class="details padding20 bwhite">
                                     <h3>Venice</h3>
-                                    <span>15 Activities</span>
+                                    <span class="activities">15 Activities</span>
                                     <a href="#" class="btn gray">SEE ALL</a>
                                 </div>
                             </li>
@@ -252,11 +252,11 @@
                                 </div>
                                 <div class="details padding20 bwhite">
                                     <h3>England</h3>
-                                    <span>21 Activities</span>
+                                    <span class="activities">21 Activities</span>
                                     <a href="#" class="btn gray">SEE ALL</a>
                                 </div>
                             </li>
-                            <li class="last">
+                            <li>
                                 <div class="box">
                                     <a href="#">
                                         <img src="img/thingbox.jpg"/>
@@ -264,7 +264,7 @@
                                 </div>
                                 <div class="details padding20 bwhite">
                                     <h3>India</h3>
-                                    <span>5 Activities</span>
+                                    <span class="activities">5 Activities</span>
                                     <a href="#" class="btn gray">SEE ALL</a>
                                 </div>
                             </li>

@@ -203,7 +203,28 @@ $(function(){
         itemsDesktopSmall : false,
         itemsTablet: false,
         itemsMobile : false
-    });    
+    });
+    
+    //carrousel academies
+    $(".owl-carousel-academies").owlCarousel({
+        navigation : false,
+        pagination : false,
+        items : 6,
+        itemsDesktop : false,
+        itemsDesktopSmall : false,
+        itemsTablet: false,
+        itemsMobile : false
+    });
+    
+    //prev y next -> academies
+    $(".academies .carousel .previous, .academies .carousel .next").find("a").click(function(){
+        var owl = $(".owl-carousel-academies");
+        if($(this).hasClass("next")){
+            owl.trigger('owl.next');
+        }else{
+            owl.trigger('owl.prev');
+        }
+    });
     
     //initAjaxPopup
     function initAjaxPopup(){
