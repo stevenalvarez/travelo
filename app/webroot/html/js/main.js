@@ -6,6 +6,7 @@ $(function(){
     });
     $('select.pais').customSelect();
     $('select.ciudad').customSelect();
+    $('select.day, select.month, select.year').customSelect();
     
     //scroll top
     $('a[href=#top]').click(function(){
@@ -224,6 +225,12 @@ $(function(){
         }else{
             owl.trigger('owl.prev');
         }
+    });
+    
+    //perfil options
+    $(".perfil.options").find("a").click(function(){
+        $(this).parent().addClass("selected").siblings().removeClass("selected");
+        $("#"+$(this).attr("lang")).fadeIn("fast").siblings().css("display","none");
     });
     
     //initAjaxPopup
