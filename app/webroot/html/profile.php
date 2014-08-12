@@ -8,16 +8,21 @@
         
         <link rel="stylesheet" type="text/css" href="css/styles.css"/>
         <!-- include slider.css -->
-        <link rel="stylesheet" href="css/owl.carousel.css"/>
-        <link rel="stylesheet" href="css/owl.theme.css"/>
-        <link rel="stylesheet" href="css/jquery.magnific-popup.css"/>
+        <link rel="stylesheet" type="text/css" href="css/owl.carousel.css"/>
+        <link rel="stylesheet" type="text/css" href="css/owl.theme.css"/>
+        <link rel="stylesheet" type="text/css" href="css/jquery.magnific-popup.css"/>
+        <link rel="stylesheet" type="text/css" href="css/jquery.custom.file.upload.css"/>
+        <link rel="stylesheet" type="text/css" href="css/component.css" />
         <link rel="stylesheet" type="text/css" href="css/main.css"/>
         
         <script type="text/javascript" src="js/jquery-1.9.1.js"></script>
         <script type="text/javascript" src="js/jquery.customSelect.min.js"></script>
+        <script type="text/javascript" src="js/jquery.custom.file.upload.js"></script>
         <script type="text/javascript" src="js/jquery.magnific-popup.min.js"></script>
         <script type="text/javascript" src="js/owl.carousel.min.js"></script>
         <script type="text/javascript" src="js/jquery.flash.min_.js"></script>
+        <script type="text/javascript" src="js/modernizr.custom.js"></script>
+        <script type="text/javascript" src="js/nlform.js"></script>
         <script type="text/javascript" src="js/main.js"></script>
         
     </head>
@@ -162,7 +167,10 @@
                                         </tr>
                                         <tr>
                                             <td>
-                                                <input type="file" class="pair" value="buscar" />
+                                                <div class="custom-file-upload">
+                                                     <!--<label for="file">File: </label>--> 
+                                                    <input type="file" id="file" name="foto" />
+                                                </div>
                                                 <br />
                                                 <br />
                                             </td>

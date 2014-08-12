@@ -13,6 +13,9 @@ $(function(){
         $('html, body').animate({scrollTop:0}, 'slow');
     });
     
+    //custom tyoe=file
+    $(".custom-file-upload").find('input[type=file]').customFile();
+    
     //carrousel comments
     $("#owl-carousel-comments").owlCarousel({
         pagination : true,

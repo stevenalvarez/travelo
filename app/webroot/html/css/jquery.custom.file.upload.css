@@ -1,0 +1,55 @@
+.custom-file-upload-hidden {
+    display: none;
+    visibility: hidden;
+    position: absolute;
+    left: -9999px;
+}
+.custom-file-upload {
+    display: block;
+    width: auto;
+    font-size: 16px;
+    margin-top: 30px;
+    //border: 1px solid #ccc;
+    label {
+        display: block;
+      margin-bottom: 5px;
+    }
+}
+
+.file-upload-wrapper {
+    position: relative; 
+    margin-bottom: 5px;
+    //border: 1px solid #ccc;
+}
+.file-upload-input {
+    width: 33%;
+    color: #838383 !important;
+    font-size: 12px;
+    padding: 11px 15px !important; 
+    border: none;
+    background-color: $file-upload-color; 
+  @include transition(all 0.2s ease-in); 
+    float: left; /* IE 9 Fix */
+  &:hover, &:focus { 
+    background-color: darken($file-upload-color, 5);
+    outline: none; 
+  }
+}
+.file-upload-button {
+    letter-spacing: 1px;
+    font-family: LatoBold;
+    cursor: pointer; 
+    display: inline-block; 
+    color: #fff;
+    font-size: 14px;
+    text-transform: uppercase;
+    padding: 10px 25px; 
+    border: none;
+    margin-left: -1px;  
+    background-color: #fdb714; 
+    float: left; /* IE 9 Fix */
+    @include transition(all 0.2s ease-in);
+    &:hover {
+        background-color: #fdb714;
+    }
+}

@@ -172,30 +172,30 @@
 }
 
 /* custom placeholder color */
-input::-webkit-input-placeholder {
+.nl-form input::-webkit-input-placeholder {
 	color: rgba(255,255,255,0.8);
 }
 
-input:active::-webkit-input-placeholder ,
-input:focus::-webkit-input-placeholder {
+.nl-form input:active::-webkit-input-placeholder ,
+.nl-form input:focus::-webkit-input-placeholder {
 	color: rgba(255,255,255,0.2);
 }
 
-input::-moz-placeholder {
+.nl-form input::-moz-placeholder {
 	color: rgba(255,255,255,0.8);
 }
 
-input:active::-moz-placeholder,
-input:focus::-moz-placeholder {
+.nl-form input:active::-moz-placeholder,
+.nl-form input:focus::-moz-placeholder {
 	color: rgba(255,255,255,0.2);
 }
 
-input:-ms-input-placeholder {  
+.nl-form input:-ms-input-placeholder {  
 	color: rgba(255,255,255,0.8);
 }
 
-input:active::-ms-input-placeholder ,
-input:focus::-ms-input-placeholder {
+.nl-form input:active::-ms-input-placeholder ,
+.nl-form input:focus::-ms-input-placeholder {
 	color: rgba(255,255,255,0.2);
 }
 

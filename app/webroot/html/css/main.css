@@ -484,7 +484,7 @@ ul.categories li a:hover span.number, ul.categories li a.selected span.number{co
 .perfil.options{width: 15%;}
 .perfil.options li{background: #fff;height: 112px;border-right: 4px solid #f5f5f5;margin-bottom: 4px;}
 .perfil.options li a{display: block;text-align: center;color: #979797;padding: 30px 0;font-size: 14px;}
-.perfil.options li:hover, .perfil.options li.selected{color: #000;border-right: 4px solid #fff;}
+.perfil.options li:hover, .perfil.options li.selected{color: #000;border-right: 4px solid #fff;background: url("../img/bg_profile_option.png") no-repeat scroll left 0 #fff;}
 .perfil.options li:hover > a, .perfil.options li.selected > a{color: #000;}
 .perfil.options li span.item{display: block;line-height: 90px;text-align: center;height: 30px;}
 .perfil.options li span.item.principal{background: url("../img/bg_principal.png") no-repeat scroll center 0 transparent;}
