@@ -12,10 +12,12 @@
         <link rel="stylesheet" type="text/css" href="css/owl.theme.css"/>
         <link rel="stylesheet" type="text/css" href="css/jquery.magnific-popup.css"/>
         <link rel="stylesheet" type="text/css" href="css/jquery.custom.file.upload.css"/>
+        <link rel="stylesheet" type="text/css" href="css/jquery-ui.min.css"/>
         <link rel="stylesheet" type="text/css" href="css/component.css" />
         <link rel="stylesheet" type="text/css" href="css/main.css"/>
         
         <script type="text/javascript" src="js/jquery-1.9.1.js"></script>
+        <script type="text/javascript" src="js/jquery-ui.min.js"></script>
         <script type="text/javascript" src="js/jquery.customSelect.min.js"></script>
         <script type="text/javascript" src="js/jquery.custom.file.upload.js"></script>
         <script type="text/javascript" src="js/jquery.magnific-popup.min.js"></script>

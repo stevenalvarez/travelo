@@ -1,12 +1,12 @@
 $(function(){
-    //custom lenguage
-    $('select.language').customSelect();
+    //custom select
+    $('select.language, select.pais, select.ciudad, select.day, select.month, select.year, select.categorias, select.subcategorias').customSelect();
     $('select.language').change(function(){
         //alert($(this).val());
     });
-    $('select.pais').customSelect();
-    $('select.ciudad').customSelect();
-    $('select.day, select.month, select.year').customSelect();
+    
+    //filtro
+    $('.filtro select').customSelect();
     
     //scroll top
     $('a[href=#top]').click(function(){
@@ -15,6 +15,23 @@ $(function(){
     
     //custom tyoe=file
     $(".custom-file-upload").find('input[type=file]').customFile();
+    
+    //datepicker
+    $("input.calendar" ).datepicker();
+    
+    //slider
+    $(".slider" ).slider({
+        range: true,
+        min: 0,
+        max: 150,
+        values: [ 20, 100 ],
+        slide: function( event, ui ) {
+            $(".ranges .minus").html(ui.values[ 0 ]);
+            $(".ranges .maximum").html(ui.values[ 1 ]);
+        }
+    });
+    $(".ranges .minus").html($(".slider").slider( "values", 0 ));
+    $(".ranges .maximum").html($(".slider").slider( "values", 1 ));
     
     //carrousel comments
     $("#owl-carousel-comments").owlCarousel({
@@ -69,6 +86,24 @@ $(function(){
         }
     });
     
+    //advanced_search
+    $(".widget .advanced_search").find("a").click(function(){
+        if($(this).attr("lang") == "ad_all"){
+            var element = $(this).parent().parent().find("li");
+            if($(this).parent().hasClass("selected")){
+                element.removeClass("selected");
+            }else{
+                element.addClass("selected");
+            }
+        }else{
+            if($(this).parent().hasClass("selected")){
+                $(this).parent().removeClass("selected");
+            }else{
+                $(this).parent().addClass("selected");
+            }
+        }
+    });    
+    
     //toogle
     $(".toogle").find("a").click(function(){
         var elem = $(this);
@@ -82,6 +117,20 @@ $(function(){
             element.slideDown('slow');
         }
     });
+    
+    //acomodation
+    $(".acomodation").find("h4").click(function(){
+        var elem = $(this);
+        var element = $(this).next();
+        if(elem.hasClass("selected")){
+            element.slideDown('slow',function(){
+                elem.removeClass("selected");
+            });
+        }else{
+            elem.addClass("selected");
+            element.slideUp('slow');
+        }
+    });    
     
     //blogs slider
     $(".slider1").owlCarousel({
@@ -234,6 +283,13 @@ $(function(){
     $(".perfil.options").find("a").click(function(){
         $(this).parent().addClass("selected").siblings().removeClass("selected");
         $("#"+$(this).attr("lang")).fadeIn("fast").siblings().css("display","none");
+    });
+    
+    //close
+    $("a.close").click(function(){
+        $(this).parent().slideUp('slow',function(){
+           $(this).remove();
+        });
     });
     
     //initAjaxPopup
