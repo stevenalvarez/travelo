@@ -35,7 +35,7 @@
                 <div class="inner">
                     <div class="widget acomodation left">
                         <div class="padding20 bwhite mbttom4 overflow">
-                            <span class="result"><b>1,984</b> resultados.</span>
+                            <span class="results"><b>1,984</b> resultados.</span>
                         </div>
                         <div class="padding20 bwhite mbttom4 overflow">
                             <h4>Precio</h4>

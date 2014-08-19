@@ -97,7 +97,7 @@ ul.categories li a:hover span.number, ul.categories li a.selected span.number{co
 
 /*advanced_search*/
 .advanced_search li{padding: 14px;border-bottom: 1px solid #fff;background: #f5f5f5;}
-ul.advanced_search li a{background: url('../img/bg_aitem_check.png') no-repeat center left;background-position: 0 0;width: 15px; height: 15px;}
+ul.advanced_search li a{background: url('../img/bg_aitem_check.png') no-repeat center left;background-position: 0 0;display: block;}
 ul.advanced_search li:hover, ul.advanced_search li.selected{background: #01b7f2;cursor: pointer;}
 ul.advanced_search li:hover > a, ul.advanced_search li.selected > a{background-position: 0 -15px; color: #fff;}
 
@@ -137,7 +137,7 @@ ul.advanced_search li:hover > a, ul.advanced_search li.selected > a{background-p
 .widget h4{font-size: 16px; font-weight: normal;margin-bottom: 10px;}
 .widget.acomodation h4{margin-bottom: 15px;background: url("../img/bg_toggle.png") no-repeat scroll right 2px transparent;background-size: 18px;cursor: pointer;}
 .widget.acomodation h4.selected{background-position: right -18px;}
-.widget.acomodation .result{background: url("../img/bg_result.png") no-repeat scroll left center transparent; color: #000; padding-left: 25px;font-size: 15px;letter-spacing: 1px;}
+.widget span.results{background: url("../img/bg_result.png") no-repeat scroll left center transparent; color: #000; padding-left: 25px;font-size: 15px;letter-spacing: 1px;}
 .widget .dform input{width: 70%;}
 .widget .selections, .widget .categories, .widget .advanced_search{display: block;width: 100%;}
 .widget .selections li, .widget .categories li{padding: 14px 0;border-bottom: 1px solid #f5f5f5;}
@@ -614,3 +614,24 @@ ul.advanced_search li:hover > a, ul.advanced_search li.selected > a{background-p
 .results li .detail .bottom .seleccionar {padding-top: 15px;}
 .results li .detail .bottom .seleccionar span{display: block;text-transform: uppercase;text-align: center;font-size: 11px;}
 .results li .detail .bottom .seleccionar span.euro{color: #98ce44;font-size: 17px;font-weight: bold;padding-bottom: 4px;}
+
+/*JOBS*/
+.top_ciudades .map{height: 300px;width: 228px;overflow: hidden;margin-bottom: 10px;}
+.top_ciudades span.text{color: #000;font-size: 14px;margin-bottom: 5px;display: block;}
+.top_ciudades li{padding: 8px 0;}
+.top_ciudades li label{color: #01b7f2;font-size: 14px;}
+.top_ciudades li span{padding-left: 5px;color: #000;}
+.magnifier h4{background: url("../img/bg_magnifier.jpg") no-repeat scroll left center transparent;height: 33px;line-height: 33px;padding-left: 50px;}
+.magnifier li{padding: 7px 0;}
+.magnifier li a{color: #01b7f2;font-size: 13px;padding-left: 20px;background: url("../img/bg_location.png") no-repeat scroll left center transparent;background-size: 10px;}
+.jobs li {background: none repeat scroll 0 0 #fff;margin-bottom: 30px;}
+.jobs li .top{border-bottom: 1px solid #f5f5f5;margin-left: 20px;margin-right: 20px;padding-top: 20px;}
+.jobs li .top .info{padding-left: 10px;}
+.jobs li .top .info h5{font-size: 16px;font-weight: normal;letter-spacing: 1px;}
+.jobs li .top .info span{text-transform: uppercase;background: url("../img/bg_location.png") no-repeat scroll left center transparent;padding-left: 12px;font-size: 10px;}
+.jobs li .top .right span.flag{display: block;font-size: 16px;line-height: 45px;background: url("../img/bg_job_star.jpg") no-repeat scroll right center transparent;padding-right: 45px}
+.jobs li .bottom{padding: 20px;position: relative;}
+.jobs li .bottom p{text-align: justify;line-height: 21px;font-size: 13px;}
+.jobs li .bottom a{position: absolute;right: 20px;bottom: 20px;color: #000;font-weight: bold;font-size: 14px;}
+.receive_alertas{background: #fff;margin: 80px 0 0;border: 1px solid #c4c4c4;box-shadow: 2px 2px 10px #01b7f2;}
+.receive_alertas .text{background: url("../img/bg_alertas.jpg") no-repeat scroll left center transparent;color: #000;display: block;font-size: 20px;padding-left: 60px;width: 75%;}
