@@ -65,7 +65,7 @@
                 </div><!--.find_your_place-->
                 <div class="type_course">
                     <div class="inner">
-                        <h3>Elige el tipo de curso que te gustaría realizar</h3>
+                        <h3 style="margin-top: 30px;">Elige el tipo de curso que te gustaría realizar</h3>
                         <ul>
                             <?php for($i=0; $i<2; $i++):?>
                             <li class="<?php echo $i%2 == 0 ? "odd": "pair"?>">

@@ -30,8 +30,10 @@
 .width90p{width: 90%;}
 .width95p{width: 95%;}
 .cols{width: 50%;}
+.cols3{width: 40%;}
 .cols2{width: 74.2%;}
 .cols2 h2{font-size: 22px;font-weight: normal;margin-bottom: 22px;}
+.cols2 .description p{line-height: 17px;color: #000;}
 .widget{width: 23%;}
 .wrap{width: 900px;margin: 0 auto;}
 .btn{padding: 5px 15px;color: #fff;}
@@ -51,6 +53,7 @@
 .lpadding85{padding-left: 85px;}
 .fontsize13{font-size: 13px;}
 .hr{border-bottom: 1px solid #f5f5f5; height: 1px;margin: 20px 0;}
+b.vowel{color: #01b7f2;font-size: 38px;line-height: 30px;padding-right: 4px;}
 
 /*popup*/
 .popup-content {background: #fff;margin: 40px auto;max-width: 640px;padding: 20px 25px;position: relative;}
@@ -72,6 +75,11 @@ a.load_more{text-transform: uppercase;font-size: 15px;color:#fff;font-family: La
 .filtro select{height: 33px !important;}
 .filtro span.customSelectInner{background: url("../img/bg_dropbox.jpg") no-repeat scroll right 0 #f5f5f5;padding: 9px 14px;}
 .filtro .customSelectHover .customSelectInner, .filtro .customSelectOpen .customSelectInner{background-position: right -33px;}
+
+/*generic*/
+.fresults select{height: 33px !important;width: 88%;}
+.fresults .calendar{width: 88%;padding: 9px 14px;color: #1b1a1a !important;}
+.fresults span.customSelectInner{background: url("../img/bg_select_info.jpg") no-repeat scroll right 0 #f5f5f5;padding: 9px 14px;}
 
 /*submit*/
 .dform input{background: #f5f5f5;color: #777575;font-size: 11px;padding: 9px 20px;width: 74%;}
@@ -648,6 +656,8 @@ ul.advanced_search li:hover > a, ul.advanced_search li.selected > a{background-p
 .jobs li .top .info h5{font-size: 16px;font-weight: normal;letter-spacing: 1px;}
 .jobs li .top .info span{text-transform: uppercase;background: url("../img/bg_location.png") no-repeat scroll left center transparent;padding-left: 12px;font-size: 10px;}
 .jobs li .top .right span.flag{display: block;font-size: 16px;line-height: 45px;background: url("../img/bg_job_star.jpg") no-repeat scroll right center transparent;padding-right: 45px}
+.jobs li .top .right span.flag.none{padding-right: 0;background: none;display: inline-block;}
+.jobs li .top .right a.add_favorites{background: url('../img/bg_star_big.png') no-repeat top center;background-position: 0 -23px;width: 23px; height: 23px;display: inline-block;text-indent: -9999px;float: right;margin: 10px 0 10px 10px;}
 .jobs li .bottom{padding: 20px;position: relative;}
 .jobs li .bottom p{text-align: justify;line-height: 21px;font-size: 13px;}
 .jobs li .bottom a{position: absolute;right: 20px;bottom: 20px;color: #000;font-weight: bold;font-size: 14px;}

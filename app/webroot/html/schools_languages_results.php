@@ -4,7 +4,7 @@
     	<meta http-equiv="content-type" content="text/html" />
     	<meta name="author" content="jhonny" />
         <meta name="viewport" content="width=device-width, initial-scale=1"/>
-    	<title>Jobs</title>
+    	<title>Escuelas - Idiomas - Resultados</title>
         
         <link rel="stylesheet" type="text/css" href="css/styles.css"/>
         <!-- include slider.css -->
@@ -36,128 +36,73 @@
                     <div class="widget left">
                         <div class="padding20 bwhite mbttom30 overflow">
                             <h4>Refina tu b&uacute;squeda</h4>
-                            <form class="search_again">
-                                <label>NOMBRE DEL TRABAJO</label>
-                                <input type="text" placeholder="Ej. Informatico" />
-                                <label>HABILIDADES / PALABRA CLAVE</label>
-                                <input type="text" placeholder="Ej. ingles, software" />
-                                <label>DESTINO</label>
-                                <input type="text" placeholder="ciudad, pais, zona" />
-                                <button>BUSCAR TRABAJOS</button>
+                            <form class="search_again fresults">
+                                <label style="line-height: 20px;">TIPO DE CURSO</label>
+                                <select class="generic">
+                                    <option value="1">Cursos para Adultos y Estudiantes</option>
+                                    <option value="2">Cursos de idiomas para Mayores</option>
+                                    <option value="3">Cursos de idiomas para Profesionales</option>
+                                </select>
+                                <label style="line-height: 20px;">DESTINO</label>
+                                <select class="generic">
+                                    <option value="1">Madrid</option>
+                                    <option value="2">Hamburgo</option>
+                                    <option value="3">Dresden</option>
+                                </select>
+                                <label style="padding-top: 5px;">FECHA</label>
+                                <input class="calendar" type="text" placeholder="TODOS" />
+                                <div class="" style="width: 92%;padding-bottom: 40px;">
+                                    <div class="cols3 left">
+                                        <label style="line-height: 25px;">SEMANAS</label>
+                                        <select class="generic">
+                                            <option value="">Todos</option>
+                                            <option value="1">1</option>
+                                            <option value="2">2</option>
+                                            <option value="3">3</option>
+                                        </select>
+                                    </div>
+                                    <div class="cols3 right">
+                                        <label style="line-height: 25px;">ESTUDIANTES</label>
+                                        <select class="generic">
+                                            <option value="1">1</option>
+                                            <option value="2">2</option>
+                                            <option value="3">3</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <br />
+                                <br />
+                                <button>BUSCAR</button>
                             </form>
                         </div>
-                        <div class="padding20 bwhite mbttom30 overflow">
-                            <span class="results" style="font-size: 14px;"><b>1,984</b> trabajos encontrados.</span>
+                        <div class="padding20 bwhite mbttom30 overflow" style="border: 1px solid #df2133;">
                         </div>
                         <div class="padding20 bwhite mbttom30 overflow">
-                            <h4>TOP ciudades</h4>
+                            <h4>Mapa escuelas</h4>
                             <div class="top_ciudades">
                                 <div class="map">
                                     <img src="img/map.jpg" />
                                 </div>
-                                <span class="text">Top ciudades contratando <b>Ventas</b></span>
-                                <ul class="more_results">
-                                    <li>
-                                        <label>London</label><span>(5,935)</span>
-                                    </li>
-                                    <li>
-                                        <label>Manchester</label><span>(1,556)</span>
-                                    </li>
-                                    <li>
-                                        <label>Bristol</label><span>(256)</span>
-                                    </li>
-                                    <li>
-                                        <label>Leeds</label><span>(459)</span>
-                                    </li>
-                                    <li>
-                                        <label>Liverpool</label><span>(659)</span>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>                        
-                        <div class="padding20 bwhite mbttom30 overflow">
-                            <h4>Trabajos por Sector</h4>
-                            <div class="trabajos">
-                                <ul class="advanced_search">
-                                    <li>
-                                        <a lang="camarera" title="Camarera" href="javascript:void(0)">
-                                            <span>Camarera</span><span class="number">(722)</span>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a lang="hotel" title="Hotel" href="javascript:void(0)">
-                                            <span>Hotel</span><span class="number">(982)</span>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a lang="marketing" title="Marketing" href="javascript:void(0)">
-                                            <span>Marketing</span><span class="number">(127)</span>
-                                        </a>
-                                    </li>
-                                    <li class="selected">
-                                        <a lang="ventas" title="Ventas" href="javascript:void(0)">
-                                            <span>Ventas</span><span class="number">(222)</span>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a lang="software" title="Software" href="javascript:void(0)">
-                                            <span>Software</span><span class="number">(158)</span>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a lang="rrpp" title="Rrpp" href="javascript:void(0)">
-                                            <span>Rrpp</span><span class="number">(439)</span>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a lang="manager" title="Manager" href="javascript:void(0)">
-                                            <span>Manager</span><span class="number">(52)</span>
-                                        </a>
-                                    </li>
-                                </ul>
-                                <br class="clear"/>
-                                <a title="MAS" href="javascript:void(0)" class="lmore btn green">MAS</a>
                             </div>
                         </div>
-                        <div class="padding20 bwhite mbttom30 overflow magnifier">
-                            <h4>B&uacute;squeda m&aacute;s populares</h4>
-                            <div class="populares">
-                                <ul>
-                                    <li>
-                                        <a href="#">Camarero Londres</a>
-                                    </li>
-                                    <li>
-                                        <a href="#">Java Londre</a>
-                                    </li>
-                                    <li>
-                                        <a href="#">Asistente tienda Liverpool</a>
-                                    </li>
-                                    <li>
-                                        <a href="#">Veterinario Cardif</a>
-                                    </li>
-                                    <li>
-                                        <a href="#">Software Brighton</a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>                         
                     </div><!--.widget-->
                     <div class="cols2 right">
+                        <div class="description">
+                            <p><b class="vowel left">A</b>prender Español en un curso de Español en Madrid para los adultos es la mejor manera de aprender el idioma Español rápidamente. A medida que aprenda el español, viajando a Madrid será mucho más agradable. Incluso con un conocimiento limitado de Español va a mejorar su experiencia  completa de viaje en Madrid. Se ha demostrado que la inmersión completa en Madrid con un entorno de idioma Español va a acelerar el ritmo al que se aprende el idioma Español. Además de los beneficios de aprender el Español más rápido, tu también vas a aprender el idioma Español mientras disfrutas de conocer Madrid mientras estudias y tenies una experiencia cultural maravillosa.</p>
+                            <p>Se ha demostrado que la inmersión completa en Madrid con un entorno de idioma Español va a acelerar el ritmo al que se aprende el idioma Español. Además de los beneficios de aprender el Español más rápido, tu también vas a aprender el idioma Español mientras disfrutas de conocer Madrid mientras estudias y tenies una experiencia cultural maravillosa.</p>
+                            <br />
+                            <br />
+                        </div>
                         <div class="padding20 bwhite mbttom30 overflow filtro">
                             <div class="left">
                                 <label>Ordenar resultados por:</label>
-                                <select class="bfecha" name="bfecha">
-                                    <option>fecha</option>
+                                <select class="bnombre" name="bnombre">
+                                    <option>Nombre</option>
                                 </select>
                                 &nbsp;
                                 &nbsp;
-                                <select class="bsueldo" name="bsueldo">
-                                    <option>sueldo</option>
-                                </select>
-                                &nbsp;
-                                &nbsp;
-                                <select class="bpopularidad" name="bpopularidad">
-                                    <option>popularidad</option>
+                                <select class="bprecio" name="bprecio">
+                                    <option>Precio</option>
                                 </select>
                             </div>
                         </div><!--.filtro-->
@@ -174,7 +119,8 @@
                                         </div>
                                     </div>
                                     <div class="right">
-                                        <span class="flag">CRIMSONWING</span>
+                                        <span class="flag none">CRIMSONWING</span>
+                                        <a class="add_favorites" href="javascript:void(0)" title="añadir a favoritos">añadir a favoritos</a>
                                     </div>
                                 </div>
                                 <div class="bottom clear padding20">
@@ -194,7 +140,8 @@
                                         </div>
                                     </div>
                                     <div class="right">
-                                        <span class="flag">CRIMSONWING</span>
+                                        <span class="flag none">CRIMSONWING</span>
+                                        <a class="add_favorites" href="javascript:void(0)" title="añadir a favoritos">añadir a favoritos</a>
                                     </div>
                                 </div>
                                 <div class="bottom clear padding20">
@@ -214,7 +161,8 @@
                                         </div>
                                     </div>
                                     <div class="right">
-                                        <span class="flag">CRIMSONWING</span>
+                                        <span class="flag none">CRIMSONWING</span>
+                                        <a class="add_favorites" href="javascript:void(0)" title="añadir a favoritos">añadir a favoritos</a>
                                     </div>
                                 </div>
                                 <div class="bottom clear padding20">
@@ -234,7 +182,8 @@
                                         </div>
                                     </div>
                                     <div class="right">
-                                        <span class="flag">CRIMSONWING</span>
+                                        <span class="flag none">CRIMSONWING</span>
+                                        <a class="add_favorites" href="javascript:void(0)" title="añadir a favoritos">añadir a favoritos</a>
                                     </div>
                                 </div>
                                 <div class="bottom clear padding20">
@@ -254,7 +203,8 @@
                                         </div>
                                     </div>
                                     <div class="right">
-                                        <span class="flag">CRIMSONWING</span>
+                                        <span class="flag none">CRIMSONWING</span>
+                                        <a class="add_favorites" href="javascript:void(0)" title="añadir a favoritos">añadir a favoritos</a>
                                     </div>
                                 </div>
                                 <div class="bottom clear padding20">
@@ -274,7 +224,8 @@
                                         </div>
                                     </div>
                                     <div class="right">
-                                        <span class="flag">CRIMSONWING</span>
+                                        <span class="flag none">CRIMSONWING</span>
+                                        <a class="add_favorites" href="javascript:void(0)" title="añadir a favoritos">añadir a favoritos</a>
                                     </div>
                                 </div>
                                 <div class="bottom clear padding20">
@@ -294,7 +245,8 @@
                                         </div>
                                     </div>
                                     <div class="right">
-                                        <span class="flag">CRIMSONWING</span>
+                                        <span class="flag none">CRIMSONWING</span>
+                                        <a class="add_favorites" href="javascript:void(0)" title="añadir a favoritos">añadir a favoritos</a>
                                     </div>
                                 </div>
                                 <div class="bottom clear padding20">
@@ -314,7 +266,8 @@
                                         </div>
                                     </div>
                                     <div class="right">
-                                        <span class="flag">CRIMSONWING</span>
+                                        <span class="flag none">CRIMSONWING</span>
+                                        <a class="add_favorites" href="javascript:void(0)" title="añadir a favoritos">añadir a favoritos</a>
                                     </div>
                                 </div>
                                 <div class="bottom clear padding20">
@@ -334,7 +287,8 @@
                                         </div>
                                     </div>
                                     <div class="right">
-                                        <span class="flag">CRIMSONWING</span>
+                                        <span class="flag none">CRIMSONWING</span>
+                                        <a class="add_favorites" href="javascript:void(0)" title="añadir a favoritos">añadir a favoritos</a>
                                     </div>
                                 </div>
                                 <div class="bottom clear padding20">
@@ -343,10 +297,10 @@
                                 </div>
                             </li>
                         </ul><!--.jobs-->
-                        <a class="load_more" href="#">Load More Jobs</a>
+                        <a class="load_more" href="#">Load More Results</a>
                         <div class="receive_alertas padding20 overflow">
                             <div class="left">
-                                <span class="text">Recibe emails de este trabajo Ventas</span>
+                                <span class="text">Suscribete a nuestras Ofertas</span>
                             </div>
                             <div class="right">
                                 <p>Suscribete a las alertas de Email con nosotros y recibe el newsletter actualizado</p>

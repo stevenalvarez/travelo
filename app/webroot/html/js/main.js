@@ -1,6 +1,6 @@
 $(function(){
     //custom select
-    $('select.language, select.pais, select.ciudad, select.day, select.month, select.year, select.categorias, select.subcategorias').customSelect();
+    $('select.language, select.pais, select.ciudad, select.day, select.month, select.year, select.categorias, select.subcategorias, select.generic').customSelect();
     $('select.language').change(function(){
         //alert($(this).val());
     });
