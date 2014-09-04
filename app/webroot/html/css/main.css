@@ -689,8 +689,8 @@ ul.advanced_search li:hover > a, ul.advanced_search li.selected > a{background-p
 #content .select_country li .countries span{color: #000;}
 #content .select_country li .countries span.bold{font-size: 14px;}
 #content .select_country li .countries span.links > a{color: #000;font-size: 13px;}
-#content .select_country h3, #content .type_course h3{font-size: 20px;font-weight: normal;margin-bottom: 6px;}
-#content .type_course{padding: 30px 0;overflow: hidden;}
+#content .select_country h3, #content .type_course h3, #content .knows_the_city h3{font-size: 20px;font-weight: normal;margin-bottom: 6px;}
+#content .type_course, {padding: 30px 0;overflow: hidden;}
 #content .type_course ul{padding: 20px 0;overflow: hidden;}
 #content .type_course li{width: 49%;float: left;background: #fff;margin-bottom: 25px}
 #content .type_course li.odd{float: left;}
@@ -721,4 +721,9 @@ ul.advanced_search li:hover > a, ul.advanced_search li.selected > a{background-p
 #content .top_destinations li .box img.hover {display: none;position: absolute;top: 0;width: 100%;}
 #content .top_destinations li .box a:hover > img.hover{display: block;}
 #content .top_destinations li h4{padding: 10px 5px;background: #fff;font-weight: normal;padding: 10px;font-size: 15px;margin-bottom: 30px;}
-#content .google_map {padding: 30px 0 60px;}
+#content .knows_the_city, #content .google_map {padding: 30px 0 60px;}
+#content .comments3{padding: 0 80px;background: #fff;position:relative;}
+#content .comments3 li{padding: 30px 35px;border-left: 8px solid #fdb714;background: url("../img/bg_kown_city.png") no-repeat scroll left 30px transparent;}
+#content .comments3 .title{color: #01b7f2;font-size: 20px;padding-bottom: 20px;display: block;}
+#content .comments3 p{font-size: 13px;line-height: 22px;padding-bottom: 15px;}
+#content .comments3 .more{display: block;position: absolute;right: 115px;bottom: 30px;color: #70a918;}
