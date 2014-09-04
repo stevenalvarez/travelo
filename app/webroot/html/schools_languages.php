@@ -70,61 +70,61 @@
                         <ul>
                             <li class="big">
                                 <a href="#">
-                                    <span class="title">English</span>
+                                    <h4 class="title">English</h4>
                                     <span class="number">1830 Cursos</span>
                                 </a>
                             </li>
                             <li class="big">
                                 <a href="#">
-                                    <span class="title">Spanish</span>
+                                    <h4 class="title">Spanish</h4>
                                     <span class="number">1620 Cursos</span>
                                 </a>
                             </li>
                             <li class="big last">
                                 <a href="#">
-                                    <span class="title">Italian</span>
+                                    <h4 class="title">Italian</h4>
                                     <span class="number">1234 Cursos</span>
                                 </a>
                             </li>
                             <li class="big">
                                 <a href="#">
-                                    <span class="title">French</span>
+                                    <h4 class="title">French</h4>
                                     <span class="number">450 Cursos</span>
                                 </a>
                             </li>
                             <li class="big">
                                 <a href="#">
-                                    <span class="title">German</span>
+                                    <h4 class="title">German</h4>
                                     <span class="number">820 Cursos</span>
                                 </a>
                             </li>
                             <li class="big last">
                                 <a href="#">
-                                    <span class="title">Chinese</span>
+                                    <h4 class="title">Chinese</h4>
                                     <span class="number">234 Cursos</span>
                                 </a>
                             </li>
                             <li class="small">
                                 <a href="#">
-                                    <span class="title">Russian</span>
+                                    <h4 class="title">Russian</h4>
                                     <span class="number">40 Cursos</span>
                                 </a>
                             </li>
                             <li class="small">
                                 <a href="#">
-                                    <span class="title">Portuguese</span>
+                                    <h4 class="title">Portuguese</h4>
                                     <span class="number">30 Cursos</span>
                                 </a>
                             </li>
                             <li class="small">
                                 <a href="#">
-                                    <span class="title">Japanese</span>
+                                    <h4 class="title">Japanese</h4>
                                     <span class="number">35 Cursos</span>
                                 </a>
                             </li>
                             <li class="small last">
                                 <a href="#">
-                                    <span class="title">Turkish</span>
+                                    <h4 class="title">Turkish</h4>
                                     <span class="number">51 Cursos</span>
                                 </a>
                             </li>
