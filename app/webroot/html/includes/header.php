@@ -48,9 +48,12 @@
     <div class="breadcrumb">
         <div class="inner">
             <div class="left">
-                <h1>Home</h1>
+                <h1>
+                    <span class="title left">Home</span>
+                    <span class="arrow left">&nbsp;</span>
+                </h1>
             </div>
-            <div class="right">
+            <div class="right" style="padding: 15px 0;">
                 <ul>
                     <li>
                         <a href="#">HOME</a> /
