@@ -38,7 +38,7 @@
                             <h2>Encuentra tu curso de idiomas en el extranjero</h2>
                             <p>Are you looking for English language schools in UK or a english summer school in United Kingdom? Whatever type of English course you are looking for, we will help you find it—and at the lowest possible price! Browse over many English schools in many locations in UK until you find the english course and school that is right for you... <a class="right" href="#">Mas informaci&oacute;n &gt;&gt;</a> </p>
                             <form class="search_language">
-                                <input type="text" placeholder="English" value="Ingl&eacute;s" />
+                                <input type="text" placeholder="Ingl&eacute;s" value="Ingl&eacute;s" />
                                 <select class="course_type">
                                     <option value="">Tipo de curso</option>
                                     <option value="1">Cursos para Adultos y Estudiantes</option>
@@ -47,7 +47,7 @@
                                 </select>
                                 <select class="destination">
                                     <option value="">Destino</option>
-                                    <option value="1">Heidelberg</option>
+                                    <option value="1" selected="selected">Estados Unidos</option>
                                     <option value="2">Hamburgo</option>
                                     <option value="3">Dresden</option>
                                 </select>
@@ -65,61 +65,51 @@
                 </div><!--.select_country-->
                 <div class="select_country select">
                     <div class="inner">
-                        <h3 style="margin-bottom: 10px;">Destinos donde aprender Ingl&eacute;s</h3>
+                        <h3 style="margin-bottom: 10px;">Destinos en Estados Unidos</h3>
                         <ul>
                             <li class="big">
                                 <a href="#">
-                                    <span class="title">Reino Unido</span>
+                                    <span class="title">Los Angeles</span>
                                 </a>
                             </li>
                             <li class="big">
                                 <a href="#">
-                                    <span class="title">Irlanda</span>
+                                    <span class="title">Nueva York</span>
                                 </a>
                             </li>
                             <li class="big last">
                                 <a href="#">
-                                    <span class="title">Malta</span>
+                                    <span class="title">Miami</span>
                                 </a>
                             </li>
                             <li class="big">
                                 <a href="#">
-                                    <span class="title">Estados Unidos</span>
+                                    <span class="title">San diego</span>
                                 </a>
                             </li>
                             <li class="big">
                                 <a href="#">
-                                    <span class="title">Canada</span>
+                                    <span class="title">Boston</span>
                                 </a>
                             </li>
                             <li class="big last">
                                 <a href="#">
-                                    <span class="title">Australia</span>
+                                    <span class="title">Fort</span>
                                 </a>
                             </li>
                             <li class="big">
                                 <a href="#">
-                                    <span class="title">Sudafrica</span>
+                                    <span class="title">San Francisco</span>
                                 </a>
                             </li>
                             <li class="big">
                                 <a href="#">
-                                    <span class="title">Filipinas</span>
+                                    <span class="title">Philadelpha</span>
                                 </a>
                             </li>
                             <li class="big last">
                                 <a href="#">
-                                    <span class="title">Nueva Zelanda</span>
-                                </a>
-                            </li>
-                            <li class="big">
-                                <a href="#">
-                                    <span class="title">Belize</span>
-                                </a>
-                            </li>
-                            <li class="big">
-                                <a href="#">
-                                    <span class="title">India</span>
+                                    <span class="title">Hawai</span>
                                 </a>
                             </li>
                         </ul>
@@ -171,7 +161,7 @@
                 </div><!--.type_course-->
                 <div class="videos school clear">
                     <div class="inner">
-                        <h3>Ofertas cursos Ingl&eacute;s en Inglaterra</h3>
+                        <h3>Ofertas cursos Ingl&eacute;s en Estados Unidos</h3>
                         <ul id="owl-carousel-videos">
                             <li>
                                 <div class="box">
@@ -203,7 +193,7 @@
                                         <h4>2X1 Contratando el año completo con ISE</h4>
                                     </div>
                                     <div class="item">
-                                        <span class="city">Sliema</span>,
+                                        <span class="city">London</span>,
                                         <span class="country">Malta</span>
                                         <a class="bselect right btn gray" href="#">SELECT</a>
                                     </div>
@@ -221,7 +211,7 @@
                                         <h4>Oferta EC 2 meses Gratis!</h4>
                                     </div>
                                     <div class="item">
-                                        <span class="city">Sant Julians</span>,
+                                        <span class="city">Satans</span>,
                                         <span class="country">Malta</span>
                                         <a class="bselect right btn gray" href="#">SELECT</a>
                                     </div>
@@ -286,7 +276,7 @@
                 </div><!--.videos--->
                 <div class="type_course">
                     <div class="inner">
-                        <h3>Mejores escuelas de Inglaterrra</h3>
+                        <h3>Mejores escuelas de Estados Unidos</h3>
                         <ul>
                             <?php for($i=0; $i<8; $i++):?>
                             <li class="<?php echo $i%2 == 0 ? "odd": "pair"?>">

@@ -38,7 +38,7 @@
                             <h2>Encuentra tu curso de idiomas en el extranjero</h2>
                             <p>Are you looking for English language schools in UK or a english summer school in United Kingdom? Whatever type of English course you are looking for, we will help you find it—and at the lowest possible price! Browse over many English schools in many locations in UK until you find the english course and school that is right for you... <a class="right" href="#">Mas informaci&oacute;n &gt;&gt;</a> </p>
                             <form class="search_language">
-                                <input type="text" placeholder="English" />
+                                <input type="text" placeholder="Ingl&eacute;s" />
                                 <select class="course_type">
                                     <option value="">Tipo de curso</option>
                                     <option value="1">Cursos para Adultos y Estudiantes</option>
@@ -47,7 +47,7 @@
                                 </select>
                                 <select class="destination">
                                     <option value="">Destino</option>
-                                    <option value="1">Heidelberg</option>
+                                    <option value="1">Estados Unidos</option>
                                     <option value="2">Hamburgo</option>
                                     <option value="3">Dresden</option>
                                 </select>
