@@ -76,6 +76,30 @@
                             </form>
                         </div>
                         <div class="padding20 bwhite mbttom30 overflow" style="border: 1px solid #df2133;">
+                            <?php
+                                $refine = array(
+                                    "Tipo de curso" => array("Clases Individuales de Español", "Español General + Conversacion", "Español General", "Español Grupal + Individuales"),
+                                    "Calificación Final" => array("Diplomas de Español como lengua Extranjera (DELE)"),
+                                    "Nivel del Idioma" => array("Principiante","Elemental - Nivel A1", "Pre-intermedio Nivel A2", "Intermedio - Nivel B1", "Intermedio Superior - Nivel B2", "Avanzado - Nivel C1", "Profesional - Nivel C2"),
+                                    "Rangos de Precios (por semana)" => array("1-99", "100-199", "200-299", "300-399", "400-599", "600-699", "1000+"),
+                                    "Clases Semanales" => array("1-9", "10-14", "15-19", "20-24", "25-29", "30-34", "35+"),
+                                    "Estudiantes por Clase" => array("1-4", "5-9", "10-14", "15-19"),
+                                );
+                            ?>
+                            <form class="refine">
+                                <?php foreach($refine as $key => $item):?>
+                                    <h4><?php echo $key; ?></h4>
+                                    <?php $key = strtolower(str_replace(" ","",preg_replace('/\&(.)[^;]*;/', '\\1', strtr($key,'àáâãäçèéêëìíîïñòóôõöùúûüýÿÀÁÂÃÄÇÈÉÊËÌÍÎÏÑÒÓÔÕÖÙÚÛÜÝ','aaaaaceeeeiiiinooooouuuuyyAAAAACEEEEIIIINOOOOOUUUUY'))));?>
+                                    <ul class="<?php echo $key;?>">
+                                        <?php foreach($item as $j => $i):;?>
+                                        <li>
+                                            <input class="left" type="checkbox" id="<?php echo $key.$j;?>" />
+                                            <label for="<?php echo $key.$j;?>"><?php echo $i; ?></label>
+                                        </li>
+                                        <?php endforeach;?>
+                                    </ul>
+                                <?php endforeach;?>
+                            </form>
                         </div>
                         <div class="padding20 bwhite mbttom30 overflow">
                             <h4>Mapa escuelas</h4>
