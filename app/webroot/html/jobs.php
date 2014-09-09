@@ -146,18 +146,13 @@
                         <div class="padding20 bwhite mbttom30 overflow filtro">
                             <div class="left">
                                 <label>Ordenar resultados por:</label>
-                                <select class="bfecha" name="bfecha">
-                                    <option>fecha</option>
+                                <select class="bfechapublicacion" name="bfechapublicacion">
+                                    <option>fecha de publicaci&oacute;n</option>
                                 </select>
                                 &nbsp;
                                 &nbsp;
-                                <select class="bsueldo" name="bsueldo">
-                                    <option>sueldo</option>
-                                </select>
-                                &nbsp;
-                                &nbsp;
-                                <select class="bpopularidad" name="bpopularidad">
-                                    <option>popularidad</option>
+                                <select class="bsalario" name="bsalario">
+                                    <option>salario</option>
                                 </select>
                             </div>
                         </div><!--.filtro-->
@@ -174,12 +169,18 @@
                                         </div>
                                     </div>
                                     <div class="right">
-                                        <span class="flag">CRIMSONWING</span>
+                                        <span class="flag none">CRIMSONWING</span>
                                     </div>
                                 </div>
-                                <div class="bottom clear padding20">
-                                    <p>If you would like to apply for this role or find out more, please apply online or contact Niki Zotou at Robert Walters via email or call +1 212 704 9900 quoting the Reference 157090. Oversee and manage all legal matters for Asset Manager Experience in...Co-ordinate and manage input from technical, credit, finance and commercial departments into ......</p>
-                                    <a href="#">exec-appointments.com</a>
+                                <div class="bottom clear padding20 overflow">
+                                    <div class="left text">
+                                        <p>Hackney is London's most diverse, dynamic neighbourhood. Reaching from the Square Mile to Queen Elizabeth Olympic Park, this is an area of rapid economic growth, particularly in technology, media, fashion and other creative industries. Hackney has more... Permanent, Full Time... 55,758 - 58,662</p>
+                                        <span class="source">jobstoday.com - publicada hace 2 min</span>
+                                    </div>
+                                    <div class="right pay">
+                                        <span class="amount">SALARIO: <b>23000</b>&euro; </span>
+                                        <a class="add_favorites" href="#"><i>añadir a mis favoritos</i></a>
+                                    </div>
                                 </div>
                             </li>
                             <li>
@@ -194,12 +195,18 @@
                                         </div>
                                     </div>
                                     <div class="right">
-                                        <span class="flag">CRIMSONWING</span>
+                                        <span class="flag none">CRIMSONWING</span>
                                     </div>
                                 </div>
-                                <div class="bottom clear padding20">
-                                    <p>If you would like to apply for this role or find out more, please apply online or contact Niki Zotou at Robert Walters via email or call +1 212 704 9900 quoting the Reference 157090. Oversee and manage all legal matters for Asset Manager Experience in...Co-ordinate and manage input from technical, credit, finance and commercial departments into ......</p>
-                                    <a href="#">exec-appointments.com</a>
+                                <div class="bottom clear padding20 overflow">
+                                    <div class="left text">
+                                        <p>Hackney is London's most diverse, dynamic neighbourhood. Reaching from the Square Mile to Queen Elizabeth Olympic Park, this is an area of rapid economic growth, particularly in technology, media, fashion and other creative industries. Hackney has more... Permanent, Full Time... 55,758 - 58,662</p>
+                                        <span class="source">jobstoday.com - publicada hace 2 min</span>
+                                    </div>
+                                    <div class="right pay">
+                                        <span class="amount">SALARIO: <b>23000</b>&euro; </span>
+                                        <a class="add_favorites" href="#"><i>añadir a mis favoritos</i></a>
+                                    </div>
                                 </div>
                             </li>
                             <li>
@@ -214,12 +221,18 @@
                                         </div>
                                     </div>
                                     <div class="right">
-                                        <span class="flag">CRIMSONWING</span>
+                                        <span class="flag none">CRIMSONWING</span>
                                     </div>
                                 </div>
-                                <div class="bottom clear padding20">
-                                    <p>If you would like to apply for this role or find out more, please apply online or contact Niki Zotou at Robert Walters via email or call +1 212 704 9900 quoting the Reference 157090. Oversee and manage all legal matters for Asset Manager Experience in...Co-ordinate and manage input from technical, credit, finance and commercial departments into ......</p>
-                                    <a href="#">exec-appointments.com</a>
+                                <div class="bottom clear padding20 overflow">
+                                    <div class="left text">
+                                        <p>Hackney is London's most diverse, dynamic neighbourhood. Reaching from the Square Mile to Queen Elizabeth Olympic Park, this is an area of rapid economic growth, particularly in technology, media, fashion and other creative industries. Hackney has more... Permanent, Full Time... 55,758 - 58,662</p>
+                                        <span class="source">jobstoday.com - publicada hace 2 min</span>
+                                    </div>
+                                    <div class="right pay">
+                                        <span class="amount">SALARIO: <b>23000</b>&euro; </span>
+                                        <a class="add_favorites" href="#"><i>añadir a mis favoritos</i></a>
+                                    </div>
                                 </div>
                             </li>
                             <li>
@@ -234,12 +247,18 @@
                                         </div>
                                     </div>
                                     <div class="right">
-                                        <span class="flag">CRIMSONWING</span>
+                                        <span class="flag none">CRIMSONWING</span>
                                     </div>
                                 </div>
-                                <div class="bottom clear padding20">
-                                    <p>If you would like to apply for this role or find out more, please apply online or contact Niki Zotou at Robert Walters via email or call +1 212 704 9900 quoting the Reference 157090. Oversee and manage all legal matters for Asset Manager Experience in...Co-ordinate and manage input from technical, credit, finance and commercial departments into ......</p>
-                                    <a href="#">exec-appointments.com</a>
+                                <div class="bottom clear padding20 overflow">
+                                    <div class="left text">
+                                        <p>Hackney is London's most diverse, dynamic neighbourhood. Reaching from the Square Mile to Queen Elizabeth Olympic Park, this is an area of rapid economic growth, particularly in technology, media, fashion and other creative industries. Hackney has more... Permanent, Full Time... 55,758 - 58,662</p>
+                                        <span class="source">jobstoday.com - publicada hace 2 min</span>
+                                    </div>
+                                    <div class="right pay">
+                                        <span class="amount">SALARIO: <b>23000</b>&euro; </span>
+                                        <a class="add_favorites" href="#"><i>añadir a mis favoritos</i></a>
+                                    </div>
                                 </div>
                             </li>
                             <li>
@@ -254,12 +273,18 @@
                                         </div>
                                     </div>
                                     <div class="right">
-                                        <span class="flag">CRIMSONWING</span>
+                                        <span class="flag none">CRIMSONWING</span>
                                     </div>
                                 </div>
-                                <div class="bottom clear padding20">
-                                    <p>If you would like to apply for this role or find out more, please apply online or contact Niki Zotou at Robert Walters via email or call +1 212 704 9900 quoting the Reference 157090. Oversee and manage all legal matters for Asset Manager Experience in...Co-ordinate and manage input from technical, credit, finance and commercial departments into ......</p>
-                                    <a href="#">exec-appointments.com</a>
+                                <div class="bottom clear padding20 overflow">
+                                    <div class="left text">
+                                        <p>Hackney is London's most diverse, dynamic neighbourhood. Reaching from the Square Mile to Queen Elizabeth Olympic Park, this is an area of rapid economic growth, particularly in technology, media, fashion and other creative industries. Hackney has more... Permanent, Full Time... 55,758 - 58,662</p>
+                                        <span class="source">jobstoday.com - publicada hace 2 min</span>
+                                    </div>
+                                    <div class="right pay">
+                                        <span class="amount">SALARIO: <b>23000</b>&euro; </span>
+                                        <a class="add_favorites" href="#"><i>añadir a mis favoritos</i></a>
+                                    </div>
                                 </div>
                             </li>
                             <li>
@@ -274,12 +299,18 @@
                                         </div>
                                     </div>
                                     <div class="right">
-                                        <span class="flag">CRIMSONWING</span>
+                                        <span class="flag none">CRIMSONWING</span>
                                     </div>
                                 </div>
-                                <div class="bottom clear padding20">
-                                    <p>If you would like to apply for this role or find out more, please apply online or contact Niki Zotou at Robert Walters via email or call +1 212 704 9900 quoting the Reference 157090. Oversee and manage all legal matters for Asset Manager Experience in...Co-ordinate and manage input from technical, credit, finance and commercial departments into ......</p>
-                                    <a href="#">exec-appointments.com</a>
+                                <div class="bottom clear padding20 overflow">
+                                    <div class="left text">
+                                        <p>Hackney is London's most diverse, dynamic neighbourhood. Reaching from the Square Mile to Queen Elizabeth Olympic Park, this is an area of rapid economic growth, particularly in technology, media, fashion and other creative industries. Hackney has more... Permanent, Full Time... 55,758 - 58,662</p>
+                                        <span class="source">jobstoday.com - publicada hace 2 min</span>
+                                    </div>
+                                    <div class="right pay">
+                                        <span class="amount">SALARIO: <b>23000</b>&euro; </span>
+                                        <a class="add_favorites" href="#"><i>añadir a mis favoritos</i></a>
+                                    </div>
                                 </div>
                             </li>
                             <li>
@@ -294,12 +325,18 @@
                                         </div>
                                     </div>
                                     <div class="right">
-                                        <span class="flag">CRIMSONWING</span>
+                                        <span class="flag none">CRIMSONWING</span>
                                     </div>
                                 </div>
-                                <div class="bottom clear padding20">
-                                    <p>If you would like to apply for this role or find out more, please apply online or contact Niki Zotou at Robert Walters via email or call +1 212 704 9900 quoting the Reference 157090. Oversee and manage all legal matters for Asset Manager Experience in...Co-ordinate and manage input from technical, credit, finance and commercial departments into ......</p>
-                                    <a href="#">exec-appointments.com</a>
+                                <div class="bottom clear padding20 overflow">
+                                    <div class="left text">
+                                        <p>Hackney is London's most diverse, dynamic neighbourhood. Reaching from the Square Mile to Queen Elizabeth Olympic Park, this is an area of rapid economic growth, particularly in technology, media, fashion and other creative industries. Hackney has more... Permanent, Full Time... 55,758 - 58,662</p>
+                                        <span class="source">jobstoday.com - publicada hace 2 min</span>
+                                    </div>
+                                    <div class="right pay">
+                                        <span class="amount">SALARIO: <b>23000</b>&euro; </span>
+                                        <a class="add_favorites" href="#"><i>añadir a mis favoritos</i></a>
+                                    </div>
                                 </div>
                             </li>
                             <li>
@@ -314,12 +351,18 @@
                                         </div>
                                     </div>
                                     <div class="right">
-                                        <span class="flag">CRIMSONWING</span>
+                                        <span class="flag none">CRIMSONWING</span>
                                     </div>
                                 </div>
-                                <div class="bottom clear padding20">
-                                    <p>If you would like to apply for this role or find out more, please apply online or contact Niki Zotou at Robert Walters via email or call +1 212 704 9900 quoting the Reference 157090. Oversee and manage all legal matters for Asset Manager Experience in...Co-ordinate and manage input from technical, credit, finance and commercial departments into ......</p>
-                                    <a href="#">exec-appointments.com</a>
+                                <div class="bottom clear padding20 overflow">
+                                    <div class="left text">
+                                        <p>Hackney is London's most diverse, dynamic neighbourhood. Reaching from the Square Mile to Queen Elizabeth Olympic Park, this is an area of rapid economic growth, particularly in technology, media, fashion and other creative industries. Hackney has more... Permanent, Full Time... 55,758 - 58,662</p>
+                                        <span class="source">jobstoday.com - publicada hace 2 min</span>
+                                    </div>
+                                    <div class="right pay">
+                                        <span class="amount">SALARIO: <b>23000</b>&euro; </span>
+                                        <a class="add_favorites" href="#"><i>añadir a mis favoritos</i></a>
+                                    </div>
                                 </div>
                             </li>
                             <li>
@@ -334,12 +377,18 @@
                                         </div>
                                     </div>
                                     <div class="right">
-                                        <span class="flag">CRIMSONWING</span>
+                                        <span class="flag none">CRIMSONWING</span>
                                     </div>
                                 </div>
-                                <div class="bottom clear padding20">
-                                    <p>If you would like to apply for this role or find out more, please apply online or contact Niki Zotou at Robert Walters via email or call +1 212 704 9900 quoting the Reference 157090. Oversee and manage all legal matters for Asset Manager Experience in...Co-ordinate and manage input from technical, credit, finance and commercial departments into ......</p>
-                                    <a href="#">exec-appointments.com</a>
+                                <div class="bottom clear padding20 overflow">
+                                    <div class="left text">
+                                        <p>Hackney is London's most diverse, dynamic neighbourhood. Reaching from the Square Mile to Queen Elizabeth Olympic Park, this is an area of rapid economic growth, particularly in technology, media, fashion and other creative industries. Hackney has more... Permanent, Full Time... 55,758 - 58,662</p>
+                                        <span class="source">jobstoday.com - publicada hace 2 min</span>
+                                    </div>
+                                    <div class="right pay">
+                                        <span class="amount">SALARIO: <b>23000</b>&euro; </span>
+                                        <a class="add_favorites" href="#"><i>añadir a mis favoritos</i></a>
+                                    </div>
                                 </div>
                             </li>
                         </ul><!--.jobs-->

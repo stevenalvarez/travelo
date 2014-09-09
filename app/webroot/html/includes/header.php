@@ -2,7 +2,7 @@
     <div class="access">
         <div class="inner">
             <div class="left">
-                <a class=" left aleft" href="#">MY ACCOUNT</a>
+                <a class=" left aleft" href="#">MI CUENTA</a>
                 <form class="form_lenguage left">
                     <select class="language" name="language">
                         <option value="esp" selected="selected">ESPA&Nacute;OL</option>
@@ -19,26 +19,43 @@
     <div class="menu">
         <div class="inner">
             <div class="left">
-                <a href="#">
+                <a class="logo" href="#">
                     <img src="img/logo.png" />
                 </a>
             </div>
             <div class="right">
-                <ul class="list">
+                <ul class="list left">
                     <li>
                         <a class="active" href="#">HOME</a>
-                    </li>
-                    <li>
-                        <a href="#">ESCUELAS INGL&Eacute;S</a>
-                    </li>
-                    <li>
-                        <a href="#">ALOJAMIENTO</a>
                     </li>
                     <li>
                         <a href="#">TRABAJO</a>
                     </li>
                     <li>
-                        <a class="aright" href="#">OCIO</a>
+                        <a href="#">ALOJAMIENTO</a>
+                    </li>
+                    <li>
+                        <a href="#">ESCUELAS IDIOMAS</a>
+                    </li>
+                    <li>
+                        <a href="#">FORO</a>
+                    </li>
+                    <li>
+                        <a href="#">BLOG</a>
+                    </li>
+                </ul>
+                <ul class="right hsocial">
+                    <li>
+                        <a href="#" class="twitter" title="Twitter">Twitter</a>
+                    </li>
+                    <li>
+                        <a href="#" class="facebook selected" title="Facebook">Facebook</a>
+                    </li>
+                    <li>
+                        <a href="#" class="linkedin" title="Linkedin">Linkedin</a>
+                    </li>
+                    <li class="last">
+                        <a href="#" class="vimeo" title="Vimeo">Vimeo</a>
                     </li>
                 </ul>
             </div>

@@ -38,7 +38,7 @@
                             <span class="results"><b>1,984</b> resultados.</span>
                         </div>
                         <div class="padding20 bwhite mbttom4 overflow">
-                            <h4>Precio</h4>
+                            <h4>Precio (por semana)</h4>
                             <div class="precios">
                                 <div class="slider"></div>
                                 <div class="ranges" style="margin-top: 20px;">
@@ -52,20 +52,7 @@
                             </div>
                         </div>
                         <div class="padding20 bwhite mbttom4 overflow">
-                            <h4>Valoraci&oacute;n usuarios</h4>
-                            <div class="valoraciones">
-                                <div class="stars_big" style="margin-bottom: 6px;">
-                                    <span class="star selected">1</span>
-                                    <span class="star selected">2</span>
-                                    <span class="star selected">3</span>
-                                    <span class="star selected">4</span>
-                                    <span class="star">5</span>
-                                </div>
-                                <span style="font-size: 11px;">2458 REVIEWS</span>
-                            </div>
-                        </div>
-                        <div class="padding20 bwhite mbttom4 overflow">
-                            <h4>Tipo Alojamiento</h4>
+                            <h4>Tipo</h4>
                             <div class="alojamientos">
                                 <ul class="advanced_search">
                                     <li>
@@ -109,131 +96,76 @@
                             </div>
                         </div>
                         <div class="padding20 bwhite mbttom4 overflow">
-                            <h4>Comodidades</h4>
-                            <div class="comodidades">
+                            <h4>Inglaterra</h4>
+                            <div class="acountry">
                                 <ul class="advanced_search">
                                     <li>
-                                        <a lang="bathroom" title="Bathroom" href="javascript:void(0)">
-                                            <span>Bathroom</span><span class="number">(722)</span>
+                                        <a lang="londres" title="Londres" href="javascript:void(0)">
+                                            <span>Londres</span><span class="number">(722)</span>
                                         </a>
                                     </li>
                                     <li>
-                                        <a lang="cable_tv" title="Cable tv" href="javascript:void(0)">
-                                            <span>Cable tv</span><span class="number">(982)</span>
+                                        <a lang="bristol" title="Bristol" href="javascript:void(0)">
+                                            <span>Bristol</span><span class="number">(982)</span>
                                         </a>
                                     </li>
                                     <li class="selected">
-                                        <a lang="air_conditioning" title="Air conditioning" href="javascript:void(0)">
-                                            <span>Air conditioning</span><span class="number">(127)</span>
-                                        </a>
-                                    </li>
-                                    <li class="selected">
-                                        <a lang="mini_bar" title="Mini bar" href="javascript:void(0)">
-                                            <span>Mini bart</span><span class="number">(222)</span>
+                                        <a lang="brighton" title="Brighton" href="javascript:void(0)">
+                                            <span>Brighton</span><span class="number">(127)</span>
                                         </a>
                                     </li>
                                     <li>
-                                        <a lang="wi_fi" title="Wi - fi" href="javascript:void(0)">
-                                            <span>Wi - fi</span><span class="number">(158)</span>
+                                        <a lang="hove" title="Hove" href="javascript:void(0)">
+                                            <span>Hove</span><span class="number">(222)</span>
                                         </a>
                                     </li>
                                     <li>
-                                        <a lang="pets_allowed" title="Pets allowed" href="javascript:void(0)">
-                                            <span>Pets allowed</span><span class="number">(439)</span>
+                                        <a lang="manchester" title="Manchester" href="javascript:void(0)">
+                                            <span>Manchester</span><span class="number">(158)</span>
                                         </a>
                                     </li>
                                     <li>
-                                        <a lang="room_service" title="Room service" href="javascript:void(0)">
-                                            <span>Room service</span><span class="number">(52)</span>
+                                        <a lang="liverpool" title="Liverpool" href="javascript:void(0)">
+                                            <span>Liverpool</span><span class="number">(439)</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a lang="surrey" title="Surrey" href="javascript:void(0)">
+                                            <span>Surrey</span><span class="number">(52)</span>
                                         </a>
                                     </li>
                                 </ul>
                                 <br class="clear"/>
                                 <a title="MAS" href="javascript:void(0)" class="lmore btn green">MAS</a>
                             </div>
-                        </div>
-                        <div class="padding20 bwhite mbttom4 overflow">
-                            <h4>Host Language</h4>
-                            <div class="host_language">
-                                <ul class="advanced_search">
-                                    <li>
-                                        <a lang="english" title="English" href="javascript:void(0)">
-                                            <span>English</span><span class="number">(722)</span>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a lang="espanol" title="Espa&ntilde;ol" href="javascript:void(0)">
-                                            <span>Espa&ntilde;ol</span><span class="number">(982)</span>
-                                        </a>
-                                    </li>
-                                    <li class="selected">
-                                        <a lang="portugues" title="Portugues" href="javascript:void(0)">
-                                            <span>Portugues</span><span class="number">(127)</span>
-                                        </a>
-                                    </li>
-                                    <li class="selected">
-                                        <a lang="francais" title="Francais" href="javascript:void(0)">
-                                            <span>Francais</span><span class="number">(222)</span>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a lang="suomi" title="Suomi" href="javascript:void(0)">
-                                            <span>Suomi</span><span class="number">(158)</span>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a lang="italiano" title="Italiano" href="javascript:void(0)">
-                                            <span>Italiano</span><span class="number">(439)</span>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a lang="sign_language" title="Sign Language" href="javascript:void(0)">
-                                            <span>Sign Language</span><span class="number">(52)</span>
-                                        </a>
-                                    </li>
-                                </ul>
-                                <br class="clear"/>
-                                <a title="MAS" href="javascript:void(0)" class="lmore btn green">MAS</a>
-                            </div>
-                        </div>
-                        <div class="padding20 bwhite mbttom4 overflow">
-                            <h4>Modificar B&uacute;squeda</h4>
-                            <form class="search_again">
-                                <label>DESTINO</label>
-                                <input type="text" value="Brighton" />
-                                <label>CHECK IN</label>
-                                <input class="calendar" type="text" placeholder="mm/dd/yy" />
-                                <label>CHECK OUT</label>
-                                <input class="calendar" type="text" placeholder="mm/dd/yy" />
-                                <button>BUSCAR DE NUEVO</button>
-                            </form>
                         </div>
                     </div><!--.widget-->
                     <div class="cols2 right results">
                         <div class="padding20 bwhite mbttom30 overflow filtro">
                             <div class="left">
-                                <label>Ordenar por:</label>
-                                <select class="fnombre" name="fnombre">
-                                    <option>nombre</option>
+                                <label style="margin-right: 10px;">Encuentrame:</label>
+                                <select name="by1">
+                                    <option>Bed & Breakfast</option>
                                 </select>
                                 &nbsp;
                                 &nbsp;
-                                <select class="fprecio" name="fprecio">
-                                    <option>precio</option>
+                                <span style="color: #000;font-size: 16px;">en</span>
+                                &nbsp;
+                                &nbsp;
+                                <select name="by2">
+                                    <option>Inglaterra</option>
                                 </select>
                                 &nbsp;
                                 &nbsp;
-                                <select class="fvaloracion" name="fvaloracion">
-                                    <option>valoracion</option>
-                                </select>
-                                &nbsp;
-                                &nbsp;
-                                <select class="fpopularidad" name="fpopularidad">
-                                    <option>popularidad</option>
+                                <select name="by3">
+                                    <option>brighton</option>
                                 </select>
                             </div>
                             <div class="right">
-                                <img src="img/filtro.jpg" style="display: block;" />
+                                <label style="margin-right: 10px;">Ordenar por:</label>
+                                <select class="fprecio" name="fprecio">
+                                    <option>precio</option>
+                                </select>
                             </div>
                         </div><!--.filtro-->
                         <ul class="list">
@@ -251,32 +183,18 @@
                                                 <h5>Hostel Just Landed</h5>
                                                 <span class="location">BRIGHTON, UK</span>
                                             </div>
-                                            <div class="right have">
-                                                <span class="wifi selected">wifi</span>
-                                                <span class="gym">gym</span>
-                                                <span class="restaurant">restaurant</span>
-                                                <span class="tv">tv</span>
-                                            </div>
                                         </div>
-                                        <div class="right cstars">
-                                            <div class="stars">
-                                                <span class="star selected">1</span>
-                                                <span class="star selected">2</span>
-                                                <span class="star selected">3</span>
-                                                <span class="star selected">4</span>
-                                                <span class="star">5</span>
-                                            </div>
-                                            <span class="reviews">270 REVIEWS</span>
+                                        <div class="right price">
+                                            <span class="euro">150€</span> <span>SEMANA</span>
                                         </div>
                                     </div>
                                     <div class="bottom overflow">
                                         <div class="left description">
                                             <p>Nunc cursus libero purus ac congue ar lorem cursus ut sed vitae pulvinar massa idend porta nequetiam elerisque mi id, consectetur adipi deese cing elit maus fringilla bibe endum.</p>
                                         </div>
-                                        <div class="right seleccionar">
-                                            <span>Noche</span>
-                                            <span class="euro">20 €</span>
-                                            <a href="#" class="right btn green">SELECCIONAR</a>
+                                        <div class="right favorites">
+                                            <a href="#" class="add_favorites"><i>añadir a mis favoritos</i></a>
+                                            <span class="date">publicada hace 2 min</span>                                        
                                         </div>
                                     </div>
                                 </div>
@@ -302,25 +220,17 @@
                                                 <span class="tv">tv</span>
                                             </div>
                                         </div>
-                                        <div class="right cstars">
-                                            <div class="stars">
-                                                <span class="star selected">1</span>
-                                                <span class="star selected">2</span>
-                                                <span class="star selected">3</span>
-                                                <span class="star selected">4</span>
-                                                <span class="star">5</span>
-                                            </div>
-                                            <span class="reviews">170 REVIEWS</span>
+                                        <div class="right price">
+                                            <span class="euro">160€</span> <span>SEMANA</span>
                                         </div>
                                     </div>
                                     <div class="bottom overflow">
                                         <div class="left description">
                                             <p>Nunc cursus libero purus ac congue ar lorem cursus ut sed vitae pulvinar massa idend porta nequetiam elerisque mi id, consectetur adipi deese cing elit maus fringilla bibe endum.</p>
                                         </div>
-                                        <div class="right seleccionar">
-                                            <span>Noche</span>
-                                            <span class="euro">22 €</span>
-                                            <a href="#" class="right btn green">SELECCIONAR</a>
+                                        <div class="right favorites">
+                                            <a href="#" class="add_favorites"><i>añadir a mis favoritos</i></a>
+                                            <span class="date">publicada hace 6 min</span>                                        
                                         </div>
                                     </div>
                                 </div>
@@ -346,25 +256,17 @@
                                                 <span class="tv">tv</span>
                                             </div>
                                         </div>
-                                        <div class="right cstars">
-                                            <div class="stars">
-                                                <span class="star selected">1</span>
-                                                <span class="star selected">2</span>
-                                                <span class="star selected">3</span>
-                                                <span class="star selected">4</span>
-                                                <span class="star">5</span>
-                                            </div>
-                                            <span class="reviews">485 REVIEWS</span>
+                                        <div class="right price">
+                                            <span class="euro">170€</span> <span>SEMANA</span>
                                         </div>
                                     </div>
                                     <div class="bottom overflow">
                                         <div class="left description">
                                             <p>Nunc cursus libero purus ac congue ar lorem cursus ut sed vitae pulvinar massa idend porta nequetiam elerisque mi id, consectetur adipi deese cing elit maus fringilla bibe endum.</p>
                                         </div>
-                                        <div class="right seleccionar">
-                                            <span>Noche</span>
-                                            <span class="euro">322 €</span>
-                                            <a href="#" class="right btn green">SELECCIONAR</a>
+                                        <div class="right favorites">
+                                            <a href="#" class="add_favorites"><i>añadir a mis favoritos</i></a>
+                                            <span class="date">publicada hace 9 min</span>                                        
                                         </div>
                                     </div>
                                 </div>
@@ -390,25 +292,17 @@
                                                 <span class="tv">tv</span>
                                             </div>
                                         </div>
-                                        <div class="right cstars">
-                                            <div class="stars">
-                                                <span class="star selected">1</span>
-                                                <span class="star selected">2</span>
-                                                <span class="star selected">3</span>
-                                                <span class="star selected">4</span>
-                                                <span class="star">5</span>
-                                            </div>
-                                            <span class="reviews">75 REVIEWS</span>
+                                        <div class="right price">
+                                            <span class="euro">178€</span> <span>SEMANA</span>
                                         </div>
                                     </div>
                                     <div class="bottom overflow">
                                         <div class="left description">
                                             <p>Nunc cursus libero purus ac congue ar lorem cursus ut sed vitae pulvinar massa idend porta nequetiam elerisque mi id, consectetur adipi deese cing elit maus fringilla bibe endum.</p>
                                         </div>
-                                        <div class="right seleccionar">
-                                            <span>Noche</span>
-                                            <span class="euro">170 €</span>
-                                            <a href="#" class="right btn green">SELECCIONAR</a>
+                                        <div class="right favorites">
+                                            <a href="#" class="add_favorites"><i>añadir a mis favoritos</i></a>
+                                            <span class="date">publicada hace 2 horas</span>                                        
                                         </div>
                                     </div>
                                 </div>
@@ -434,25 +328,17 @@
                                                 <span class="tv">tv</span>
                                             </div>
                                         </div>
-                                        <div class="right cstars">
-                                            <div class="stars">
-                                                <span class="star selected">1</span>
-                                                <span class="star selected">2</span>
-                                                <span class="star selected">3</span>
-                                                <span class="star selected">4</span>
-                                                <span class="star">5</span>
-                                            </div>
-                                            <span class="reviews">423 REVIEWS</span>
+                                        <div class="right price">
+                                            <span class="euro">188€</span> <span>SEMANA</span>
                                         </div>
                                     </div>
                                     <div class="bottom overflow">
                                         <div class="left description">
                                             <p>Nunc cursus libero purus ac congue ar lorem cursus ut sed vitae pulvinar massa idend porta nequetiam elerisque mi id, consectetur adipi deese cing elit maus fringilla bibe endum.</p>
                                         </div>
-                                        <div class="right seleccionar">
-                                            <span>Noche</span>
-                                            <span class="euro">620 €</span>
-                                            <a href="#" class="right btn green">SELECCIONAR</a>
+                                        <div class="right favorites">
+                                            <a href="#" class="add_favorites"><i>añadir a mis favoritos</i></a>
+                                            <span class="date">publicada hace 3 horas</span>                                        
                                         </div>
                                     </div>
                                 </div>
@@ -478,25 +364,17 @@
                                                 <span class="tv">tv</span>
                                             </div>
                                         </div>
-                                        <div class="right cstars">
-                                            <div class="stars">
-                                                <span class="star selected">1</span>
-                                                <span class="star selected">2</span>
-                                                <span class="star selected">3</span>
-                                                <span class="star selected">4</span>
-                                                <span class="star">5</span>
-                                            </div>
-                                            <span class="reviews">99 REVIEWS</span>
+                                        <div class="right price">
+                                            <span class="euro">198€</span> <span>SEMANA</span>
                                         </div>
                                     </div>
                                     <div class="bottom overflow">
                                         <div class="left description">
                                             <p>Nunc cursus libero purus ac congue ar lorem cursus ut sed vitae pulvinar massa idend porta nequetiam elerisque mi id, consectetur adipi deese cing elit maus fringilla bibe endum.</p>
                                         </div>
-                                        <div class="right seleccionar">
-                                            <span>Noche</span>
-                                            <span class="euro">322 €</span>
-                                            <a href="#" class="right btn green">SELECCIONAR</a>
+                                        <div class="right favorites">
+                                            <a href="#" class="add_favorites"><i>añadir a mis favoritos</i></a>
+                                            <span class="date">publicada hace 3 horas</span>                                        
                                         </div>
                                     </div>
                                 </div>
@@ -522,25 +400,17 @@
                                                 <span class="tv">tv</span>
                                             </div>
                                         </div>
-                                        <div class="right cstars">
-                                            <div class="stars">
-                                                <span class="star selected">1</span>
-                                                <span class="star selected">2</span>
-                                                <span class="star selected">3</span>
-                                                <span class="star selected">4</span>
-                                                <span class="star">5</span>
-                                            </div>
-                                            <span class="reviews">112 REVIEWS</span>
+                                        <div class="right price">
+                                            <span class="euro">200€</span> <span>SEMANA</span>
                                         </div>
                                     </div>
                                     <div class="bottom overflow">
                                         <div class="left description">
                                             <p>Nunc cursus libero purus ac congue ar lorem cursus ut sed vitae pulvinar massa idend porta nequetiam elerisque mi id, consectetur adipi deese cing elit maus fringilla bibe endum.</p>
                                         </div>
-                                        <div class="right seleccionar">
-                                            <span>Noche</span>
-                                            <span class="euro">170 €</span>
-                                            <a href="#" class="right btn green">SELECCIONAR</a>
+                                        <div class="right favorites">
+                                            <a href="#" class="add_favorites"><i>añadir a mis favoritos</i></a>
+                                            <span class="date">publicada hace 10 horas</span>                                        
                                         </div>
                                     </div>
                                 </div>
@@ -566,25 +436,17 @@
                                                 <span class="tv">tv</span>
                                             </div>
                                         </div>
-                                        <div class="right cstars">
-                                            <div class="stars">
-                                                <span class="star selected">1</span>
-                                                <span class="star selected">2</span>
-                                                <span class="star selected">3</span>
-                                                <span class="star selected">4</span>
-                                                <span class="star">5</span>
-                                            </div>
-                                            <span class="reviews">269 REVIEWS</span>
+                                        <div class="right price">
+                                            <span class="euro">210€</span> <span>SEMANA</span>
                                         </div>
                                     </div>
                                     <div class="bottom overflow">
                                         <div class="left description">
                                             <p>Nunc cursus libero purus ac congue ar lorem cursus ut sed vitae pulvinar massa idend porta nequetiam elerisque mi id, consectetur adipi deese cing elit maus fringilla bibe endum.</p>
                                         </div>
-                                        <div class="right seleccionar">
-                                            <span>Noche</span>
-                                            <span class="euro">620 €</span>
-                                            <a href="#" class="right btn green">SELECCIONAR</a>
+                                        <div class="right favorites">
+                                            <a href="#" class="add_favorites"><i>añadir a mis favoritos</i></a>
+                                            <span class="date">publicada hace 11 horas</span>                                        
                                         </div>
                                     </div>
                                 </div>
@@ -610,25 +472,17 @@
                                                 <span class="tv">tv</span>
                                             </div>
                                         </div>
-                                        <div class="right cstars">
-                                            <div class="stars">
-                                                <span class="star selected">1</span>
-                                                <span class="star selected">2</span>
-                                                <span class="star selected">3</span>
-                                                <span class="star selected">4</span>
-                                                <span class="star">5</span>
-                                            </div>
-                                            <span class="reviews">78 REVIEWS</span>
+                                        <div class="right price">
+                                            <span class="euro">220€</span> <span>SEMANA</span>
                                         </div>
                                     </div>
                                     <div class="bottom overflow">
                                         <div class="left description">
                                             <p>Nunc cursus libero purus ac congue ar lorem cursus ut sed vitae pulvinar massa idend porta nequetiam elerisque mi id, consectetur adipi deese cing elit maus fringilla bibe endum.</p>
                                         </div>
-                                        <div class="right seleccionar">
-                                            <span>Noche</span>
-                                            <span class="euro">322 €</span>
-                                            <a href="#" class="right btn green">SELECCIONAR</a>
+                                        <div class="right favorites">
+                                            <a href="#" class="add_favorites"><i>añadir a mis favoritos</i></a>
+                                            <span class="date">publicada hace 13 horas</span>                                        
                                         </div>
                                     </div>
                                 </div>
@@ -654,25 +508,17 @@
                                                 <span class="tv">tv</span>
                                             </div>
                                         </div>
-                                        <div class="right cstars">
-                                            <div class="stars">
-                                                <span class="star selected">1</span>
-                                                <span class="star selected">2</span>
-                                                <span class="star selected">3</span>
-                                                <span class="star selected">4</span>
-                                                <span class="star">5</span>
-                                            </div>
-                                            <span class="reviews">585 REVIEWS</span>
+                                        <div class="right price">
+                                            <span class="euro">230€</span> <span>SEMANA</span>
                                         </div>
                                     </div>
                                     <div class="bottom overflow">
                                         <div class="left description">
                                             <p>Nunc cursus libero purus ac congue ar lorem cursus ut sed vitae pulvinar massa idend porta nequetiam elerisque mi id, consectetur adipi deese cing elit maus fringilla bibe endum.</p>
                                         </div>
-                                        <div class="right seleccionar">
-                                            <span>Noche</span>
-                                            <span class="euro">170 €</span>
-                                            <a href="#" class="right btn green">SELECCIONAR</a>
+                                        <div class="right favorites">
+                                            <a href="#" class="add_favorites"><i>añadir a mis favoritos</i></a>
+                                            <span class="date">publicada hace 15 horas</span>                                        
                                         </div>
                                     </div>
                                 </div>
@@ -698,25 +544,17 @@
                                                 <span class="tv">tv</span>
                                             </div>
                                         </div>
-                                        <div class="right cstars">
-                                            <div class="stars">
-                                                <span class="star selected">1</span>
-                                                <span class="star selected">2</span>
-                                                <span class="star selected">3</span>
-                                                <span class="star selected">4</span>
-                                                <span class="star">5</span>
-                                            </div>
-                                            <span class="reviews">112 REVIEWS</span>
+                                        <div class="right price">
+                                            <span class="euro">240€</span> <span>SEMANA</span>
                                         </div>
                                     </div>
                                     <div class="bottom overflow">
                                         <div class="left description">
                                             <p>Nunc cursus libero purus ac congue ar lorem cursus ut sed vitae pulvinar massa idend porta nequetiam elerisque mi id, consectetur adipi deese cing elit maus fringilla bibe endum.</p>
                                         </div>
-                                        <div class="right seleccionar">
-                                            <span>Noche</span>
-                                            <span class="euro">170 €</span>
-                                            <a href="#" class="right btn green">SELECCIONAR</a>
+                                        <div class="right favorites">
+                                            <a href="#" class="add_favorites"><i>añadir a mis favoritos</i></a>
+                                            <span class="date">publicada hace 20 horas</span>                                        
                                         </div>
                                     </div>
                                 </div>

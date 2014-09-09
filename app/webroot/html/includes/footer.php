@@ -126,7 +126,9 @@
     <div class="finfo">
         <div class="inner">
             <div class="left">
-                <img src="img/logo.png" />
+                <span class="expats">
+                    <a href="mailto:info@expats.com">INFO@EXPATS.COM</a>
+                </span>
             </div>
             <div class="right">
                 <div class="copy">

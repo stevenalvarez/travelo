@@ -378,6 +378,14 @@
                         </div><!--#perfil-->
                         <div id="favoritos" class="section">
                             <h3>Tu Lista de Favoritos</h3>
+                            <div class="help padding20">
+                                <a class="close right" href="javascript:void(0)">X</a>
+                                <p>Este es es el apartado de tus Favoritos, asegurate de no perder ningún trabajo, habitación  o experiecia haciendo click en "me gusta" en su apartado correspondiente de cada sección</p>
+                                <br />
+                                <span><a style="color: #01b7f2;" href="javascript:void(0)">Necesitas ayuda?</a> — Ve nuestras seccion de FAQ para resolver cualqiuer duda que puedas tener</span>
+                            </div><!--.help-->
+                            <br />
+                            <br />
                             <ul class="fitems">
                                 <li>
                                     <h5>
@@ -522,7 +530,7 @@
                                     <tbody>
                                         <tr>
                                             <td colspan="2">
-                                                <h3>Cuentanos tu historia, tus dudas o cualquier cosa que tengas en mente</h3>
+                                                <h3>Si tienes una historia para contar, este es el lugar</h3>
                                             </td>
                                         </tr>
                                         <tr>
@@ -533,17 +541,17 @@
                                         </tr>
                                         <tr>
                                             <td>
+                                                <label>PAIS RELACIONADO</label>
+                                                <select class="pais" name="pais">
+                                                    <option>Inglaterra</option>
+                                                    <option>Bolivia</option>
+                                                </select>
+                                            </td>
+                                            <td>
                                                 <label>SELECCIONA CATEGORIA</label>
                                                 <select class="categorias" name="categorias">
                                                     <option>Viajes</option>
                                                     <option>Trabajos</option>
-                                                </select>
-                                            </td>
-                                            <td>
-                                                <label>SELECCIONA SUB-CATEGORIA</label>
-                                                <select class="subcategorias" name="subcategorias">
-                                                    <option>Turismo</option>
-                                                    <option>Negocios</option>
                                                 </select>
                                             </td>
                                         </tr>
@@ -551,26 +559,6 @@
                                             <td colspan="2">
                                                 <label>CUENTA TU HISTORIA</label>
                                                 <textarea placeholder="Cuenta tu historia"></textarea>
-                                            </td>
-                                        </tr>
-                                    </tbody>
-                                </table>
-                                
-                                <table>
-                                    <tbody>
-                                        <tr>
-                                            <td colspan="2">
-                                                <h3>Tienes un video para subir?<i>(Este video es posible que aparezca en la home si es de los mas votados)</i></h3>
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <td colspan="2">
-                                                <input class="pair" type="text" style="width: 97%;" placeholder="Introduce aqu&iacute; la URL del v&iacute;deo de YouTube o Vimeo" />
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <td colspan="2">
-                                                <textarea placeholder="Escribe un pie descriptivo del v&iacute;deo, no muy extenso, pero que sirva para que tus seguidores sepan de que trata el v&iacute;deo"></textarea>
                                             </td>
                                         </tr>
                                     </tbody>
@@ -596,8 +584,41 @@
                                         </tr>
                                     </tbody>
                                 </table>
+                                
+                                <table class="last">
+                                    <tbody>
+                                        <tr>
+                                            <td colspan="2">
+                                                <h3>Tienes un video para subir?<i>(Este video es posible que aparezca en la home si es de los mas votados)</i></h3>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td colspan="2">
+                                                <input class="pair" type="text" style="width: 97%;" placeholder="Introduce aqu&iacute; la URL del v&iacute;deo de YouTube o Vimeo" />
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td colspan="2">
+                                                <textarea placeholder="Escribe un pie descriptivo del v&iacute;deo, no muy extenso, pero que sirva para que tus seguidores sepan de que trata el v&iacute;deo"></textarea>
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                                
                                 <input class="btn green" type="submit" value="ENVIAR HISTORIA" style="width: 30%;"/>
-                            </form>                        
+                            </form>
+                            <div class="hr"></div>
+                            <div class="beneficios tppadding20 overflow">
+                                <h3>Estas son las historias que has compartido previamente.</h3>
+                                <ul class="selections left">
+                                    <li>
+                                        <a title="God morgen till alle sammen" href="#">God morgen till alle sammen</a>
+                                    </li>
+                                    <li>
+                                        <a title="En el jardín de mi nuevo aposento" href="#">En el jardín de mi nuevo aposento</a>
+                                    </li>
+                                </ul>
+                            </div>
                         </div><!--#travel_stories-->
                         <div id="configuracion" class="section">
                             <form>
@@ -690,19 +711,13 @@
                                         <tr>
                                             <td>
                                                 <input class="left" type="checkbox"/>
-                                                <label class="itext">Mandarme un email cuando haya un tema nuevo al que estroy suscrito</label>
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <td>
-                                                <input class="left" type="checkbox"/>
-                                                <label class="itext">Emails periodicos con  Newsletter</label>
+                                                <label class="itext">Mandarme un email cuando haya un tema nuevo al que estoy suscrito</label>
                                             </td>
                                         </tr>
                                         <tr>
                                             <td>
                                                 <input class="left" type="checkbox" checked="checked"/>
-                                                <label class="itext">Contactos provinientes de otros usuarios</label>
+                                                <label class="itext">Emails periodicos con  Newsletter</label>
                                             </td>
                                         </tr>
                                     </tbody>

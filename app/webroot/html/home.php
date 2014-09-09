@@ -32,42 +32,22 @@
     	<div id="container">
     		<?php include("includes/header.php"); ?>
     		<div id="content">
-                <div class="navigation">
-                    <!--
-                    <div class="wrap">
-                        <ul>
-                            <li>
-                                <a class="selected" href="#">DESTINO</a>
-                            </li>
-                            <li>
-                                <a href="#">ESCUELAS</a>
-                            </li>
-                            <li>
-                                <a href="#">ALOJAMIENTO</a>
-                            </li>
-                            <li>
-                                <a href="#">TRABAJO</a>
-                            </li>
-                            <li>
-                                <a href="#">OCIO</a>
-                            </li>
-                        </ul>
-                    </div>
-                    -->
-                </div><!--.navigation-->
+                <div class="navigation"></div><!--.navigation-->
                 <div class="search_destination">
                     <div class="wrap">
-                        <form class="info overflow mbttom40">
-                            <h2>Tu Destino</h2>
+                        <form class="info overflow mbttom20">
                             <ul>
                                 <li>
+                                    <h2>Tu Destino</h2>
+                                </li>
+                                <li class="selector">
                                     <label>PAIS</label>
                                     <select class="pais" name="pais">
                                         <option>Inglaterra</option>
                                         <option>Bolivia</option>
                                     </select>
                                 </li>
-                                <li>
+                                <li class="selector">
                                     <label>CIUDAD</label>
                                     <select class="ciudad" name="ciudad">
                                         <option>Brighton</option>
@@ -81,27 +61,17 @@
                             </ul>
                         </form>
                     </div>
-                    <div class="wrap">
-                        <div class="how_it_works">
-                            <div class="width70p">
-                                <h3>¿Como funciona?</h3>
-                                <p>Duis condimentum ante hendrerit, sagittis sapien vitae, elementum libero. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec massa urna, interdum sed nunc eu, pretium fermentum velit. Donec sodales.</p>
-                            </div>
-                        </div>                    
-                    </div>
                 </div><!--.search_destination-->
-                <!--
                 <div class="how_it_works_cicle">
                     <div class="wrap">
-                        <h3>C&oacute;mo funciona <span>Expats?</span></h3>
                         <ul>
                             <li class="row">
                                 <div class="top">
-                                    <h4 class="right">Encuentra tu Destino</h4>
+                                    <h4 class="right">Alojamiento</h4>
                                     <p class="alignright">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
                                 </div>
                                 <div class="bottom">
-                                    <h4 class="right">Listo para tu nueva vida!</h4>
+                                    <h4 class="right">Escuelas de Idiomas</h4>
                                     <p class="alignright">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
                                 </div>
                             </li>
@@ -110,73 +80,18 @@
                             </li>
                             <li class="row">
                                 <div class="top">
-                                    <h4 class="left">Prepara tu sue&ntilde;o</h4>
+                                    <h4 class="left">Trabajo</h4>
                                     <p class="alignleft">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
                                 </div>
                                 <div class="bottom">
-                                    <h4 class="left">Hacemos los tr&aacute;mites por ti</h4>
+                                    <h4 class="left">Planes de Ocio</h4>
                                     <p class="alignleft">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
                                 </div>
                             </li>
                         </ul>
                     </div>
-                </div>
-                -->
-                <div class="search_for_approximation">
-    				<form id="nl-form" class="nl-form">
-                        <div class="wrap">
-                            <div class="alignleft">
-        					   tengo 
-            					<select name="age">
-                                    <option value="18">18</option>
-                                    <option value="19">19</option>
-                                    <option value="20">20</option>
-                                    <option value="21">21</option>
-                                    <option value="22">22</option>
-            						<option value="23" selected="selected">23</option>
-            						<option value="24">24</option>
-            						<option value="25">25</option>
-            						<option value="26">26</option>
-            						<option value="27">27</option>
-                                    <option value="28">28</option>
-                                    <option value="29">29</option>
-                                    <option value="30">30</option>
-            					</select> a&ntilde;os,
-                                <div class="nl-overlay"></div>
-                            </div>
-                            <div class="alignright">
-            					lo que busco es
-            					<select name="learn">
-            						<option value="aprender_ingles" selected="selected">APRENDER INGLES</option>
-            						<option value="una_ciudad">UNA CIUDAD</option>
-                                    <option value="un_pais">UN PAIS</option>
-            					</select>
-                                <div class="nl-overlay"></div>
-                            </div>
-                            <div class="alignleft">
-        					   con un clima
-        					   <input type="text" value="" placeholder="MEDITERRANEO" data-subline="For example: <em>C&aacute;lido</em> or <em>Templado</em> or <em>Frio</em>"/>
-                               <div class="nl-overlay"></div>
-                            </div>
-                            <div class="alignright">
-                                en
-            					<select name="place">
-            						<option value="peq_ciu" selected="selected">UNA PEQUE&Ntilde;A CIUDAD</option>
-            					 	<option value="grande_ciu">UNA GRAN CIUDAD</option>
-            					 	<option value="lugar_vivir">UN LUGAR PARA VIVIR</option>
-            					 	<option value="lugar_criar">UNA LUGAR PARA TENER HIJOS</option>
-            					</select>
-                                <div class="nl-overlay"></div>
-                            </div>
-                        </div><!--.wrap-->
-    					<div class="nl-submit-wrap">
-    						<button class="nl-submit" type="submit">
-                                <span>¿Necesitas encontrar <b>tu destino</b>?</span>
-                            </button>
-    					</div>
-    				</form>
-                </div>
-                <div class="videos">
+                </div><!--.how_it_works_cicle-->
+                <div class="videos clear bhr" style="padding-bottom: 80px;">
                     <div class="inner">
                         <h3>Videos de destinos populares</h3>
                         <ul id="owl-carousel-videos">
@@ -381,206 +296,97 @@
                         </ul>
                     </div>
                 </div><!--.videos--->
-                <div class="we_dedicated bgray tppadding20 clear">
+                <div class="how_expats clear bhr">
                     <div class="inner">
-                        <div class="box left">
-                            <ul class="imagen">
-                                <li>
-                                    <img src="img/default_blank.jpg" />
-                                </li>
-                                <li>
-                                    <img src="img/default_blank.jpg" />
-                                </li>
-                                <li>
-                                    <img src="img/default_blank.jpg" />
-                                </li>
-                                <li>
-                                    <img src="img/default_blank.jpg" />
-                                </li>
-                                <li>
-                                    <img src="img/default_blank.jpg" />
-                                </li>
-                                <li>
-                                    <img src="img/default_blank.jpg" />
-                                </li>
-                                <li>
-                                    <img src="img/default_blank.jpg" />
-                                </li>
-                                <li>
-                                    <img src="img/default_blank.jpg" />
-                                </li>
-                                <li>
-                                    <img src="img/default_blank.jpg" />
-                                </li>
-                            </ul>
-                        </div>
-                        <div class="right description">
-                            <h2>Expats is a web pque helps you choose your destination, accommodation, schools, etc. .. to start your life in another country</h2>
-                            <p>Bringing you a modern, comfortable, and connected travel experience is one of our highest priorities and that’s why we continuously try to improve your experience when you book anything with us.</p>
-                            <p>We really appreciate and welcome any of suggstions you might have for us, so feel free drop us line anytime.</p>
-                        </div>
-                    </div>
-                </div><!--.we_dedicated-->
-                <div class="academies bgray tppadding20 clear overflow">
-                    <div class="inner">
-                        <h3>Academias mejor valoradas este mes por los usuarios</h3>
-                        <div class="info bwhite overflow">
-                            <p class="description">Nunc cursus libero purusac congue arcu cursus utsed vitae pulvinar massa idporta neque. Etiam elerisque mi id faucibus iaculis vitae pulvinar.</p>
-                            <div class="carousel">
-                                <span class="previous left">
-                                    <a class="prev" href="javascript:void(0)">previous</a>
-                                </span>
-                                <div class="left content-carousel">
-                                    <ul class="owl-carousel-academies">
-                                        <li>
-                                            <div class="box">
-                                                <a href="#">
-                                                    <img src="img/thingbox.jpg"/>
-                                                    <img class="hover" src="img/ahover.png"/>
-                                                </a>
-                                            </div>
-                                            <div class="details padding20 bgray">
-                                                <h3>Ec Malta</h3>
-                                                <span>(54 REVIEWS)</span>
-                                                <span class="stars">
-                                                    <span class="star selected">1</span>
-                                                    <span class="star selected">2</span>
-                                                    <span class="star selected">3</span>
-                                                    <span class="star selected">4</span>
-                                                    <span class="star">5</span>
-                                                </span>
-                                                <a href="#" class="btn gray more">MORE</a>
-                                            </div>
-                                        </li>
-                                        <li>
-                                            <div class="box">
-                                                <a href="#">
-                                                    <img src="img/thingbox.jpg"/>
-                                                    <img class="hover" src="img/ahover.png"/>
-                                                </a>
-                                            </div>
-                                            <div class="details padding20 bgray">
-                                                <h3>Ef Brighton</h3>
-                                                <span>(524 REVIEWS)</span>
-                                                <span class="stars">
-                                                    <span class="star selected">1</span>
-                                                    <span class="star selected">2</span>
-                                                    <span class="star selected">3</span>
-                                                    <span class="star selected">4</span>
-                                                    <span class="star">5</span>
-                                                </span>
-                                                <a href="#" class="btn gray more">MORE</a>
-                                            </div>
-                                        </li>
-                                        <li>
-                                            <div class="box">
-                                                <a href="#">
-                                                    <img src="img/thingbox.jpg"/>
-                                                    <img class="hover" src="img/ahover.png"/>
-                                                </a>
-                                            </div>
-                                            <div class="details padding20 bgray">
-                                                <h3>Ese London</h3>
-                                                <span>(24 REVIEWS)</span>
-                                                <span class="stars">
-                                                    <span class="star selected">1</span>
-                                                    <span class="star selected">2</span>
-                                                    <span class="star selected">3</span>
-                                                    <span class="star selected">4</span>
-                                                    <span class="star">5</span>
-                                                </span>
-                                                <a href="#" class="btn gray more">MORE</a>
-                                            </div>
-                                        </li>
-                                        <li>
-                                            <div class="box">
-                                                <a href="#">
-                                                    <img src="img/thingbox.jpg"/>
-                                                    <img class="hover" src="img/ahover.png"/>
-                                                </a>
-                                            </div>
-                                            <div class="details padding20 bgray">
-                                                <h3>Efe Brighton</h3>
-                                                <span>(12 REVIEWS)</span>
-                                                <span class="stars">
-                                                    <span class="star selected">1</span>
-                                                    <span class="star selected">2</span>
-                                                    <span class="star selected">3</span>
-                                                    <span class="star selected">4</span>
-                                                    <span class="star">5</span>
-                                                </span>
-                                                <a href="#" class="btn gray more">MORE</a>
-                                            </div>
-                                        </li>
-                                        <li>
-                                            <div class="box">
-                                                <a href="#">
-                                                    <img src="img/thingbox.jpg"/>
-                                                    <img class="hover" src="img/ahover.png"/>
-                                                </a>
-                                            </div>
-                                            <div class="details padding20 bgray">
-                                                <h3>Ae London</h3>
-                                                <span>(34 REVIEWS)</span>
-                                                <span class="stars">
-                                                    <span class="star selected">1</span>
-                                                    <span class="star selected">2</span>
-                                                    <span class="star selected">3</span>
-                                                    <span class="star selected">4</span>
-                                                    <span class="star">5</span>
-                                                </span>
-                                                <a href="#" class="btn gray more">MORE</a>
-                                            </div>
-                                        </li>
-                                        <li>
-                                            <div class="box">
-                                                <a href="#">
-                                                    <img src="img/thingbox.jpg"/>
-                                                    <img class="hover" src="img/ahover.png"/>
-                                                </a>
-                                            </div>
-                                            <div class="details padding20 bgray">
-                                                <h3>Ruby Brighton</h3>
-                                                <span>(64 REVIEWS)</span>
-                                                <span class="stars">
-                                                    <span class="star selected">1</span>
-                                                    <span class="star selected">2</span>
-                                                    <span class="star selected">3</span>
-                                                    <span class="star selected">4</span>
-                                                    <span class="star">5</span>
-                                                </span>
-                                                <a href="#" class="btn gray more">MORE</a>
-                                            </div>
-                                        </li>
-                                        <li>
-                                            <div class="box">
-                                                <a href="#">
-                                                    <img src="img/thingbox.jpg"/>
-                                                    <img class="hover" src="img/ahover.png"/>
-                                                </a>
-                                            </div>
-                                            <div class="details padding20 bgray">
-                                                <h3>Ese Lodon</h3>
-                                                <span>(8 REVIEWS)</span>
-                                                <span class="stars">
-                                                    <span class="star selected">1</span>
-                                                    <span class="star selected">2</span>
-                                                    <span class="star selected">3</span>
-                                                    <span class="star selected">4</span>
-                                                    <span class="star">5</span>
-                                                </span>
-                                                <a href="#" class="btn gray more">MORE</a>
-                                            </div>
-                                        </li>                                                                                
-                                    </ul>
+                        <h3>De Nuestro Blog</h3>
+                        <ul>
+                            <li>
+                                <div class="bwhite overflow">
+                                    <div class="left box">
+                                        <img src="img/default_yellow.png" />
+                                    </div>
+                                    <div class="right description">
+                                        <h2>Tomarias aun año sabatico para aprender Inglés?</h2>
+                                        <p>Vivamus a mauris vel nunc tristique volutpat. Aenean eu faucibus enim. Aenean blandit arcu lectus, in cursus elit porttitor non. Curabitur risus eros, mattis vitae nisl consequat, tincidunt commodo purus. Maecenas eu risus ac risus tempus iaculis. Duis cursus lectus sed dui imperdiet, id pharetra nunc ullamcorper. Donec luctus blandit metus, sed ultrices ipsum facilisis sit amet. Morbi congue ligula sit amet urna tincidunt.</p>
+                                    </div>
                                 </div>
-                                <span class="next right">
-                                    <a class="next" href="javascript:void(0)">next</a>
-                                </span>
-                            </div>                            
+                            </li>
+                            <li>
+                                <div class="bwhite overflow">
+                                    <div class="left description">
+                                        <h2>La mejor manera de empezar a tu vida en Londres</h2>
+                                        <p>Vivamus a mauris vel nunc tristique volutpat. Aenean eu faucibus enim. Aenean blandit arcu lectus, in cursus elit porttitor non. Curabitur risus eros, mattis vitae nisl consequat, tincidunt commodo purus. Maecenas eu risus ac risus tempus iaculis. Duis cursus lectus sed dui imperdiet, id pharetra nunc ullamcorper. Donec luctus blandit metus, sed ultrices ipsum facilisis sit amet. Morbi congue ligula sit amet urna tincidunt.</p>
+                                    </div>
+                                    <div class="right box">
+                                        <img src="img/default_yellow.png" />
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div><!--.how_expats-->
+                <div class="search_for_approximation clear bhr">
+    				<form id="nl-form" class="nl-form">
+                        <div class="wrap">
+                            <div class="alignleft">
+        					   tengo 
+            					<select name="age">
+                                    <option value="18">18</option>
+                                    <option value="19">19</option>
+                                    <option value="20">20</option>
+                                    <option value="21">21</option>
+                                    <option value="22">22</option>
+            						<option value="23" selected="selected">23</option>
+            						<option value="24">24</option>
+            						<option value="25">25</option>
+            						<option value="26">26</option>
+            						<option value="27">27</option>
+                                    <option value="28">28</option>
+                                    <option value="29">29</option>
+                                    <option value="30">30</option>
+            					</select> a&ntilde;os,
+                                <div class="nl-overlay"></div>
+                            </div>
+                            <div class="alignright">
+            					lo que busco es
+            					<select name="learn">
+            						<option value="aprender_ingles" selected="selected">APRENDER INGLES</option>
+            						<option value="una_ciudad">UNA CIUDAD</option>
+                                    <option value="un_pais">UN PAIS</option>
+            					</select>
+                                <div class="nl-overlay"></div>
+                            </div>
+                            <div class="alignleft">
+        					   con un clima
+        					   <input type="text" value="" placeholder="MEDITERRANEO" data-subline="For example: <em>C&aacute;lido</em> or <em>Templado</em> or <em>Frio</em>"/>
+                               <div class="nl-overlay"></div>
+                            </div>
+                            <div class="alignright">
+                                en
+            					<select name="place">
+            						<option value="peq_ciu" selected="selected">UNA PEQUE&Ntilde;A CIUDAD</option>
+            					 	<option value="grande_ciu">UNA GRAN CIUDAD</option>
+            					 	<option value="lugar_vivir">UN LUGAR PARA VIVIR</option>
+            					 	<option value="lugar_criar">UNA LUGAR PARA TENER HIJOS</option>
+            					</select>
+                                <div class="nl-overlay"></div>
+                            </div>
+                        </div><!--.wrap-->
+    					<div class="nl-submit-wrap">
+    						<button class="nl-submit" type="submit">
+                                <span>¿Necesitas encontrar <b>tu destino</b>?</span>
+                            </button>
+    					</div>
+    				</form>
+                    <div class="wrap">
+                        <div class="how_it_works">
+                            <div class="width70p">
+                                <h3>¿Como funciona?</h3>
+                                <p>Duis condimentum ante hendrerit, sagittis sapien vitae, elementum libero. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec massa urna, interdum sed nunc eu, pretium fermentum velit. Donec sodales.</p>
+                            </div>
                         </div>
                     </div>
-                </div><!--.academies-->
+                </div><!--.search_for_approximation-->
                 <div class="timeline bgray tppadding20 clear overflow">
                     <div class="inner">
                         <div class="left cols">
@@ -588,23 +394,20 @@
                                 <h4>&Uacute;ltimos hallazgos</h4>
                                 <ul class="options clear overflow">
                                     <li class="selected">
-                                        <a href="javascript:void(0)" lang="popular">POPULAR</a>
+                                        <a href="javascript:void(0)" lang="alojamiento">ALOJAMIENTO</a>
                                     </li>
                                     <li>
-                                        <a href="javascript:void(0)" lang="brighton">BRIGHTON</a>
+                                        <a href="javascript:void(0)" lang="trabajo">TRABAJO</a>
                                     </li>
                                     <li>
-                                        <a href="javascript:void(0)" lang="malta">MALTA</a>
-                                    </li>
-                                    <li>
-                                        <a href="javascript:void(0)" lang="london">LONDON, UK</a>
+                                        <a href="javascript:void(0)" lang="escuelas_idiomas">ESCUELAS IDIOMAS</a>
                                     </li>
                                     <li class="last">
-                                        <a href="javascript:void(0)" lang="paris">PARIS</a>
+                                        <a href="javascript:void(0)" lang="ocio">OCIO</a>
                                     </li>
                                 </ul>
                                 <div class="list">
-                                    <ul class="item selected" id="popular">
+                                    <ul class="item selected" id="alojamiento">
                                         <li>
                                             <div class="left box">
                                                 <div class="ibox">
@@ -628,6 +431,29 @@
                                                 </div>
                                             </div>
                                         </li>
+                                        <li>
+                                            <div class="left box">
+                                                <div class="ibox">
+                                                    <img src="img/img1.jpg" />
+                                                </div>
+                                                <span class="percent">
+                                                    <span>SAVE</span>
+                                                    <span class="number">23 %</span>
+                                                </span>
+                                            </div>
+                                            <div class="right detail">
+                                                <div class="left info">
+                                                    <h5>Hostal Los Vascos</h5>
+                                                    <span>Brighton, uk</span>
+                                                    <p>Nunc cursus libero purus ac congue arcu cursus ut sed vitae pulvinar massa idporta nequetiam.</p>
+                                                </div>
+                                                <div class="right price">
+                                                    <span>Noche</span>
+                                                    <span class="euro">25 &euro;</span>
+                                                    <a class="bselect right btn green" href="#">SELECT</a>
+                                                </div>
+                                            </div>
+                                        </li>
                                         <li class="last">
                                             <div class="left box">
                                                 <div class="ibox">
@@ -646,79 +472,62 @@
                                                 </div>
                                                 <div class="right price">
                                                     <span>Noche</span>
-                                                    <span class="euro">15 &euro;</span>
+                                                    <span class="euro">35 &euro;</span>
                                                     <a class="bselect right btn green" href="#">SELECT</a>
                                                 </div>
                                             </div>
                                         </li>                            
                                     </ul><!--.item-->
-                                    <ul class="item" id="brighton"></ul>
-                                    <ul class="item" id="malta"></ul>
-                                    <ul class="item" id="london"></ul>
-                                    <ul class="item" id="paris"></ul>
+                                    <ul class="item" id="trabajo"></ul>
+                                    <ul class="item" id="escuelas_idiomas"></ul>
+                                    <ul class="item" id="ocio"></ul>
                                 </div>
                             </div>
                         </div><!--.cols-->
                         <div class="right cols">
-                            <h4>Que dicen de nosotros?</h4>
-                            <ul id="owl-carousel-comments" class="comments">
+                            <h4>Lo último en nuestro foro</h4>
+                            <ul class="comments foro">
                                 <li>
-                                    <p>Este chico esta diseñando una web increible que va a triunfar por todo el mundo, no puedo esperar para entrar a verla ! Con un diseño cuidado y una programación bien trabajada va a hacer la competencia al mismisimo Trip Advisor! xxxx</p>
                                     <div class="detail_guest">
                                         <div class="left box">
                                             <img src="img/guest1.jpg" />
                                         </div>
                                         <div class="left name">
-                                            <h6>Yasmin Fernandez</h6>
-                                            <span>GUEST</span>
+                                            <a class="title" href="#" title="Primeros pasos para dar en Brighton">Primeros pasos para dar en Brighton</a>
+                                            <span>Autor:</span> <span class="author"><i>Marcos Del Rey</i></span>
                                         </div>
                                     </div>
                                 </li>
                                 <li>
-                                    <p>Este chico esta diseñando una web increible que va a triunfar por todo el mundo, no puedo esperar para entrar a verla ! Con un diseño cuidado y una programación bien trabajada va a hacer la competencia al mismisimo Trip Advisor! xxxx</p>
                                     <div class="detail_guest">
                                         <div class="left box">
                                             <img src="img/guest1.jpg" />
                                         </div>
                                         <div class="left name">
-                                            <h6>Yasmin Fernandez</h6>
-                                            <span>GUEST</span>
+                                            <a class="title" href="#" title="Cual es el primer destino que habeis salido fuera..">Cual es el primer destino que habeis salido fuera..</a>
+                                            <span>Autor:</span> <span class="author"><i>Marcos Del Rey</i></span>
                                         </div>
                                     </div>
                                 </li>
                                 <li>
-                                    <p>Este chico esta diseñando una web increible que va a triunfar por todo el mundo, no puedo esperar para entrar a verla ! Con un diseño cuidado y una programación bien trabajada va a hacer la competencia al mismisimo Trip Advisor! xxxx</p>
                                     <div class="detail_guest">
                                         <div class="left box">
                                             <img src="img/guest1.jpg" />
                                         </div>
                                         <div class="left name">
-                                            <h6>Yasmin Fernandez</h6>
-                                            <span>GUEST</span>
+                                            <a class="title" href="#" title="Donde esta la embajada de Londres?">Donde esta la embajada de Londres?</a>
+                                            <span>Autor:</span> <span class="author"><i>Marcos Del Rey</i></span>
                                         </div>
                                     </div>
                                 </li>
                                 <li>
-                                    <p>Este chico esta diseñando una web increible que va a triunfar por todo el mundo, no puedo esperar para entrar a verla ! Con un diseño cuidado y una programación bien trabajada va a hacer la competencia al mismisimo Trip Advisor! xxxx</p>
                                     <div class="detail_guest">
                                         <div class="left box">
                                             <img src="img/guest1.jpg" />
                                         </div>
                                         <div class="left name">
-                                            <h6>Yasmin Fernandez</h6>
-                                            <span>GUEST</span>
-                                        </div>
-                                    </div>
-                                </li>
-                                <li>
-                                    <p>Este chico esta diseñando una web increible que va a triunfar por todo el mundo, no puedo esperar para entrar a verla ! Con un diseño cuidado y una programación bien trabajada va a hacer la competencia al mismisimo Trip Advisor! xxxx</p>
-                                    <div class="detail_guest">
-                                        <div class="left box">
-                                            <img src="img/guest1.jpg" />
-                                        </div>
-                                        <div class="left name">
-                                            <h6>Yasmin Fernandez</h6>
-                                            <span>GUEST</span>
+                                            <a class="title" href="#" title="Great place to stay">Great place to stay</a>
+                                            <span>Autor:</span> <span class="author"><i>Marcos Del Rey</i></span>
                                         </div>
                                     </div>
                                 </li>
