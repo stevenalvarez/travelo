@@ -58,7 +58,10 @@
 .fontsize13{font-size: 13px;}
 .hr{border-bottom: 1px solid #f5f5f5; height: 1px;margin: 20px 0;}
 .bhr{background: url("../img/hr.png") no-repeat scroll center bottom #f5f5f5;}
+.colorblue{color: #01b7f2;}
+.uppercase{text-transform: uppercase;}
 b.vowel{color: #01b7f2;font-size: 38px;line-height: 30px;padding-right: 4px;}
+b.vowel2{color: #01b7f2;font-size: 54px;line-height: 40px;padding-right: 5px;}
 
 /*popup*/
 .popup-content {background: #fff;margin: 40px auto;max-width: 640px;padding: 20px 25px;position: relative;}
@@ -162,8 +165,9 @@ ul.advanced_search li:hover > a, ul.advanced_search li.selected > a{background-p
 .toogle .text.aright p{margin-right: 15px;margin-left: 0;}
 
 /*widget*/
-.widget h3{font-weight: normal;font-size: 14px;margin-bottom: 10px;}
+.widget h3{font-size: 14px; font-weight: normal;margin-bottom: 10px;}
 .widget h4{font-size: 16px; font-weight: normal;margin-bottom: 10px;}
+.widget h5{font-size: 20px; font-weight: normal;margin-bottom: 15px;}
 .widget.acomodation h4{margin-bottom: 15px;background: url("../img/bg_toggle.png") no-repeat scroll right 2px transparent;background-size: 18px;cursor: pointer;}
 .widget.acomodation h4.selected{background-position: right -18px;}
 .widget span.results{background: url("../img/bg_result.png") no-repeat scroll left center transparent; color: #000; padding-left: 25px;font-size: 15px;letter-spacing: 1px;}
@@ -188,11 +192,24 @@ ul.advanced_search li:hover > a, ul.advanced_search li.selected > a{background-p
 .widget .popular .result.sthings li .imagen, .widget .popular .result.sthings li .imagen img{background: #fff;border-radius: 40px;overflow: hidden;width: 30px;height: 30px;}
 .widget .popular .result li .description{width: 62%;padding: 15px 0;margin-bottom: 2px;}
 .widget .popular .result.sthings li .description{width: 80%;}
-.widget .popular .result.stories li .description, .widget .popular .result.sthings li .description{padding: 0;}
+.widget .popular .result.stories li .description, .widget .popular .result.sthings li .description, .widget .popular .result.destination li .description{padding: 0;}
+.widget .popular .result.destination li .description h5{text-transform: uppercase;margin-bottom: 10px;}
+.widget .popular .result.destination li .description .reviews{font-size: 11px;text-transform: uppercase;color: #9e9e9e;padding-top: 4px;display: block;}
 .widget .popular .result li .description h5{font-size: 14px;font-weight: normal;}
 .widget .popular .result.sthings li .description h5{color: #01b7f2;}
 .widget .popular .result li .description .price{color: #7db921;font-size: 15px;padding-right: 5px;}
 .widget .popular .result li .description .text{text-transform: uppercase;font-size: 10px;}
+.widget .oncity h4{border-bottom: 18px solid #fdb714;padding: 20px 20px 4px 20px;margin-bottom: 0;}
+.widget .oncity .options{padding: 10px 20px;}
+.widget .oncity .options li{padding: 8px 0;border-bottom: 1px solid #f5f5f5;}
+.widget .oncity .options li a{color: #979797;display: block;text-transform: uppercase;}
+.widget .oncity .options li a:hover{color: #01b7f2;}
+.widget .oncity .options li.last{border-bottom: 0;}
+.widget .flag .box{text-align: center;padding-right: 14px;}
+.widget .flag .box img{box-shadow: 0 0 8px #000000;}
+.widget .flag .info li{padding: 4px 0;}
+.widget .flag .info li span{background: url('../img/bg_point.png') no-repeat left 6px transparent;padding-left: 12px;display: block;color: #000;}
+.widget .flag .reviews{padding-top: 12px;padding-bottom: 4px;}
 
 /*------------------------------
             FOOTER          
@@ -443,6 +460,8 @@ ul.advanced_search li:hover > a, ul.advanced_search li.selected > a{background-p
 .blogs.stories > li{padding-bottom: 30px;}
 .blogs > li.group{padding-bottom: 30px;}
 .blogs > li.last{padding-bottom: 0;}
+.blogs > li.title_destination{padding-bottom: 0;}
+.blogs > li.title_destination h2{color: #01b7f2;padding-top: 30px;}
 .blogs .share li{background: #d9d9d9;}
 .blogs .share li:hover,.blogs .share li.selected{background: none repeat scroll 0 0 #01b7f2;}
 .blogs .media{position: relative;}
@@ -529,7 +548,12 @@ ul.advanced_search li:hover > a, ul.advanced_search li.selected > a{background-p
 .blogs .comments .descripcion{width: 88%;}
 .blogs .comments .answers{clear: both;float: right;margin: 20px 0;width: 94%;}
 .blogs .country{background: url("../img/bg_country.png") no-repeat scroll 0 center;display: block;font-size: 13px;margin-top: 4px;padding: 5px 0 5px 35px;margin-left: 5px;}
+.blogs .have_comments{background: url("../img/bg_comments.png") no-repeat scroll 0 5px;display: block;font-size: 13px;margin-top: 4px;padding: 5px 0 5px 25px;margin-left: 5px;}
 .blogs.stories .bsocial{padding-top: 0;}
+.blogs.destination .description{position: relative;} 
+.blogs.destination .description p{color: #838383;margin-bottom: 20px;}
+.blogs.destination .description .more{position: absolute;right: 20px;bottom: 20px;color: #01b7f2;background: url('../img/bg_read_more.jpg') no-repeat center right;padding-right: 25px;}
+.blogs.destination .description .more:hover{text-decoration: underline;}
 
 /*THINGS*/
 .things li, .academies ul li{float: left;padding-right: 17px;margin-bottom: 20px;}
