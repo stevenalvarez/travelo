@@ -56,6 +56,7 @@
 .bborder{border-bottom: 1px solid #f5f5f5;}
 .lpadding85{padding-left: 85px;}
 .fontsize13{font-size: 13px;}
+.fontsize11{font-size: 11px;}
 .hr{border-bottom: 1px solid #f5f5f5; height: 1px;margin: 20px 0;}
 .bhr{background: url("../img/hr.png") no-repeat scroll center bottom #f5f5f5;}
 .colorblue{color: #01b7f2;}
@@ -200,11 +201,13 @@ ul.advanced_search li:hover > a, ul.advanced_search li.selected > a{background-p
 .widget .popular .result li .description .price{color: #7db921;font-size: 15px;padding-right: 5px;}
 .widget .popular .result li .description .text{text-transform: uppercase;font-size: 10px;}
 .widget .oncity h4{border-bottom: 18px solid #fdb714;padding: 20px 20px 4px 20px;margin-bottom: 0;}
-.widget .oncity .options{padding: 10px 20px;}
-.widget .oncity .options li{padding: 8px 0;border-bottom: 1px solid #f5f5f5;}
-.widget .oncity .options li a{color: #979797;display: block;text-transform: uppercase;}
-.widget .oncity .options li a:hover{color: #01b7f2;}
+.widget .oncity .options{padding: 0;}
+.widget .oncity .options li a{padding: 15px 20px;border-bottom: 1px solid #f5f5f5;color: #979797;display: block;text-transform: uppercase;}
+.widget .oncity .options li a:hover, .widget .oncity .options li a.selected{color: #fff;background: #01b7f2;}
 .widget .oncity .options li.last{border-bottom: 0;}
+.widget .oncity .related{padding: 10px 20px;}
+.widget .oncity .related li a {padding: 10px 20px 6px 25px;color: #979797;display: block;background: url('../img/bg_read_more.jpg') no-repeat center left;}
+.widget .oncity .related li a:hover{text-decoration: underline;}
 .widget .flag .box{text-align: center;padding-right: 14px;}
 .widget .flag .box img{box-shadow: 0 0 8px #000000;}
 .widget .flag .info li{padding: 4px 0;}
