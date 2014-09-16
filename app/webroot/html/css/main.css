@@ -36,6 +36,7 @@
 .cols3{width: 40%;}
 .cols2{width: 74.2%;}
 .cols2 h2{font-size: 22px;font-weight: normal;margin-bottom: 22px;}
+.forum .cols2 h2{background: url("../img/bg_h2.jpg") no-repeat scroll left bottom transparent;height: 44px;}
 .cols2 .description p{line-height: 17px;color: #000;}
 .widget{width: 23%;}
 .wrap{width: 900px;margin: 0 auto;}
@@ -61,6 +62,7 @@
 .bhr{background: url("../img/hr.png") no-repeat scroll center bottom #f5f5f5;}
 .colorblue{color: #01b7f2;}
 .uppercase{text-transform: uppercase;}
+.npost{background: url("../img/bg_check.jpg") no-repeat scroll right center #98ce44;color: #fff;padding: 10px 58px 10px 32px;text-transform: uppercase;font-family: LatoBold;display: inline-block;margin: 15px 0;}
 b.vowel{color: #01b7f2;font-size: 38px;line-height: 30px;padding-right: 4px;}
 b.vowel2{color: #01b7f2;font-size: 54px;line-height: 40px;padding-right: 5px;}
 
@@ -125,6 +127,12 @@ ul.advanced_search li:hover > a, ul.advanced_search li.selected > a{background-p
 /*slider */
 .slider .ui-widget-header{background-image:none; background-color: #01b7f2;}
 .slider .ui-state-default{background-image:none;background-color: #2d3e52;border-radius: 10px;border: 2px solid #fff;}
+
+/*pagination*/
+.paging{padding: 15px 0;}
+.paging span a{background-color: #d9d9d9;display: inline-block;margin-right: 3px;padding: 10px 12px;text-transform: uppercase;color: #fff;}
+.paging span.current, .paging span a:hover{margin-right: 3px;padding: 10px 12px;background-color: #fdb714;color: #fff;}
+.paging span.prev a:hover, .paging span.next a:hover{background-color: #98ce44;}
 
 /*social*/
 .social li{float: left;margin-right: 3px;}
@@ -809,3 +817,16 @@ ul.advanced_search li:hover > a, ul.advanced_search li.selected > a{background-p
 .refine ul li{padding: 2px;overflow: hidden;}
 .refine ul li input[type=checkbox]{padding-top: 1px;}
 .refine ul li label{padding-left: 6px;}
+
+/*FORUM*/
+table.posts{width: 100%;margin: 10px 0;}
+table.posts thead span{color: #000;font-family: LatoMedium;font-size: 14px;display: block;line-height: 24px;}
+table.posts thead .topic{width: 63%;border-bottom: 7px solid #2d3e52;}
+table.posts thead .replies{width: 7%;border-bottom: 7px solid #01b7f2;}
+table.posts thead .created{width: 20%;border-bottom: 7px solid #fdb714;}
+table.posts tbody tr.odd{background-color: #fff;padding: 10px;}
+table.posts tbody td{font-size: 13px;}
+table.posts tbody td b{color: #2d3e52;}
+table.posts tbody td .title{color: #979797;background: url("../img/bg_list_foro.png") no-repeat scroll left center transparent;margin-left: 25px;padding-left: 30px;line-height: 40px;display: block;}
+table.posts tbody td .title:hover{text-decoration:underline}
+table.posts tbody td span{text-align: center;display: block;}
