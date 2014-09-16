@@ -1,4 +1,9 @@
 <div class="widget right">
+    <form class="column dform padding20 bwhite overflow mbttom30">
+        <h3>Busqueda Experiencias</h3>
+        <input class="left" type="text" placeholder="nombre, historia o categoría" />
+        <button class="left search">Search</button>
+    </form>
     <div class="column mbttom30 bwhite oncity">
         <h4>Foros en Brighton</h4>
         <ul class="options">
