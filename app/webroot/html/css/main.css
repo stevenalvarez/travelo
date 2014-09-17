@@ -69,6 +69,18 @@ b.vowel2{color: #01b7f2;font-size: 54px;line-height: 40px;padding-right: 5px;}
 /*popup*/
 .popup-content {background: #fff;margin: 40px auto;max-width: 640px;padding: 20px 25px;position: relative;}
 .popup-content .title{margin-bottom: 15px;}
+.popup-content.new_post{border-radius: 5px;border: 6px solid #fbb514;}
+.popup-content.new_post .title{background: url("../img/bg_h2.jpg") no-repeat scroll left bottom transparent;height: 48px;font-size: 25px;font-weight: normal;}
+.popup-content.new_post label{display: block;font-size: 20px;color: #2d3e52;}
+.popup-content.new_post span.required{color: #d83e3e;}
+.popup-content.new_post span.optional{font-size: 15px;}
+.popup-content.new_post .options{position: relative;margin-bottom: 10px;}
+.popup-content.new_post input[type='text'], .popup-content.new_post textarea{width: 93.9%; background: #f5f5f5;padding: 15px 20px;margin: 10px 0;resize:none;}
+.popup-content.new_post .selector{margin-right: 20px;}
+.popup-content.new_post .selector.last{margin-right: 0;}
+.popup-content.new_post select{width: 216px !important;height: 33px !important;margin: 10px 0;}
+.popup-content.new_post span.customSelectInner {background: url("../img/bg_select_info.jpg") no-repeat scroll right center #f5f5f5;padding: 8px;width: 200px !important;font-size: 14px;margin-top: 8px;}
+.popup-content.new_post .btn{position: absolute;bottom: 0;background: url("../img/bg_check.jpg") no-repeat scroll right center #98ce44;color: #fff;text-transform: uppercase;font-family: LatoBold;display: inline-block;width: 26%;padding: 7px 45px 7px 15px;cursor: pointer;}
 
 /*help*/
 .help h5{background: url('../img/bg_phone.png') no-repeat left 8px transparent;font-size: 18px;padding-left: 22px;font-weight: normal;padding-top:5px}
@@ -819,14 +831,19 @@ ul.advanced_search li:hover > a, ul.advanced_search li.selected > a{background-p
 .refine ul li label{padding-left: 6px;}
 
 /*FORUM*/
-table.posts{width: 100%;margin: 10px 0;}
+table.posts{width: 100%;margin: 20px 0;}
 table.posts thead span{color: #000;font-family: LatoMedium;font-size: 14px;display: block;line-height: 24px;}
 table.posts thead .topic{width: 63%;border-bottom: 7px solid #2d3e52;}
 table.posts thead .replies{width: 7%;border-bottom: 7px solid #01b7f2;}
 table.posts thead .created{width: 20%;border-bottom: 7px solid #fdb714;}
 table.posts tbody tr.odd{background-color: #fff;padding: 10px;}
+table.posts tbody tr.box td{padding: 15px 20px;}
 table.posts tbody td{font-size: 13px;}
+table.posts tbody td h3 a{font-size: 25px; color: #000;margin-bottom: 5px;display: block;}
 table.posts tbody td b{color: #2d3e52;}
 table.posts tbody td .title{color: #979797;background: url("../img/bg_list_foro.png") no-repeat scroll left center transparent;margin-left: 25px;padding-left: 30px;line-height: 40px;display: block;}
-table.posts tbody td .title:hover{text-decoration:underline}
-table.posts tbody td span{text-align: center;display: block;}
+table.posts tbody td .pais{color: #000;margin-left: 25px;line-height: 40px;display: block;font-size: 20px;}
+table.posts tbody td .title:hover, table.posts tbody td .pais:hover{text-decoration:underline}
+table.posts tbody td span.center{text-align: center;display: block;}
+table.posts tbody td span.center.bold{color: #000;}
+table.posts tbody td span.time span{display: block;line-height: 24px;}

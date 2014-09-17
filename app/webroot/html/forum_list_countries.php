@@ -4,7 +4,7 @@
     	<meta http-equiv="content-type" content="text/html" />
     	<meta name="author" content="jhonny" />
         <meta name="viewport" content="width=device-width, initial-scale=1"/>
-    	<title>Forum Post</title>
+    	<title>Forum List Countries</title>
         
         <link rel="stylesheet" type="text/css" href="css/styles.css"/>
         <!-- include slider.css -->
@@ -34,80 +34,123 @@
     		<div id="content" class="page forum">
                 <div class="inner overflow">
                     <div class="cols2 left">
-                        <h2>Eres nuevo en la Comunidad? Puedes darte a conocer en este foro :) </h2>
-                        <a class="npost popup" href="#new_post">escribe un nuevo post</a>
+                        <h2>Todos nuestros foros divididos por Paises</h2>
                         <table class="posts">
                             <thead>
                                 <tr>
                                     <td class="topic">
-                                        <span>Topic</span>
+                                        <span>Pais</span>
                                     </td>
                                     <td class="replies">
-                                        <span>Replies</span>
+                                        <span>Usuarios</span>
                                     </td>
                                     <td class="created">
-                                        <span>Created</span>
+                                        <span>Temas</span>
                                     </td>
                                 </tr>
                             </thead>
                             <tbody>
-                                <?php for ($i = 1; $i <= 5; $i++) :?>
                                 <tr class="odd">
                                     <td>
-                                        <a class="title" href="#">Hola Buenas!</a>
+                                        <a class="pais" href="#">Alemania</a>
                                     </td>
                                     <td>
-                                        <span class="center">4</span>
+                                        <span class="center">432</span>
                                     </td>
-                                    <td>hace 13 horas by: <b>Gidi</b></td>
+                                    <td>54</td>
                                 </tr>
                                 <tr class="pair">
                                     <td>
-                                        <a class="title" href="#">Tengo un 20.000 € ahorrados y quiero invertir fuera de España, que me aconsejais?</a>
+                                        <a class="pais" href="#">Brasil</a>
                                     </td>
                                     <td>
-                                        <span class="center">6</span>
+                                        <span class="center">323</span>
                                     </td>
-                                    <td>hace 6 dias by: <b>Marcos del Rey</b></td>
+                                    <td>32</td>
                                 </tr>
                                 <tr class="odd">
                                     <td>
-                                        <a class="title" href="#">Alguna Comunidad española en Singapur?</a>
+                                        <a class="pais" href="#">Canada</a>
                                     </td>
                                     <td>
                                         <span class="center">12</span>
                                     </td>
-                                    <td>hace 7 dias by: <b>David Vales</b></td>
+                                    <td>12</td>
                                 </tr>
                                 <tr class="pair">
                                     <td>
-                                        <a class="title" href="#">Boston, Lincolnshire</a>
+                                        <a class="pais" href="#">Colombia</a>
                                     </td>
                                     <td>
-                                        <span class="center">4</span>
+                                        <span class="center">41</span>
                                     </td>
-                                    <td>hace 7 dias by: <b>Gidi</b></td>
+                                    <td>21</td>
                                 </tr>
-                                <?php endfor; ?>
+                                <tr class="odd">
+                                    <td>
+                                        <a class="pais" href="#">Dinamarca</a>
+                                    </td>
+                                    <td>
+                                        <span class="center">144</span>
+                                    </td>
+                                    <td>212</td>
+                                </tr>
+                                <tr class="pair">
+                                    <td>
+                                        <a class="pais" href="#">Estados Unidos</a>
+                                    </td>
+                                    <td>
+                                        <span class="center">226</span>
+                                    </td>
+                                    <td>213</td>
+                                </tr>
+                                <tr class="odd">
+                                    <td>
+                                        <a class="pais" href="#">Italia</a>
+                                    </td>
+                                    <td>
+                                        <span class="center">12</span>
+                                    </td>
+                                    <td>112</td>
+                                </tr>
+                                <tr class="pair">
+                                    <td>
+                                        <a class="pais" href="#">Japon</a>
+                                    </td>
+                                    <td>
+                                        <span class="center">1214</span>
+                                    </td>
+                                    <td>121</td>
+                                </tr>
+                                <tr class="odd">
+                                    <td>
+                                        <a class="pais" href="#">Mexico</a>
+                                    </td>
+                                    <td>
+                                        <span class="center">234</span>
+                                    </td>
+                                    <td>1212</td>
+                                </tr>
+                                <tr class="pair">
+                                    <td>
+                                        <a class="pais" href="#">Reino Unido</a>
+                                    </td>
+                                    <td>
+                                        <span class="center">126</span>
+                                    </td>
+                                    <td>331</td>
+                                </tr>
+                                <tr class="odd">
+                                    <td>
+                                        <a class="pais" href="#">Suiza</a>
+                                    </td>
+                                    <td>
+                                        <span class="center">12</span>
+                                    </td>
+                                    <td>154</td>
+                                </tr>
                             </tbody>
                         </table>
-                        <div class="paging">
-                            <span class="prev">
-                                <a href="#">previous</a>
-                            </span>
-                            <span class="current">1</span>
-                            <span><a href="#">2</a></span>
-                            <span><a href="#">3</a></span>
-                            <span><a href="#">4</a></span>
-                            <span><a href="#">5</a></span>
-                            <span><a href="#">6</a></span>
-                            <span><a href="#">7</a></span>
-                            <span><a href="#">8</a></span>
-                            <span><a href="#">9</a></span>
-                            <span class="next">
-                                <a href="#">next</a>
-                            </span>
-                        </div>
                     </div><!--.cols2-->
                     <?php include("includes/sidebar_forum.php"); ?>
                 </div><!--.inner-->
@@ -127,7 +170,6 @@
                     </ul>
                 </div>
     		</div><!--#content-->
-            <?php include("popup_new_post.php"); ?>
             <?php include("includes/footer.php"); ?>
     	</div>
     </body>

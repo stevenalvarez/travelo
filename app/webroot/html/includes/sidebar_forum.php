@@ -1,4 +1,95 @@
 <div class="widget right">
+    <?php if(isset($_GET['countries']) && $_GET['countries'] == "1"):?>
+    <div class="column mbttom30 bwhite oncity">
+        <h4>Paises</h4>
+        <ul class="options">
+            <li>
+                <a href="#" title="Belgica">
+                    <span class="title">Belgica</span>
+                    <span class="right fontsize11">72 POST</span>
+                </a>
+            </li>
+            <li>
+                <a href="#" title="Grecia">
+                    <span class="title">Grecia</span>
+                    <span class="right fontsize11">722 POST</span>
+                </a>
+            </li>
+            <li>
+                <a href="#" title="Malta">
+                    <span class="title">Malta</span>
+                    <span class="right fontsize11">122 POST</span>
+                </a>
+            </li>
+            <li>
+                <a href="#" title="Suiza">
+                    <span class="title">Suiza</span>
+                    <span class="right fontsize11">143 POST</span>
+                </a>
+            </li>
+            <li>
+                <a href="#" title="Nueva Zelanda">
+                    <span class="title">Nueva Zelanda</span>
+                    <span class="right fontsize11">120 POST</span>
+                </a>
+            </li>
+            <li>
+                <a href="#" title="Italia">
+                    <span class="title">Italia</span>
+                    <span class="right fontsize11">720 POST</span>
+                </a>
+            </li>
+            <li>
+                <a href="#" title="Holanda">
+                    <span class="title">Holanda</span>
+                    <span class="right fontsize11">740 POST</span>
+                </a>
+            </li>
+            <li>
+                <a href="#" title="Noruega">
+                    <span class="title">Noruega</span>
+                    <span class="right fontsize11">127 POST</span>
+                </a>
+            </li>
+            <li>
+                <a href="#" title="Finlandia">
+                    <span class="title">Finlandia</span>
+                    <span class="right fontsize11">230 POST</span>
+                </a>
+            </li>
+            <li>
+                <a href="#" title="Reino Unido">
+                    <span class="title">Reino Unido</span>
+                    <span class="right fontsize11">443 POST</span>
+                </a>
+            </li>
+            <li>
+                <a href="#" title="Francia">
+                    <span class="title">Francia</span>
+                    <span class="right fontsize11">433 POST</span>
+                </a>
+            </li>
+            <li>
+                <a href="#" title="Irlanda">
+                    <span class="title">Irlanda</span>
+                    <span class="right fontsize11">230 POST</span>
+                </a>
+            </li>
+            <li>
+                <a href="#" title="España">
+                    <span class="title">España</span>
+                    <span class="right fontsize11">120 POST</span>
+                </a>
+            </li>
+            <li class="last">
+                <a href="#" title="Portugal">
+                    <span class="title">Portugal</span>
+                    <span class="right fontsize11">433 POST</span>
+                </a>
+            </li>
+        </ul>
+    </div>
+    <?php else :?>
     <form class="column dform padding20 bwhite overflow mbttom30">
         <h3>Busqueda un tema</h3>
         <input class="left" type="text" placeholder="nombre, historia o categoría" />
@@ -75,6 +166,7 @@
             </li>
         </ul>
     </div>
+    <?php endif?>
     <?php if(isset($_GET['related']) && $_GET['related'] == "1"):?>
     <div class="column mbttom30 bwhite oncity">
         <h4>Temas Relacionados</h4>
