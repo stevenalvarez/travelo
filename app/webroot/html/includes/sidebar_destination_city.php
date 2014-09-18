@@ -17,7 +17,7 @@
         </ul>
     </div>
     <div class="column mbttom30 flag">
-        <div class="top">
+        <div class="top clear">
             <div class="cols left">
                 <div class="box">
                     <img src="img/flag.jpg" />
@@ -37,20 +37,8 @@
                 </ul>
             </div>
         </div>
-        <div class="bottom clear">
-            <div class="reviews">
-                <div class="stars">
-                    <span class="star selected">1</span>
-                    <span class="star selected">2</span>
-                    <span class="star selected">3</span>
-                    <span class="star selected">4</span>
-                    <span class="star">5</span>
-                </div>
-                <span>270 Reviews de expats</span>
-            </div>
-        </div>
-        <br class="clear" />
-        <a class="btn orange uppercase" href="javascript:void(0)" title="Seguir Brighton">Seguir Brighton</a>
+        <a style="display: inline-block;margin-top: 20px;" class="btn orange uppercase" href="javascript:void(0)" title="Seguir Brighton">Seguir Brighton</a>
+        <span class="experiencies">270 EXPERIENCIAS de expats</span>
     </div>
     <div class="column popular mbttom30 overflow">
         <h5>HOT  in Brighton</h5>

@@ -35,9 +35,6 @@
                 <div class="inner">
                     <div class="widget acomodation left">
                         <div class="padding20 bwhite mbttom4 overflow">
-                            <span class="results"><b>1,984</b> resultados.</span>
-                        </div>
-                        <div class="padding20 bwhite mbttom4 overflow">
                             <h4>Precio (por semana)</h4>
                             <div class="precios">
                                 <div class="slider"></div>
@@ -139,35 +136,62 @@
                                 <a title="MAS" href="javascript:void(0)" class="lmore btn green">MAS</a>
                             </div>
                         </div>
+                        <div class="padding20 bwhite mbttom4 overflow">
+                            <h4>Quieres publicar un anuncio?</h4>
+                            <p>Tienes una habitacion para alquilar, buscas alguien que entre en tu casa?
+                            <br />
+                            En solo unos pasos puedes ver tu anuncio publicado
+                            </p>
+                            <br />
+                            <a class="btn_submit" href="#">Anunciar mi alojamiento</a>
+                        </div>
                     </div><!--.widget-->
                     <div class="cols2 right results">
-                        <div class="padding20 bwhite mbttom30 overflow filtro">
-                            <div class="left">
-                                <label style="margin-right: 10px;">Encuentrame:</label>
-                                <select name="by1">
-                                    <option>Bed & Breakfast</option>
-                                </select>
-                                &nbsp;
-                                &nbsp;
-                                <span style="color: #000;font-size: 16px;">en</span>
-                                &nbsp;
-                                &nbsp;
-                                <select name="by2">
-                                    <option>Inglaterra</option>
-                                </select>
-                                &nbsp;
-                                &nbsp;
-                                <select name="by3">
-                                    <option>brighton</option>
-                                </select>
+                        <form class="filtro">
+                            <div class="padding20 bwhite mbttom30 overflow">
+                                <div class="left">
+                                    <div class="left">
+                                        <label style="margin-right: 10px;">Encuentrame:</label>
+                                        <input type="text" name="by1" placeholder="escribe aquí" />
+                                    </div>
+                                    <div class="left margin">
+                                        <span style="color: #000;font-size: 16px;">en</span>
+                                    </div>
+                                    <div class="left">
+                                        <select name="by2">
+                                            <option>Brighton</option>
+                                        </select>
+                                    </div>
+                                    <div class="left checkboxs">
+                                        <span class="option">
+                                            <input type="checkbox" checked="checked" id="op1" name="op1" />
+                                            <label for="op1" >Alquilar</label>
+                                        </span>
+                                        <span class="option">
+                                            <input type="checkbox" id="op2" name="op2" />
+                                            <label for="op2">Compartir</label>
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="right">
+                                    <input type="submit" class="btn_search" value="Buscar" style="margin-top: 2px;" />
+                                </div>
                             </div>
-                            <div class="right">
-                                <label style="margin-right: 10px;">Ordenar por:</label>
-                                <select class="fprecio" name="fprecio">
-                                    <option>precio</option>
-                                </select>
+                            <div class="padding20 bwhite mbttom30 overflow">
+                                <div class="left" style="padding: 8px 0;">
+                                    <span class="filtro_results">
+                                        <b>168</b> Resultados encontrados en <b>Brighton</b>
+                                    </span>	
+                                </div>
+                                <div class="right">
+                                    <label style="margin-right: 10px;">Ordenar por:</label>
+                                    <select class="ord" name="ord">
+                                        <option>Más reciente</option>
+                                        <option>Más antiguos</option>
+                                    </select>
+                                </div>
                             </div>
-                        </div><!--.filtro-->
+                        </form><!--.filtro-->
                         <ul class="list">
                             <li>
                                 <div class="left box">
@@ -185,7 +209,7 @@
                                             </div>
                                         </div>
                                         <div class="right price">
-                                            <span class="euro">150€</span> <span>SEMANA</span>
+                                            <span class="euro left">150€</span> <span class="week right">SEMANA</span>
                                         </div>
                                     </div>
                                     <div class="bottom overflow">
@@ -193,8 +217,9 @@
                                             <p>Nunc cursus libero purus ac congue ar lorem cursus ut sed vitae pulvinar massa idend porta nequetiam elerisque mi id, consectetur adipi deese cing elit maus fringilla bibe endum.</p>
                                         </div>
                                         <div class="right favorites">
-                                            <a href="#" class="add_favorites"><i>añadir a mis favoritos</i></a>
-                                            <span class="date">publicada hace 2 min</span>                                        
+                                            <a href="#" class="add_favorites add">&nbsp;</a>
+                                            <i class="text_add_favorites">guardada en favoritos</i>
+                                            <span class="date">publicada hace 2 min</span>
                                         </div>
                                     </div>
                                 </div>
@@ -213,15 +238,9 @@
                                                 <h5>Jhonson Hostel</h5>
                                                 <span class="location">BRIGHTON, UK</span>
                                             </div>
-                                            <div class="right have">
-                                                <span class="wifi">wifi</span>
-                                                <span class="gym">gym</span>
-                                                <span class="restaurant">restaurant</span>
-                                                <span class="tv">tv</span>
-                                            </div>
                                         </div>
                                         <div class="right price">
-                                            <span class="euro">160€</span> <span>SEMANA</span>
+                                            <span class="euro left">160€</span> <span class="week right">SEMANA</span>
                                         </div>
                                     </div>
                                     <div class="bottom overflow">
@@ -229,8 +248,9 @@
                                             <p>Nunc cursus libero purus ac congue ar lorem cursus ut sed vitae pulvinar massa idend porta nequetiam elerisque mi id, consectetur adipi deese cing elit maus fringilla bibe endum.</p>
                                         </div>
                                         <div class="right favorites">
-                                            <a href="#" class="add_favorites"><i>añadir a mis favoritos</i></a>
-                                            <span class="date">publicada hace 6 min</span>                                        
+                                            <a href="#" class="add_favorites">&nbsp;</a>
+                                            <i class="text_add_favorites">añadir a mis favoritos</i>
+                                            <span class="date">publicada hace 6 min</span>
                                         </div>
                                     </div>
                                 </div>
@@ -249,15 +269,9 @@
                                                 <h5>Gran Canaria</h5>
                                                 <span class="location">Spain</span>
                                             </div>
-                                            <div class="right have">
-                                                <span class="wifi">wifi</span>
-                                                <span class="gym">gym</span>
-                                                <span class="restaurant">restaurant</span>
-                                                <span class="tv">tv</span>
-                                            </div>
                                         </div>
                                         <div class="right price">
-                                            <span class="euro">170€</span> <span>SEMANA</span>
+                                            <span class="euro left">170€</span> <span class="week right">SEMANA</span>
                                         </div>
                                     </div>
                                     <div class="bottom overflow">
@@ -265,8 +279,9 @@
                                             <p>Nunc cursus libero purus ac congue ar lorem cursus ut sed vitae pulvinar massa idend porta nequetiam elerisque mi id, consectetur adipi deese cing elit maus fringilla bibe endum.</p>
                                         </div>
                                         <div class="right favorites">
-                                            <a href="#" class="add_favorites"><i>añadir a mis favoritos</i></a>
-                                            <span class="date">publicada hace 9 min</span>                                        
+                                            <a href="#" class="add_favorites">&nbsp;</a>
+                                            <i class="text_add_favorites">añadir a mis favoritos</i>
+                                            <span class="date">publicada hace 9 min</span>
                                         </div>
                                     </div>
                                 </div>
@@ -285,15 +300,9 @@
                                                 <h5>Roosevelt Hotel</h5>
                                                 <span class="location">New york</span>
                                             </div>
-                                            <div class="right have">
-                                                <span class="wifi">wifi</span>
-                                                <span class="gym">gym</span>
-                                                <span class="restaurant">restaurant</span>
-                                                <span class="tv">tv</span>
-                                            </div>
                                         </div>
                                         <div class="right price">
-                                            <span class="euro">178€</span> <span>SEMANA</span>
+                                            <span class="euro left">178€</span> <span class="week right">SEMANA</span>
                                         </div>
                                     </div>
                                     <div class="bottom overflow">
@@ -301,8 +310,9 @@
                                             <p>Nunc cursus libero purus ac congue ar lorem cursus ut sed vitae pulvinar massa idend porta nequetiam elerisque mi id, consectetur adipi deese cing elit maus fringilla bibe endum.</p>
                                         </div>
                                         <div class="right favorites">
-                                            <a href="#" class="add_favorites"><i>añadir a mis favoritos</i></a>
-                                            <span class="date">publicada hace 2 horas</span>                                        
+                                            <a href="#" class="add_favorites">&nbsp;</a>
+                                            <i class="text_add_favorites">añadir a mis favoritos</i>
+                                            <span class="date">publicada hace 2 horas</span>
                                         </div>
                                     </div>
                                 </div>
@@ -321,15 +331,9 @@
                                                 <h5>Costa Brava</h5>
                                                 <span class="location">Spain</span>
                                             </div>
-                                            <div class="right have">
-                                                <span class="wifi">wifi</span>
-                                                <span class="gym">gym</span>
-                                                <span class="restaurant">restaurant</span>
-                                                <span class="tv">tv</span>
-                                            </div>
                                         </div>
                                         <div class="right price">
-                                            <span class="euro">188€</span> <span>SEMANA</span>
+                                            <span class="euro left">188€</span> <span class="week right">SEMANA</span>
                                         </div>
                                     </div>
                                     <div class="bottom overflow">
@@ -337,8 +341,9 @@
                                             <p>Nunc cursus libero purus ac congue ar lorem cursus ut sed vitae pulvinar massa idend porta nequetiam elerisque mi id, consectetur adipi deese cing elit maus fringilla bibe endum.</p>
                                         </div>
                                         <div class="right favorites">
-                                            <a href="#" class="add_favorites"><i>añadir a mis favoritos</i></a>
-                                            <span class="date">publicada hace 3 horas</span>                                        
+                                            <a href="#" class="add_favorites">&nbsp;</a>
+                                            <i class="text_add_favorites">añadir a mis favoritos</i>
+                                            <span class="date">publicada hace 3 horas</span>
                                         </div>
                                     </div>
                                 </div>
@@ -357,15 +362,9 @@
                                                 <h5>Ruzzini Palace</h5>
                                                 <span class="location">Venice</span>
                                             </div>
-                                            <div class="right have">
-                                                <span class="wifi">wifi</span>
-                                                <span class="gym">gym</span>
-                                                <span class="restaurant">restaurant</span>
-                                                <span class="tv">tv</span>
-                                            </div>
                                         </div>
                                         <div class="right price">
-                                            <span class="euro">198€</span> <span>SEMANA</span>
+                                            <span class="euro left">198€</span> <span class="week right">SEMANA</span>
                                         </div>
                                     </div>
                                     <div class="bottom overflow">
@@ -373,8 +372,9 @@
                                             <p>Nunc cursus libero purus ac congue ar lorem cursus ut sed vitae pulvinar massa idend porta nequetiam elerisque mi id, consectetur adipi deese cing elit maus fringilla bibe endum.</p>
                                         </div>
                                         <div class="right favorites">
-                                            <a href="#" class="add_favorites"><i>añadir a mis favoritos</i></a>
-                                            <span class="date">publicada hace 3 horas</span>                                        
+                                            <a href="#" class="add_favorites">&nbsp;</a>
+                                            <i class="text_add_favorites">añadir a mis favoritos</i>
+                                            <span class="date">publicada hace 3 horas</span>
                                         </div>
                                     </div>
                                 </div>
@@ -393,15 +393,9 @@
                                                 <h5>Plaza Tour Eiffel</h5>
                                                 <span class="location">paris</span>
                                             </div>
-                                            <div class="right have">
-                                                <span class="wifi">wifi</span>
-                                                <span class="gym">gym</span>
-                                                <span class="restaurant">restaurant</span>
-                                                <span class="tv">tv</span>
-                                            </div>
                                         </div>
                                         <div class="right price">
-                                            <span class="euro">200€</span> <span>SEMANA</span>
+                                            <span class="euro left">200€</span> <span class="week right">SEMANA</span>
                                         </div>
                                     </div>
                                     <div class="bottom overflow">
@@ -409,8 +403,9 @@
                                             <p>Nunc cursus libero purus ac congue ar lorem cursus ut sed vitae pulvinar massa idend porta nequetiam elerisque mi id, consectetur adipi deese cing elit maus fringilla bibe endum.</p>
                                         </div>
                                         <div class="right favorites">
-                                            <a href="#" class="add_favorites"><i>añadir a mis favoritos</i></a>
-                                            <span class="date">publicada hace 10 horas</span>                                        
+                                            <a href="#" class="add_favorites">&nbsp;</a>
+                                            <i class="text_add_favorites">añadir a mis favoritos</i>
+                                            <span class="date">publicada hace 10 horas</span>
                                         </div>
                                     </div>
                                 </div>
@@ -429,15 +424,9 @@
                                                 <h5>Le Ville Del Lido</h5>
                                                 <span class="location">Venice Lido</span>
                                             </div>
-                                            <div class="right have">
-                                                <span class="wifi">wifi</span>
-                                                <span class="gym">gym</span>
-                                                <span class="restaurant">restaurant</span>
-                                                <span class="tv">tv</span>
-                                            </div>
                                         </div>
                                         <div class="right price">
-                                            <span class="euro">210€</span> <span>SEMANA</span>
+                                            <span class="euro left">210€</span> <span class="week right">SEMANA</span>
                                         </div>
                                     </div>
                                     <div class="bottom overflow">
@@ -445,8 +434,9 @@
                                             <p>Nunc cursus libero purus ac congue ar lorem cursus ut sed vitae pulvinar massa idend porta nequetiam elerisque mi id, consectetur adipi deese cing elit maus fringilla bibe endum.</p>
                                         </div>
                                         <div class="right favorites">
-                                            <a href="#" class="add_favorites"><i>añadir a mis favoritos</i></a>
-                                            <span class="date">publicada hace 11 horas</span>                                        
+                                            <a href="#" class="add_favorites">&nbsp;</a>
+                                            <i class="text_add_favorites">añadir a mis favoritos</i>
+                                            <span class="date">publicada hace 11 horas</span>
                                         </div>
                                     </div>
                                 </div>
@@ -465,15 +455,9 @@
                                                 <h5>Park Central</h5>
                                                 <span class="location">New York</span>
                                             </div>
-                                            <div class="right have">
-                                                <span class="wifi">wifi</span>
-                                                <span class="gym">gym</span>
-                                                <span class="restaurant">restaurant</span>
-                                                <span class="tv">tv</span>
-                                            </div>
                                         </div>
                                         <div class="right price">
-                                            <span class="euro">220€</span> <span>SEMANA</span>
+                                            <span class="euro left">220€</span> <span class="week right">SEMANA</span>
                                         </div>
                                     </div>
                                     <div class="bottom overflow">
@@ -481,8 +465,9 @@
                                             <p>Nunc cursus libero purus ac congue ar lorem cursus ut sed vitae pulvinar massa idend porta nequetiam elerisque mi id, consectetur adipi deese cing elit maus fringilla bibe endum.</p>
                                         </div>
                                         <div class="right favorites">
-                                            <a href="#" class="add_favorites"><i>añadir a mis favoritos</i></a>
-                                            <span class="date">publicada hace 13 horas</span>                                        
+                                            <a href="#" class="add_favorites">&nbsp;</a>
+                                            <i class="text_add_favorites">añadir a mis favoritos</i>
+                                            <span class="date">publicada hace 13 horas</span>
                                         </div>
                                     </div>
                                 </div>
@@ -501,15 +486,9 @@
                                                 <h5>Cleopatra Resort</h5>
                                                 <span class="location">England</span>
                                             </div>
-                                            <div class="right have">
-                                                <span class="wifi">wifi</span>
-                                                <span class="gym">gym</span>
-                                                <span class="restaurant">restaurant</span>
-                                                <span class="tv">tv</span>
-                                            </div>
                                         </div>
                                         <div class="right price">
-                                            <span class="euro">230€</span> <span>SEMANA</span>
+                                            <span class="euro left">230€</span> <span class="week right">SEMANA</span>
                                         </div>
                                     </div>
                                     <div class="bottom overflow">
@@ -517,8 +496,9 @@
                                             <p>Nunc cursus libero purus ac congue ar lorem cursus ut sed vitae pulvinar massa idend porta nequetiam elerisque mi id, consectetur adipi deese cing elit maus fringilla bibe endum.</p>
                                         </div>
                                         <div class="right favorites">
-                                            <a href="#" class="add_favorites"><i>añadir a mis favoritos</i></a>
-                                            <span class="date">publicada hace 15 horas</span>                                        
+                                            <a href="#" class="add_favorites">&nbsp;</a>
+                                            <i class="text_add_favorites">añadir a mis favoritos</i>
+                                            <span class="date">publicada hace 15 horas</span>
                                         </div>
                                     </div>
                                 </div>
@@ -537,15 +517,9 @@
                                                 <h5>Plaza Tour Eiffel</h5>
                                                 <span class="location">paris</span>
                                             </div>
-                                            <div class="right have">
-                                                <span class="wifi">wifi</span>
-                                                <span class="gym">gym</span>
-                                                <span class="restaurant">restaurant</span>
-                                                <span class="tv">tv</span>
-                                            </div>
                                         </div>
                                         <div class="right price">
-                                            <span class="euro">240€</span> <span>SEMANA</span>
+                                            <span class="euro left">240€</span> <span class="week right">SEMANA</span>
                                         </div>
                                     </div>
                                     <div class="bottom overflow">
@@ -553,8 +527,9 @@
                                             <p>Nunc cursus libero purus ac congue ar lorem cursus ut sed vitae pulvinar massa idend porta nequetiam elerisque mi id, consectetur adipi deese cing elit maus fringilla bibe endum.</p>
                                         </div>
                                         <div class="right favorites">
-                                            <a href="#" class="add_favorites"><i>añadir a mis favoritos</i></a>
-                                            <span class="date">publicada hace 20 horas</span>                                        
+                                            <a href="#" class="add_favorites">&nbsp;</a>
+                                            <i class="text_add_favorites">añadir a mis favoritos</i>
+                                            <span class="date">publicada hace 20 horas</span>
                                         </div>
                                     </div>
                                 </div>

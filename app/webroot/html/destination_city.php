@@ -113,6 +113,41 @@
                             <li>
                                 <div class="details overflow bwhite">
                                     <div class="left padding20 box">
+                                        <img src="img/stories6.jpg"/>
+                                        <h3>Jessica Brown</h3>
+                                    </div>
+                                    <div class="right padding20 descripcion">
+                                        <h4>Mi nueva vida en London, parte 1</h4>
+                                        <div class="box">
+                                            <a href="#">
+                                                <img class="imagen" src="img/destination1.jpg" />
+                                                <img class="hover" src="img/dhover.png" />
+                                            </a>
+                                        </div>
+                                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's stand dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type</p>
+                                    </div>
+                                </div>
+                                <div class="bsocial padding10 bwhite overflow">
+                                    <div class="reviews">
+                                        <div class="left">
+                                            <span class="have_comments">
+                                                <span class="bold">3 Comentarios</span>
+                                            </span>
+                                        </div>
+                                        <ul class="right">
+                                            <li>
+                                                <a class="likes" href="#"> 22 likes</a>
+                                            </li>
+                                            <li class="last">
+                                                <a class="date" href="#"> 11 NOV 2013</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </li>                            
+                            <li>
+                                <div class="details overflow bwhite">
+                                    <div class="left padding20 box">
                                         <img src="img/stories4.jpg"/>
                                         <h3>David Jackson</h3>
                                     </div>

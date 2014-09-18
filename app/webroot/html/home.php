@@ -104,27 +104,28 @@
                                 </div>
                                 <div class="items">
                                     <div class="item line">
-                                        <h5 class="left">Brighton</h5>
-                                        <span class="right country">England</span>
-                                    </div>
-                                    <div class="item line">
                                         <div class="left">
-                                            <span class="star selected">1</span>
-                                            <span class="star selected">2</span>
-                                            <span class="star selected">3</span>
-                                            <span class="star selected">4</span>
-                                            <span class="star">5</span>
+                                            <h5>Brighton</h5>
+                                            <span class="uppercase fontsize11">England</span>
                                         </div>
-                                        <div class="right">
-                                            <span class="reviews">270 REVIEWS</span>
-                                        </div>
+                                        <span class="right country">270 Experiencias</span>
                                     </div>
                                     <div class="item">
                                         <p>Nunc cursus libero purus ac congue arcu cursus ut sed vitae pulvinar massa idporta nequetiam.</p>
                                     </div>
-                                    <div class="item">
-                                        <a class="bselect left btn green" href="#">SELECCIONA</a>
-                                        <a class="bmap right btn orange" href="#">VER EN MAPA</a>
+                                    <div class="item like textalign">
+                                        <a href="#" title="22 likes">22 likes</a>
+                                    </div>
+                                    <div class="item line uploaded">
+                                        <div class="left by">
+                                            <span><i>Subido por:</i> <b>Jessica Brown</b></span>
+                                        </div>
+                                        <div class="right">
+                                            <img src="img/guest1.jpg"/>
+                                        </div>
+                                    </div>
+                                    <div class="item textalign">
+                                        <a class="btn green go" href="#">IR A LA CIUDAD</a>
                                     </div>
                                 </div>
                             </li>
@@ -137,27 +138,28 @@
                                 </div>
                                 <div class="items">
                                     <div class="item line">
-                                        <h5 class="left">London</h5>
-                                        <span class="right country">England</span>
-                                    </div>
-                                    <div class="item line">
                                         <div class="left">
-                                            <span class="star selected">1</span>
-                                            <span class="star selected">2</span>
-                                            <span class="star selected">3</span>
-                                            <span class="star selected">4</span>
-                                            <span class="star">5</span>
+                                            <h5>London</h5>
+                                            <span class="uppercase fontsize11">England</span>
                                         </div>
-                                        <div class="right">
-                                            <span class="reviews">270 REVIEWS</span>
-                                        </div>
+                                        <span class="right country">200 Experiencias</span>
                                     </div>
                                     <div class="item">
                                         <p>Nunc cursus libero purus ac congue arcu cursus ut sed vitae pulvinar massa idporta nequetiam.</p>
                                     </div>
-                                    <div class="item">
-                                        <a class="bselect left btn green" href="#">SELECCIONA</a>
-                                        <a class="bmap right btn orange" href="#">VER EN MAPA</a>
+                                    <div class="item like textalign">
+                                        <a href="#" title="26 likes">26 likes</a>
+                                    </div>
+                                    <div class="item line uploaded">
+                                        <div class="left by">
+                                            <span><i>Subido por:</i> <b>Jessica Brown</b></span>
+                                        </div>
+                                        <div class="right">
+                                            <img src="img/guest1.jpg"/>
+                                        </div>
+                                    </div>
+                                    <div class="item textalign">
+                                        <a class="btn green go" href="#">IR A LA CIUDAD</a>
                                     </div>
                                 </div>
                             </li>
@@ -170,27 +172,28 @@
                                 </div>
                                 <div class="items">
                                     <div class="item line">
-                                        <h5 class="left">Paris</h5>
-                                        <span class="right country">France</span>
-                                    </div>
-                                    <div class="item line">
                                         <div class="left">
-                                            <span class="star selected">1</span>
-                                            <span class="star selected">2</span>
-                                            <span class="star selected">3</span>
-                                            <span class="star selected">4</span>
-                                            <span class="star">5</span>
+                                            <h5>Paris</h5>
+                                            <span class="uppercase fontsize11">Francia</span>
                                         </div>
-                                        <div class="right">
-                                            <span class="reviews">270 REVIEWS</span>
-                                        </div>
+                                        <span class="right country">180 Experiencias</span>
                                     </div>
                                     <div class="item">
                                         <p>Nunc cursus libero purus ac congue arcu cursus ut sed vitae pulvinar massa idporta nequetiam.</p>
                                     </div>
-                                    <div class="item">
-                                        <a class="bselect left btn green" href="#">SELECCIONA</a>
-                                        <a class="bmap right btn orange" href="#">VER EN MAPA</a>
+                                    <div class="item like textalign">
+                                        <a href="#" title="16 likes">16 likes</a>
+                                    </div>
+                                    <div class="item line uploaded">
+                                        <div class="left by">
+                                            <span><i>Subido por:</i> <b>Jessica Brown</b></span>
+                                        </div>
+                                        <div class="right">
+                                            <img src="img/guest1.jpg"/>
+                                        </div>
+                                    </div>
+                                    <div class="item textalign">
+                                        <a class="btn green go" href="#">IR A LA CIUDAD</a>
                                     </div>
                                 </div>
                             </li>
@@ -203,27 +206,28 @@
                                 </div>
                                 <div class="items">
                                     <div class="item line">
-                                        <h5 class="left">Malta</h5>
-                                        <span class="right country">Malta</span>
-                                    </div>
-                                    <div class="item line">
                                         <div class="left">
-                                            <span class="star selected">1</span>
-                                            <span class="star selected">2</span>
-                                            <span class="star selected">3</span>
-                                            <span class="star selected">4</span>
-                                            <span class="star">5</span>
+                                            <h5>Malta</h5>
+                                            <span class="uppercase fontsize11">Malta</span>
                                         </div>
-                                        <div class="right">
-                                            <span class="reviews">270 REVIEWS</span>
-                                        </div>
+                                        <span class="right country">150 Experiencias</span>
                                     </div>
                                     <div class="item">
                                         <p>Nunc cursus libero purus ac congue arcu cursus ut sed vitae pulvinar massa idporta nequetiam.</p>
                                     </div>
-                                    <div class="item">
-                                        <a class="bselect left btn green" href="#">SELECCIONA</a>
-                                        <a class="bmap right btn orange" href="#">VER EN MAPA</a>
+                                    <div class="item like textalign">
+                                        <a href="#" title="12 likes">12 likes</a>
+                                    </div>
+                                    <div class="item line uploaded">
+                                        <div class="left by">
+                                            <span><i>Subido por:</i> <b>Jessica Brown</b></span>
+                                        </div>
+                                        <div class="right">
+                                            <img src="img/guest1.jpg"/>
+                                        </div>
+                                    </div>
+                                    <div class="item textalign">
+                                        <a class="btn green go" href="#">IR A LA CIUDAD</a>
                                     </div>
                                 </div>
                             </li>
@@ -236,27 +240,28 @@
                                 </div>
                                 <div class="items">
                                     <div class="item line">
-                                        <h5 class="left">Madrid</h5>
-                                        <span class="right country">Espa&ntilde;a</span>
-                                    </div>
-                                    <div class="item line">
                                         <div class="left">
-                                            <span class="star selected">1</span>
-                                            <span class="star selected">2</span>
-                                            <span class="star selected">3</span>
-                                            <span class="star selected">4</span>
-                                            <span class="star">5</span>
+                                            <h5>Madrid</h5>
+                                            <span class="uppercase fontsize11">Espa&ntilde;a</span>
                                         </div>
-                                        <div class="right">
-                                            <span class="reviews">270 REVIEWS</span>
-                                        </div>
+                                        <span class="right country">100 Experiencias</span>
                                     </div>
                                     <div class="item">
                                         <p>Nunc cursus libero purus ac congue arcu cursus ut sed vitae pulvinar massa idporta nequetiam.</p>
                                     </div>
-                                    <div class="item">
-                                        <a class="bselect left btn green" href="#">SELECCIONA</a>
-                                        <a class="bmap right btn orange" href="#">VER EN MAPA</a>
+                                    <div class="item like textalign">
+                                        <a href="#" title="5 likes">5 likes</a>
+                                    </div>
+                                    <div class="item line uploaded">
+                                        <div class="left by">
+                                            <span><i>Subido por:</i> <b>Jessica Brown</b></span>
+                                        </div>
+                                        <div class="right">
+                                            <img src="img/guest1.jpg"/>
+                                        </div>
+                                    </div>
+                                    <div class="item textalign">
+                                        <a class="btn green go" href="#">IR A LA CIUDAD</a>
                                     </div>
                                 </div>
                             </li>
@@ -269,27 +274,28 @@
                                 </div>
                                 <div class="items">
                                     <div class="item line">
-                                        <h5 class="left">Barcelona</h5>
-                                        <span class="right country">Espa&ntilde;a</span>
-                                    </div>
-                                    <div class="item line">
                                         <div class="left">
-                                            <span class="star selected">1</span>
-                                            <span class="star selected">2</span>
-                                            <span class="star selected">3</span>
-                                            <span class="star selected">4</span>
-                                            <span class="star">5</span>
+                                            <h5>Barcelona</h5>
+                                            <span class="uppercase fontsize11">Espa&ntilde;a</span>
                                         </div>
-                                        <div class="right">
-                                            <span class="reviews">270 REVIEWS</span>
-                                        </div>
+                                        <span class="right country">50 Experiencias</span>
                                     </div>
                                     <div class="item">
                                         <p>Nunc cursus libero purus ac congue arcu cursus ut sed vitae pulvinar massa idporta nequetiam.</p>
                                     </div>
-                                    <div class="item">
-                                        <a class="bselect left btn green" href="#">SELECCIONA</a>
-                                        <a class="bmap right btn orange" href="#">VER EN MAPA</a>
+                                    <div class="item like textalign">
+                                        <a href="#" title="45 likes">45 likes</a>
+                                    </div>
+                                    <div class="item line uploaded">
+                                        <div class="left by">
+                                            <span><i>Subido por:</i> <b>Jessica Brown</b></span>
+                                        </div>
+                                        <div class="right">
+                                            <img src="img/guest1.jpg"/>
+                                        </div>
+                                    </div>
+                                    <div class="item textalign">
+                                        <a class="btn green go" href="#">IR A LA CIUDAD</a>
                                     </div>
                                 </div>
                             </li>
