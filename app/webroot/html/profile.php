@@ -51,6 +51,16 @@
                                 </a>
                             </li>
                             <li>
+                                <a href="javascript:void(0)" lang="subir_alojamiento" title="Subir Alojamiento y/o Oferta Trabajo">
+                                    <span class="item subir_alojamiento">Subir Alojamiento <br /> Oferta Trabajo</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="javascript:void(0)" lang="foro_expats" title="Foro Expats">
+                                    <span class="item foro_expats">Foro Expats</span>
+                                </a>
+                            </li>
+                            <li>
                                 <a href="javascript:void(0)" lang="travel_stories" title="Travel Stories Video & Photo">
                                     <span class="item travel_stories">Travel Stories <br /> Video & Photo</span>
                                 </a>
@@ -65,7 +75,7 @@
                     <div class="perfil contact padding20 bwhite left">
                         <div id="principal" class="section">
                             <h2 style="margin-bottom: 5px;">Hi Jessica, Bienvenido a Expats!</h2>
-                            <span class="fontsize13">All your trips booked with us will appear here and you’ll be able to manage everything!</span>
+                            <span class="fontsize13">Desde aqui podras manejar todo tu perfil y consultar todo lo relacionado con tu admin</span>
                             <div class="reviews clear">
                                 <ul>
                                     <li class="alojamientos">
@@ -108,92 +118,108 @@
                             </div><!--.reviews-->
                             <div class="help padding20">
                                 <a class="close right" href="javascript:void(0)">X</a>
-                                <p>Este es tu panel de gestion, desde aqui podrias hacer un seguimiento de tus alojamientos, ofertas de trabajo o escuelas de ingles entre otras cosas.  Ademas podrias seguir las experciencias de otros Expats siguiendo sus notificaciones.!</p>
+                                <p class="fontsize13">Este es tu panel de gestion, desde aqui podrias hacer un seguimiento de tus alojamientos, ofertas de trabajo o escuelas de ingles entre otras cosas.  Ademas podrias seguir las experciencias de otros Expats siguiendo sus notificaciones.!</p>
                                 <br />
-                                <span><a style="color: #01b7f2;" href="javascript:void(0)">Necesitas ayuda?</a> — Ve nuestras seccion de FAQ para resolver cualqiuer duda que puedas tener</span>
+                                <span><a style="color: #01b7f2;" href="javascript:void(0)">Necesitas ayuda?</a> — Ve nuestras seccion de <b>FAQ</b> para resolver cualqiuer duda que puedas tener</span>
                             </div><!--.help-->
                             <div class="notificaciones tppadding20 overflow" style="padding-bottom: 20px;">
                                 <h3>Notificaciones</h3>
                                 <ul>
                                     <li>
-                                        <a href="#">
-                                            <span class="color yellow">&nbsp;</span>
-                                            <span class="item">
-                                                <span class="title">Que hacer en Brighton un lunes?</span>
-                                                <span class="costo">&nbsp;</span>
-                                                <span class="date right">just now</span>
-                                            </span>
-                                        </a>
+                                        <div class="colors yellow left">&nbsp;</div>
+                                        <div class="info left">
+                                            <div class="details">
+                                                <div class="top">
+                                                    <a class="left" href="#">Que hacer en Brighton un lunes?</a>
+                                                    <span class="right">just now</span>
+                                                </div>
+                                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam et neque vitae neque consectetur tristique.</p>
+                                            </div>
+                                        </div>
                                     </li>
                                     <li>
-                                        <a href="#">
-                                            <span class="color blue">&nbsp;</span>
-                                            <span class="item">
-                                                <span class="title">Alojamiento en Brighton centro</span>
-                                                <span class="costo">&nbsp;</span>
-                                                <span class="date right">10 Mins ago</span>
-                                            </span>
-                                        </a>
+                                        <div class="colors blue left">&nbsp;</div>
+                                        <div class="info left">
+                                            <div class="details">
+                                                <div class="top">
+                                                    <a class="left" href="#">Alojamiento en Brighton centro</a>
+                                                    <span class="right">10 Mins ago</span>
+                                                </div>
+                                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam et neque vitae neque consectetur tristique.</p>
+                                            </div>
+                                        </div>
                                     </li>
                                     <li>
-                                        <a href="#">
-                                            <span class="color red">&nbsp;</span>
-                                            <span class="item">
-                                                <span class="title">Malta EC 3 meses por</span>
-                                                <span class="costo">$390</span>
-                                                <span class="date right">39 Mins ago</span>
-                                            </span>
-                                        </a>
+                                        <div class="colors red left">&nbsp;</div>
+                                        <div class="info left">
+                                            <div class="details">
+                                                <div class="top">
+                                                    <a class="left" href="#">Malta EC 3 meses por</a>
+                                                    <span class="right">39 Mins ago</span>
+                                                </div>
+                                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam et neque vitae neque consectetur tristique.</p>
+                                            </div>
+                                        </div>
                                     </li>
                                     <li>
-                                        <a href="#">
-                                            <span class="color green">&nbsp;</span>
-                                            <span class="item">
-                                                <span class="title">Software developer</span>
-                                                <span class="costo">&nbsp;</span>
-                                                <span class="date right">1 hour ago</span>
-                                            </span>
-                                        </a>
+                                        <div class="colors green left">&nbsp;</div>
+                                        <div class="info left">
+                                            <div class="details">
+                                                <div class="top">
+                                                    <a class="left" href="#">Software developer</a>
+                                                    <span class="right">1 hour ago</span>
+                                                </div>
+                                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam et neque vitae neque consectetur tristique.</p>
+                                            </div>
+                                        </div>
                                     </li>
                                     <li>
-                                        <a href="#">
-                                            <span class="color blue">&nbsp;</span>
-                                            <span class="item">
-                                                <span class="title">Roosevelt hotel in</span>
-                                                <span class="costo">$170</span>
-                                                <span class="date right">2 hour ago</span>
-                                            </span>
-                                        </a>
+                                        <div class="colors blue left">&nbsp;</div>
+                                        <div class="info left">
+                                            <div class="details">
+                                                <div class="top">
+                                                    <a class="left" href="#">Roosevelt hotel in</a>
+                                                    <span class="right">2 hour ago</span>
+                                                </div>
+                                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam et neque vitae neque consectetur tristique.</p>
+                                            </div>
+                                        </div>
                                     </li>
                                     <li>
-                                        <a href="#">
-                                            <span class="color blue">&nbsp;</span>
-                                            <span class="item">
-                                                <span class="title">Room Hove center</span>
-                                                <span class="costo">$247</span>
-                                                <span class="date right">3 hour ago</span>
-                                            </span>
-                                        </a>
+                                        <div class="colors blue left">&nbsp;</div>
+                                        <div class="info left">
+                                            <div class="details">
+                                                <div class="top">
+                                                    <a class="left" href="#">Room Hove center</a>
+                                                    <span class="right">3 hour ago</span>
+                                                </div>
+                                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam et neque vitae neque consectetur tristique.</p>
+                                            </div>
+                                        </div>
                                     </li>
                                     <li>
-                                        <a href="#">
-                                            <span class="color red">&nbsp;</span>
-                                            <span class="item">
-                                                <span class="title">EC oferta de verai</span>
-                                                <span class="costo">$48.99</span>
-                                                <span class="date right">3 hour ago</span>
-                                            </span>
-                                        </a>
+                                        <div class="colors blue left">&nbsp;</div>
+                                        <div class="info left">
+                                            <div class="details">
+                                                <div class="top">
+                                                    <a class="left" href="#">EC oferta de verai</a>
+                                                    <span class="right">3 hour ago</span>
+                                                </div>
+                                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam et neque vitae neque consectetur tristique.</p>
+                                            </div>
+                                        </div>
                                     </li>
                                     <li>
-                                        <a href="#">
-                                            <span class="color green">&nbsp;</span>
-                                            <span class="item">
-                                                <span class="title">Waiter in Brighton</span>
-                                                <span class="costo">&nbsp;</span>
-                                                <span class="date right">last night</span>
-                                            </span>
-                                        </a>
+                                        <div class="colors green left">&nbsp;</div>
+                                        <div class="info left">
+                                            <div class="details">
+                                                <div class="top">
+                                                    <a class="left" href="#">Waiter in Brighton</a>
+                                                    <span class="right">last night</span>
+                                                </div>
+                                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam et neque vitae neque consectetur tristique.</p>
+                                            </div>
+                                        </div>
                                     </li>
                                 </ul>
                                 <a class="load_more btn green" href="javascript:void(0)" style="margin: 25px 0;font-size: 14px;">Ver M&aacute;s Notificaciones</a>
@@ -221,7 +247,7 @@
                                 <div class="info overflow">
                                     <div class="left imagen">
                                         <div class="box">
-                                            <img src="img/default_blue.png"/>
+                                            <img src="img/perfil.jpg"/>
                                         </div>
                                     </div>
                                     <div class="right data">
@@ -238,9 +264,35 @@
                                     </div>
                                 </div>
                                 <div class="hr">&nbsp;</div>
-                                <div class="about_me overflow">
+                                <div class="about_me overflow mbttom20">
                                     <h3>Sobre mi</h3>
                                     <p class="fontsize13">Vestibulum tristique, justo eu sollicitudin sagittis, metus dolor eleifend urna, quis scelerisque purus quam nec ligula. Suspendisse iaculis odio odio, ac vehicula nisi faucibus eu. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse posuere semper sem ac aliquet. Duis vel bibendum tellus, eu hendrerit sapien. Proin fringilla, enim vel lobortis viverra, augue orci fringilla diam, sed cursus elit mi vel lacus. Nulla facilisi. Fusce sagittis, magna non vehicula gravida, ante arcu pulvinar arcu, aliquet luctus arcu purus sit amet sem. Mauris blandit odio sed nisi porttitor egestas. Mauris in quam interdum purus vehicula rutrum quis in sem. Integer interdum lectus at nulla dictum luctus. Sed risus felis, posuere id condimentum non, egestas pulvinar enim. Praesent pretium risus eget nisi ullamcorper fermentum. Duis lacinia nisi ac rhoncus vestibulum.</p>
+                                </div>
+                                <div class="hr">&nbsp;</div>
+                                <div class="beneficios overflow" style="padding: 15px 0;">
+                                    <h3>Tus estadisticas</h3>
+                                    <ul class="selections list left">
+                                        <li>
+                                            <span class="title fontsize13 left">Miembo desde:</span>
+                                            <span class="right">21 Septiembre de 2012</span>
+                                        </li>
+                                        <li>
+                                            <span class="title fontsize13 left">Ultimo acceso:</span>
+                                            <span class="right">21 Agosto de 2014</span>
+                                        </li>
+                                        <li>
+                                            <span class="title fontsize13 left">Nº de Post enviados:</span>
+                                            <span class="right">11</span>
+                                        </li>
+                                        <li>
+                                            <span class="title fontsize13 left">Nº de Experiencias:</span>
+                                            <span class="right">2</span>
+                                        </li>
+                                        <li>
+                                            <span class="title fontsize13 left">Nº de Comentarios:</span>
+                                            <span class="right">3</span>
+                                        </li>
+                                    </ul>
                                 </div>
                             </div>
                             <form class="profile_edit">
@@ -337,7 +389,7 @@
                                     </tbody>
                                 </table>
                                 
-                                <table>
+                                <table class="perfil">
                                     <tbody>
                                         <tr>
                                             <td colspan="2">
@@ -350,11 +402,16 @@
                                                      <!--<label for="file">File: </label>--> 
                                                     <input type="file" id="file" name="foto" />
                                                 </div>
-                                                <br />
-                                                <br />
-                                                <br />
-                                                <br />
+                                                <div class="right picture">
+                                                    <img src="img/perfil.jpg" />
+                                                </div>
                                             </td>
+                                        </tr>
+                                        <tr>
+                                            <td>&nbsp;</td>
+                                        </tr>
+                                        <tr>
+                                            <td>&nbsp;</td>
                                         </tr>
                                     </tbody>
                                 </table>
@@ -377,153 +434,420 @@
                             </form>
                         </div><!--#perfil-->
                         <div id="favoritos" class="section">
-                            <h3>Tu Lista de Favoritos</h3>
-                            <div class="help padding20">
+                            <h3>Tus aportaciones al Foro Expats</h3>
+                            <div class="help padding20 mbttom40">
                                 <a class="close right" href="javascript:void(0)">X</a>
-                                <p>Este es es el apartado de tus Favoritos, asegurate de no perder ningún trabajo, habitación  o experiecia haciendo click en "me gusta" en su apartado correspondiente de cada sección</p>
+                                <p class="fontsize13">Este es es el apartado de tus Favoritos, asegurate de no perder ningún trabajo, habitación  o experiecia haciendo click en “me gusta” en su apartado correspondiente de cada sección
+                                <br /> 
+                                Además tienes acceso a las búsquedas guardadas en <b>alojamiento</b> y <b>trabajo</b>
+                                </p>
                                 <br />
-                                <span><a style="color: #01b7f2;" href="javascript:void(0)">Necesitas ayuda?</a> — Ve nuestras seccion de FAQ para resolver cualqiuer duda que puedas tener</span>
+                                <span><a style="color: #01b7f2;" href="javascript:void(0)">Necesitas ayuda?</a> — Ve nuestras seccion de <b>FAQ</b> para resolver cualqiuer duda que puedas tener</span>
                             </div><!--.help-->
-                            <br />
-                            <br />
-                            <ul class="fitems">
-                                <li>
-                                    <h5>
-                                        <span class="green">TRABAJO</span>
-                                    </h5>
-                                    <div class="box">
-                                        <a href="#">
-                                            <img src="img/default_blue.png"/>
-                                            <img src="img/phover.png" class="hover"/>
-                                        </a>
-                                    </div>
-                                    <div class="details padding20 bgray overflow">
-                                        <span class="title left">Waiter in Brighton</span>
-                                        <a class="btn gray right" href="#">SELECT</a>
-                                    </div>
-                                </li>
-                                <li>
-                                    <h5>
-                                        <span class="yellow">EXPERIENCIAS</span>
-                                    </h5>
-                                    <div class="box">
-                                        <a href="#">
-                                            <img src="img/default_blue.png"/>
-                                            <img src="img/phover.png" class="hover"/>
-                                        </a>
-                                    </div>
-                                    <div class="details padding20 bgray overflow">
-                                        <span class="title left">Hotel Hilton</span>
-                                        <a class="btn gray right" href="#">SELECT</a>
-                                    </div>
-                                </li>
-                                <li class="last">
-                                    <h5>
-                                        <span class="red">ESCUELAS DE IDIOMAS</span>
-                                    </h5>
-                                    <div class="box">
-                                        <a href="#">
-                                            <img src="img/default_blue.png"/>
-                                            <img src="img/phover.png" class="hover"/>
-                                        </a>
-                                    </div>
-                                    <div class="details padding20 bgray overflow">
-                                        <span class="title left">ISE Brighton</span>
-                                        <a class="btn gray right" href="#">SELECT</a>
-                                    </div>
-                                </li>
-                                <li>
-                                    <h5>
-                                        <span class="green">TRABAJO</span>
-                                    </h5>
-                                    <div class="box">
-                                        <a href="#">
-                                            <img src="img/default_blue.png"/>
-                                            <img src="img/phover.png" class="hover"/>
-                                        </a>
-                                    </div>
-                                    <div class="details padding20 bgray overflow">
-                                        <span class="title left">Waiter in Brighton</span>
-                                        <a class="btn gray right" href="#">SELECT</a>
-                                    </div>
-                                </li>
-                                <li>
-                                    <h5>
-                                        <span class="yellow">EXPERIENCIAS</span>
-                                    </h5>
-                                    <div class="box">
-                                        <a href="#">
-                                            <img src="img/default_blue.png"/>
-                                            <img src="img/phover.png" class="hover"/>
-                                        </a>
-                                    </div>
-                                    <div class="details padding20 bgray overflow">
-                                        <span class="title left">Hotel Hilton</span>
-                                        <a class="btn gray right" href="#">SELECT</a>
-                                    </div>
-                                </li>
-                                <li class="last">
-                                    <h5>
-                                        <span class="red">ESCUELAS DE IDIOMAS</span>
-                                    </h5>
-                                    <div class="box">
-                                        <a href="#">
-                                            <img src="img/default_blue.png"/>
-                                            <img src="img/phover.png" class="hover"/>
-                                        </a>
-                                    </div>
-                                    <div class="details padding20 bgray overflow">
-                                        <span class="title left">ISE Brighton</span>
-                                        <a class="btn gray right" href="#">SELECT</a>
-                                    </div>
-                                </li>
-                                <li>
-                                    <h5>
-                                        <span class="green">TRABAJO</span>
-                                    </h5>
-                                    <div class="box">
-                                        <a href="#">
-                                            <img src="img/default_blue.png"/>
-                                            <img src="img/phover.png" class="hover"/>
-                                        </a>
-                                    </div>
-                                    <div class="details padding20 bgray overflow">
-                                        <span class="title left">Waiter in Brighton</span>
-                                        <a class="btn gray right" href="#">SELECT</a>
-                                    </div>
-                                </li>
-                                <li>
-                                    <h5>
-                                        <span class="yellow">EXPERIENCIAS</span>
-                                    </h5>
-                                    <div class="box">
-                                        <a href="#">
-                                            <img src="img/default_blue.png"/>
-                                            <img src="img/phover.png" class="hover"/>
-                                        </a>
-                                    </div>
-                                    <div class="details padding20 bgray overflow">
-                                        <span class="title left">Hotel Hilton</span>
-                                        <a class="btn gray right" href="#">SELECT</a>
-                                    </div>
-                                </li>
-                                <li class="last">
-                                    <h5>
-                                        <span class="red">ESCUELAS DE IDIOMAS</span>
-                                    </h5>
-                                    <div class="box">
-                                        <a href="#">
-                                            <img src="img/default_blue.png"/>
-                                            <img src="img/phover.png" class="hover"/>
-                                        </a>
-                                    </div>
-                                    <div class="details padding20 bgray overflow">
-                                        <span class="title left">ISE Brighton</span>
-                                        <a class="btn gray right" href="#">SELECT</a>
-                                    </div>
-                                </li>                                                                
-                            </ul>
-                        </div>
+                            <h3>Tu Lista de Favoritos</h3>
+                            <div class="results favorites">
+                                <ul class="list">
+                                    <li>
+                                        <div class="bwhite overflow">
+                                            <div class="left box">
+                                                <a href="#">
+                                                    <img src="img/acomodation2.jpg"/>
+                                                    <img class="hover" src="img/vhover.png"/>
+                                                </a>
+                                            </div>
+                                            <div class="right detail padding20">
+                                                <div class="top overflow">
+                                                    <div class="left">
+                                                        <div class="left">
+                                                            <h5>Jhonson Hostel</h5>
+                                                            <span class="location">BRIGHTON, UK</span>
+                                                        </div>
+                                                    </div>
+                                                    <div class="right price">
+                                                        <span class="euro left">160€</span> <span class="week right">SEMANA</span>
+                                                    </div>
+                                                </div>
+                                                <div class="bottom overflow">
+                                                    <div class="left description">
+                                                        <p>Nunc cursus libero purus ac congue ar lorem cursus ut sed vitae pulvinar massa idend porta nequetiam elerisque mi id, consectetur adipi deese cing elit maus fringilla bibe endum.</p>
+                                                    </div>
+                                                    <div class="right favorites">
+                                                        <a class="add_favorites add" href="#">&nbsp;</a>
+                                                        <i class="text_add_favorites">eliminar de mis favoritos</i>
+                                                        <span class="date">publicada hace 6 min</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="bwhite overflow">
+                                            <div class="left box">
+                                                <a href="#">
+                                                    <img src="img/default_blue.png"/>
+                                                    <img class="hover" src="img/vhover.png"/>
+                                                </a>
+                                            </div>
+                                            <div class="right detail padding20">
+                                                <div class="top overflow">
+                                                    <div class="left">
+                                                        <div class="left">
+                                                            <h5>Le Ville Del Lido</h5>
+                                                            <span class="location">Venice Lido</span>
+                                                        </div>
+                                                    </div>
+                                                    <div class="right price">
+                                                        <span class="euro left">210€</span> <span class="week right">SEMANA</span>
+                                                    </div>
+                                                </div>
+                                                <div class="bottom overflow">
+                                                    <div class="left description">
+                                                        <p>Nunc cursus libero purus ac congue ar lorem cursus ut sed vitae pulvinar massa idend porta nequetiam elerisque mi id, consectetur adipi deese cing elit maus fringilla bibe endum.</p>
+                                                    </div>
+                                                    <div class="right favorites">
+                                                        <a class="add_favorites add" href="#">&nbsp;</a>
+                                                        <i class="text_add_favorites">eliminar de mis favoritos</i>
+                                                        <span class="date">publicada hace 11 horas</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="bwhite overflow">
+                                            <div class="left box">
+                                                <a href="#">
+                                                    <img src="img/default_blue.png"/>
+                                                    <img class="hover" src="img/vhover.png"/>
+                                                </a>
+                                            </div>
+                                            <div class="right detail padding20">
+                                                <div class="top overflow">
+                                                    <div class="left">
+                                                        <div class="left">
+                                                            <h5>Plaza Tour Eiffel</h5>
+                                                            <span class="location">paris</span>
+                                                        </div>
+                                                    </div>
+                                                    <div class="right price">
+                                                        <span class="euro left">240€</span> <span class="week right">SEMANA</span>
+                                                    </div>
+                                                </div>
+                                                <div class="bottom overflow">
+                                                    <div class="left description">
+                                                        <p>Nunc cursus libero purus ac congue ar lorem cursus ut sed vitae pulvinar massa idend porta nequetiam elerisque mi id, consectetur adipi deese cing elit maus fringilla bibe endum.</p>
+                                                    </div>
+                                                    <div class="right favorites">
+                                                        <a class="add_favorites add" href="#">&nbsp;</a>
+                                                        <i class="text_add_favorites">eliminar de mis favoritos</i>
+                                                        <span class="date">publicada hace 20 horas</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                </ul><!--.list-->
+                                <a href="#" class="load_more">Load More</a>
+                            </div>
+                        </div><!--#favoritos-->
+                        <div id="subir_alojamiento" class="section">
+                            <h3>Subir Alojamiento y Oferta Trabajo</h3>
+                            <div class="help padding20 mbttom40">
+                                <a class="close right" href="javascript:void(0)">X</a>
+                                <p class="fontsize13">Desde este apartado vas a poder subir tus ofertas de trabajo. Es simple, smplemente...</p>
+                                <br />
+                                <span><a style="color: #01b7f2;" href="javascript:void(0)">Necesitas ayuda?</a> — Ve nuestras seccion de <b>FAQ</b> para resolver cualqiuer duda que puedas tener</span>
+                            </div><!--.help-->
+                            <div class="list_alojamientos mbttom40">
+                                <h3>Tus Ofertas de Alojamiento</h3>
+                                <p class="fontsize13">Hasta el momento no has subido ningúna oferta de <b>alojamiento</b>. Cuando lo hagas se mostraran aqui listadas.</p>
+                            </div>
+                            <div class="list_alojamientos mbttom40">
+                                <h3>Tus Ofertas de Trabajo</h3>
+                                <p class="fontsize13">Hasta el momento no has subido ningúna oferta de <b>trabajo</b>. Cuando lo hagas se mostraran aqui listadas.</p>
+                            </div>                            
+                            <form>
+                                <table>
+                                    <tbody>
+                                        <tr>
+                                            <td colspan="2">
+                                                <label>TITULO DEL ANUNCIO</label>
+                                                <input class="pair" type="text" style="width: 97%;" />
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <label>PAIS RELACIONADO</label>
+                                                <select class="pais" name="pais">
+                                                    <option>Inglaterra</option>
+                                                    <option>Bolivia</option>
+                                                </select>
+                                            </td>
+                                            <td>
+                                                <label>CIUDAD RELACIONADA</label>
+                                                <select class="ciudad" name="ciudad">
+                                                    <option>Brighton</option>
+                                                    <option>Sucre</option>
+                                                </select>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td colspan="2">
+                                                <label>CUENTA TU HISTORIA</label>
+                                                <textarea placeholder="Cuentanos tu experiencia"></textarea>
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                                
+                                <table class="last">
+                                    <tbody>
+                                        <tr>
+                                            <td colspan="2">
+                                                <h3>Quieres incluir fotos en la Experiencia?</h3>
+                                                <span class="fontsize13 mbttom20" style="display: block;">
+                                                    <i>Tus historias pueden ir acompañadas de fotos, resultara mas visualmente atractiva!</i>
+                                                </span>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <div class="custom-file-upload"> 
+                                                    <input type="file" id="file3" name="foto" />
+                                                </div>
+                                                <br />
+                                                <br />
+                                                <br />
+                                                <br />
+                                                <br />
+                                                <br />
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                                <input class="btn green" type="submit" value="ENVIAR EXPERIENCIA" style="width: 30%;"/>
+                            </form>                            
+                        </div><!--#subir_alojamiento-->
+                        <div id="foro_expats" class="section">
+                            <div class="tabs">
+                                <a class="right selected last" href="#" lang="mis_comentarios">MIS COMENTARIOS</a>
+                                <a class="right" href="#" lang="mis_entradas">MIS ENTRADAS</a>
+                            </div>
+                            <div id="mis_comentarios">
+                                <h3 style="padding-top: 25px;">Aqui aparecen listados tus comentarios en el foro hasta la fecha</h3>
+                                <table class="posts">
+                                    <thead>
+                                        <tr>
+                                            <td class="topic">
+                                                <span>Topic</span>
+                                            </td>
+                                            <td class="replies">
+                                                <span>Replies</span>
+                                            </td>
+                                            <td class="created">
+                                                <span>Created</span>
+                                            </td>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr class="odd">
+                                            <td>
+                                                <a href="#" class="title">Hola Buenas!</a>
+                                            </td>
+                                            <td>
+                                                <span class="center">4</span>
+                                            </td>
+                                            <td>hace 13 horas by: <b>Gidi</b></td>
+                                        </tr>
+                                        <tr class="pair">
+                                            <td>
+                                                <a href="#" class="title">Tengo un 20.000 € ahorrados y quiero invertir fuera de España, que me aconsejais?</a>
+                                            </td>
+                                            <td>
+                                                <span class="center">
+                                                    6
+                                                    <i class="colorblue">&nbsp; 1 Nuevo &nbsp;</i>
+                                                </span>
+                                            </td>
+                                            <td>hace 6 dias by: <b>Marcos del Rey</b></td>
+                                        </tr>
+                                        <tr class="odd">
+                                            <td>
+                                                <a href="#" class="title">Alguna Comunidad española en Singapur?</a>
+                                            </td>
+                                            <td>
+                                                <span class="center">12</span>
+                                            </td>
+                                            <td>hace 7 dias by: <b>David Vales</b></td>
+                                        </tr>
+                                        <tr class="pair">
+                                            <td>
+                                                <a href="#" class="title">Boston, Lincolnshire</a>
+                                            </td>
+                                            <td>
+                                                <span class="center">
+                                                    4
+                                                    <i class="colorblue">&nbsp; 12 Nuevo &nbsp;</i>
+                                                </span>
+                                            </td>
+                                            <td>hace 7 dias by: <b>Gidi</b></td>
+                                        </tr>
+                                        <tr class="odd">
+                                            <td>
+                                                <a href="#" class="title">Hola Buenas!</a>
+                                            </td>
+                                            <td>
+                                                <span class="center">4</span>
+                                            </td>
+                                            <td>hace 13 horas by: <b>Gidi</b></td>
+                                        </tr>
+                                        <tr class="pair">
+                                            <td>
+                                                <a href="#" class="title">Tengo un 20.000 € ahorrados y quiero invertir fuera de España, que me aconsejais?</a>
+                                            </td>
+                                            <td>
+                                                <span class="center">6</span>
+                                            </td>
+                                            <td>hace 6 dias by: <b>Marcos del Rey</b></td>
+                                        </tr>
+                                        <tr class="odd">
+                                            <td>
+                                                <a href="#" class="title">Alguna Comunidad española en Singapur?</a>
+                                            </td>
+                                            <td>
+                                                <span class="center">
+                                                    12
+                                                    <i class="colorblue">&nbsp; 20 Nuevo &nbsp;</i>
+                                                </span>
+                                            </td>
+                                            <td>hace 7 dias by: <b>David Vales</b></td>
+                                        </tr>
+                                        <tr class="pair">
+                                            <td>
+                                                <a href="#" class="title">Boston, Lincolnshire</a>
+                                            </td>
+                                            <td>
+                                                <span class="center">4</span>
+                                            </td>
+                                            <td>hace 7 dias by: <b>Gidi</b></td>
+                                        </tr>
+                                        <tr class="odd">
+                                            <td>
+                                                <a href="#" class="title">Hola Buenas!</a>
+                                            </td>
+                                            <td>
+                                                <span class="center">4</span>
+                                            </td>
+                                            <td>hace 13 horas by: <b>Gidi</b></td>
+                                        </tr>
+                                        <tr class="pair">
+                                            <td>
+                                                <a href="#" class="title">Tengo un 20.000 € ahorrados y quiero invertir fuera de España, que me aconsejais?</a>
+                                            </td>
+                                            <td>
+                                                <span class="center">6</span>
+                                            </td>
+                                            <td>hace 6 dias by: <b>Marcos del Rey</b></td>
+                                        </tr>
+                                        <tr class="odd">
+                                            <td>
+                                                <a href="#" class="title">Alguna Comunidad española en Singapur?</a>
+                                            </td>
+                                            <td>
+                                                <span class="center">12</span>
+                                            </td>
+                                            <td>hace 7 dias by: <b>David Vales</b></td>
+                                        </tr>
+                                        <tr class="pair">
+                                            <td>
+                                                <a href="#" class="title">Boston, Lincolnshire</a>
+                                            </td>
+                                            <td>
+                                                <span class="center">4</span>
+                                            </td>
+                                            <td>hace 7 dias by: <b>Gidi</b></td>
+                                        </tr>
+                                        <tr class="odd">
+                                            <td>
+                                                <a href="#" class="title">Hola Buenas!</a>
+                                            </td>
+                                            <td>
+                                                <span class="center">4</span>
+                                            </td>
+                                            <td>hace 13 horas by: <b>Gidi</b></td>
+                                        </tr>
+                                        <tr class="pair">
+                                            <td>
+                                                <a href="#" class="title">Tengo un 20.000 € ahorrados y quiero invertir fuera de España, que me aconsejais?</a>
+                                            </td>
+                                            <td>
+                                                <span class="center">6</span>
+                                            </td>
+                                            <td>hace 6 dias by: <b>Marcos del Rey</b></td>
+                                        </tr>
+                                        <tr class="odd">
+                                            <td>
+                                                <a href="#" class="title">Alguna Comunidad española en Singapur?</a>
+                                            </td>
+                                            <td>
+                                                <span class="center">12</span>
+                                            </td>
+                                            <td>hace 7 dias by: <b>David Vales</b></td>
+                                        </tr>
+                                        <tr class="pair">
+                                            <td>
+                                                <a href="#" class="title">Boston, Lincolnshire</a>
+                                            </td>
+                                            <td>
+                                                <span class="center">
+                                                    4
+                                                    <i class="colorblue">&nbsp; 6 Nuevo &nbsp;</i>
+                                                </span>
+                                            </td>
+                                            <td>hace 7 dias by: <b>Gidi</b></td>
+                                        </tr>
+                                        <tr class="odd">
+                                            <td>
+                                                <a href="#" class="title">Hola Buenas!</a>
+                                            </td>
+                                            <td>
+                                                <span class="center">4</span>
+                                            </td>
+                                            <td>hace 13 horas by: <b>Gidi</b></td>
+                                        </tr>
+                                        <tr class="pair">
+                                            <td>
+                                                <a href="#" class="title">Tengo un 20.000 € ahorrados y quiero invertir fuera de España, que me aconsejais?</a>
+                                            </td>
+                                            <td>
+                                                <span class="center">6</span>
+                                            </td>
+                                            <td>hace 6 dias by: <b>Marcos del Rey</b></td>
+                                        </tr>
+                                        <tr class="odd">
+                                            <td>
+                                                <a href="#" class="title">Alguna Comunidad española en Singapur?</a>
+                                            </td>
+                                            <td>
+                                                <span class="center">12</span>
+                                            </td>
+                                            <td>hace 7 dias by: <b>David Vales</b></td>
+                                        </tr>
+                                        <tr class="pair">
+                                            <td>
+                                                <a href="#" class="title">Boston, Lincolnshire</a>
+                                            </td>
+                                            <td>
+                                                <span class="center">4</span>
+                                            </td>
+                                            <td>hace 7 dias by: <b>Gidi</b></td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                            <div id="mis_entradas">
+                            </div>
+                        </div><!--#foro_expats-->
                         <div id="travel_stories" class="section">
                             <form>
                                 <table>

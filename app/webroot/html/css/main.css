@@ -18,7 +18,7 @@
 #header .breadcrumb{background:url(../img/bg_breadcrumb.jpg) no-repeat center 0 #e15151; overflow: hidden;}
 #header .breadcrumb h1{color: #fff;font-size: 18px;font-weight: normal;}
 #header .breadcrumb h1 span{padding: 16px 0;display: inline-block;}
-#header .breadcrumb h1 span.title{min-width: 170px;background: #df2133;padding-right: 20px;padding-left: 8px;}
+#header .breadcrumb h1 span.title{min-width: 170px;background: #fdb714;padding-right: 20px;padding-left: 8px;}
 #header .breadcrumb h1 span.arrow{background: url("../img/bg_breadcrumb_right.png") no-repeat scroll right 0 transparent;height: 22px;width: 20px;}
 #header .breadcrumb li{float: left;}
 #header .breadcrumb a{color: #fff;display: inline-block;padding: 5px;font-size: 10px;font-weight: bold;}
@@ -93,6 +93,7 @@ b.vowel2{color: #01b7f2;font-size: 54px;line-height: 40px;padding-right: 5px;}
 /*load more*/
 a.load_more{text-transform: uppercase;font-size: 15px;color:#fff;font-family: LatoBold;display: block;background: #d9d9d9;padding: 10px 0;text-align: center;}
 a.load_more:hover{background-color: #98ce44;}
+a.load_more.green:hover{background-color: #d9d9d9;}
 
 /*star big*/
 .stars_big span.star{background: url('../img/bg_star_big.png') no-repeat top center;background-position: 0 0px;width: 23px; height: 23px;display: inline-block;text-indent: -9999px;}
@@ -130,11 +131,12 @@ a.load_more:hover{background-color: #98ce44;}
 .search_again button{margin: 10px 0 !important;width: 100%;}
 
 /*selections*/
-ul.selections li{padding: 8px 0;}
+ul.selections li{padding: 8px 0;overflow: hidden;}
 ul.selections li.firts{padding-top: 0;}
 ul.selections li a{padding-left: 15px;color: #838383;}
 ul.selections li a{background: url('../img/bg_item.png') no-repeat center left;background-position: 0 4px;width: 6px; height: 7px;}
 ul.selections li a:hover, ul.selections li a.selected{background-position: 0 -10px;color: #01b7f2;}
+ul.selections.list{width: 50%;}
 
 /*categories*/
 ul.categories li a, ul.advanced_search li a{padding-left: 25px;color: #838383;}
@@ -158,6 +160,12 @@ ul.advanced_search li:hover > a, ul.advanced_search li.selected > a{background-p
 .paging span a{background-color: #d9d9d9;display: inline-block;margin-right: 3px;padding: 10px 12px;text-transform: uppercase;color: #fff;}
 .paging span.current, .paging span a:hover{margin-right: 3px;padding: 10px 12px;background-color: #fdb714;color: #fff;}
 .paging span.prev a:hover, .paging span.next a:hover{background-color: #98ce44;}
+
+/*tab*/
+.tabs{overflow: hidden;border-bottom: 1px solid #f5f5f5;}
+.tabs a{background-color: #fff;color: #01b7f2;padding: 10px;margin-right: 10px;display: block;}
+.tabs a:hover, .tabs a.selected{background-color: #d9d9d9;color: #fff;}
+.tabs a.last{margin-right: 0;}
 
 /*social*/
 .social li{float: left;margin-right: 3px;}
@@ -250,7 +258,7 @@ ul.advanced_search li:hover > a, ul.advanced_search li.selected > a{background-p
 .widget .flag .box{text-align: center;padding-right: 14px;}
 .widget .flag .box img{box-shadow: 0 0 8px #000000;}
 .widget .flag .info li{padding: 4px 0;}
-.widget .flag .info li span{background: url('../img/bg_point.png') no-repeat left 6px transparent;padding-left: 12px;display: block;color: #000;}
+.widget .flag .info li span, ul.selections.list span.title{background: url('../img/bg_point.png') no-repeat left 6px transparent;padding-left: 12px;display: block;color: #000;}
 .widget .flag .reviews{padding-top: 12px;padding-bottom: 4px;}
 .widget .flag .btn:hover{background-color: #d9d9d9;}
 .widget .flag .experiencies{display: block;padding-top: 10px;text-transform: uppercase;font-size: 11px;}
@@ -650,11 +658,16 @@ ul.advanced_search li:hover > a, ul.advanced_search li.selected > a{background-p
 #content .perfil.contact h4{text-align: left;color: #27bcf3;font-size: 14px;font-weight: normal;}
 #content .perfil.contact table{border-bottom: 1px solid #f5f5f5;margin-bottom: 15px;}
 #content .perfil.contact table td{width: 50%;}
+#content .perfil.contact table.posts td{width: auto;}
 #content .perfil.contact table.last{border-bottom: none;margin-bottom: 0;}
+#content .perfil.contact table.perfil{margin-top: 15px;}
+#content .perfil.contact table.perfil .picture{position: relative;width: 30%;}
+#content .perfil.contact table.perfil .picture img{height: 90px;width: 90px;border-radius: 45px;position: absolute;top:-28px}
 #content .perfil.contact .bio label{color: #01b7f2;width: 40%;display: inline-block;padding: 10px 0;margin-bottom: 0;font-size: 13px;border-right: 1px solid #f5f5f5;}
 #content .perfil.contact .bio span{width: 50%;display: inline-block;margin-left: 60px;padding: 10px 0;}
 .perfil .profile_view .imagen{width: 32%;}
-.perfil .profile_view .imagen .box{width: 270px;height: 262px;background-color: #01b7f2;}
+.perfil .profile_view .imagen .box{width: 206px;height: 206px;padding: 28px 32px;}
+.perfil .profile_view .imagen .box img{border-radius: 104px;}
 .perfil .profile_view .data{width: 68%;}
 .perfil .profile_view .bio{text-transform: uppercase;font-size: 13px;}
 .perfil.options{width: 15%;}
@@ -667,9 +680,11 @@ ul.advanced_search li:hover > a, ul.advanced_search li.selected > a{background-p
 .perfil.options li span.item.perfil{background: url("../img/bg_perfil.png") no-repeat scroll center 0 transparent;}
 .perfil.options li span.item.favoritos{background: url("../img/bg_favoritos.png") no-repeat scroll center 0 transparent;}
 .perfil.options li span.item.travel_stories{background: url("../img/bg_travel_stories.png") no-repeat scroll center 0 transparent;line-height: 15px;padding-top: 35px;}
+.perfil.options li span.item.subir_alojamiento{background: url("../img/bg_subir_alojamiento.png") no-repeat scroll center 0 transparent;line-height: 15px;padding-top: 35px;}
 .perfil.options li span.item.configuracion{background: url("../img/bg_configuracion.png") no-repeat scroll center 0 transparent;}
+.perfil.options li span.item.foro_expats{background: url("../img/bg_foro_expats.png") no-repeat scroll center 0 transparent;}
 .perfil.options li:hover > a span.item, .perfil.options li.selected > a span.item{background-position: center -30px;}
-.perfil.options li:hover > a span.item.travel_stories, .perfil.options li.selected > a span.item.travel_stories{background-position: center -65px;}
+.perfil.options li:hover > a span.item.travel_stories, .perfil.options li.selected > a span.item.travel_stories, .perfil.options li:hover > a span.item.subir_alojamiento, .perfil.options li.selected > a span.item.subir_alojamiento{background-position: center -65px;}
 .perfil.contact{width: 81.5%;min-height: 536px;}
 .perfil.contact .ciudad.hasCustomSelect, .perfil.contact .pais.hasCustomSelect, .perfil.contact .categorias.hasCustomSelect, .perfil.contact .subcategorias.hasCustomSelect{height: 35px !important;}
 .perfil.contact .ciudad.customSelect, .perfil.contact .subcategorias.customSelect{width: 100%;height: 50px;}
@@ -697,16 +712,21 @@ ul.advanced_search li:hover > a, ul.advanced_search li.selected > a{background-p
 .perfil.contact .reviews li.ofertas a.ir{background-color: #91c63d;}
 .perfil.contact .help{border: 1px solid #01b7f2;position: relative;}
 .perfil.contact .help a.close{color: #01b7f2;font-size: 10px;font-weight: bold;position: absolute;right: 10px;top: 8px;}
-.perfil.contact .notificaciones li{background: #f5f5f5;margin-bottom: 10px;}
+.perfil.contact .notificaciones li{background: #f5f5f5;margin-bottom: 10px;overflow: hidden;}
 .perfil.contact .notificaciones li a{color: #000;font-size: 13px;}
 .perfil.contact .notificaciones li a span.color{display: inline-block;height: 42px;width: 46px;float: left;}
 .perfil.contact .notificaciones li a span.item{overflow: hidden;padding: 13px 18px;display: block;}
 .perfil.contact .notificaciones li a span.costo{color: #26bcf2;padding: 0 10px;}
 .perfil.contact .notificaciones li a span.date{text-transform: uppercase;font-size: 10px;color: #a5a5a5;padding-top: 3px;}
-.perfil.contact .notificaciones li a span.color.yellow{background-color: #fdb714;}
-.perfil.contact .notificaciones li a span.color.blue{background-color: #01b7f2;}
-.perfil.contact .notificaciones li a span.color.red{background-color: #e01a33;}
-.perfil.contact .notificaciones li a span.color.green{background-color: #98ce44;}
+.perfil.contact .notificaciones li a span.color.yellow, .perfil.contact .notificaciones li .colors.yellow{background-color: #fdb714;}
+.perfil.contact .notificaciones li a span.color.blue, .perfil.contact .notificaciones li .colors.blue{background-color: #01b7f2;}
+.perfil.contact .notificaciones li a span.color.red, .perfil.contact .notificaciones li .colors.red{background-color: #e01a33;}
+.perfil.contact .notificaciones li a span.color.green, .perfil.contact .notificaciones li .colors.green{background-color: #98ce44;}
+.perfil.contact .notificaciones li .colors{width: 6.3%;height: 56px;}
+.perfil.contact .notificaciones li .info{width: 93.7%;}
+.perfil.contact .notificaciones li .info .details{padding: 10px 20px;}
+.perfil.contact .notificaciones li .info .top{overflow: hidden;}
+.perfil.contact .notificaciones li .info .details p{margin: 0;}
 .perfil.contact .fitems li{float: left; width: 32%;margin-right: 19px;margin-bottom: 30px;}
 .perfil.contact .fitems li h5{position: relative;z-index: 2;}
 .perfil.contact .fitems li h5 span{width: 70%;text-align: center;display: block;margin: 0 auto;color: #fff;padding: 6px 0;font-size: 14px;font-weight: bold;letter-spacing: 1px;}
@@ -724,15 +744,18 @@ ul.advanced_search li:hover > a, ul.advanced_search li.selected > a{background-p
 
 /*ACOMODATION*/
 .results li{background: #fff;margin-bottom: 30px;overflow: hidden;}
+.results.favorites li{padding: 20px;background-color: #f5f5f5;border: 3px solid #ccc;}
 .results li .box{position: relative;width: 270px;}
 .results li .box a{display: block;background: #01b7f2;width: 100%;height: 161px;}
 .results li .box img{display: block;}
 .results li .box img.hover{display: none;position: absolute;top: 0;width: 100%;}
 .results li .box a:hover > img.hover{display: block;}
 .results li .detail{position: relative;width: 64.2%;}
+.results.favorites li .detail{width: 65.8%;}
 .results li .detail .top{border-bottom: 1px solid #f5f5f5;}
 .results li .detail .top > .left, .results li .detail .bottom > .left{width: 74%;padding-right: 15px;border-right: 1px solid #f5f5f5;padding-bottom: 10px;}
 .results li .detail .top > .right, .results li .detail .bottom > .right{width: 20%;}
+.results.favorites li .detail .top > .right, .results.favorites li .detail .bottom > .right{width: 21%;}
 .results li .detail .top > .price{padding: 3px 0;position: relative;}
 .results li .detail .top > .price span.euro{color: #98ce44;font-size: 25px;}
 .results li .detail .top > .price span.week{font-size: 10px;position: absolute;right: 0;bottom: 7px;}
@@ -754,7 +777,7 @@ ul.advanced_search li:hover > a, ul.advanced_search li.selected > a{background-p
 .results li .detail .bottom .add_favorites{background: url('../img/bg_star_big.png')no-repeat scroll center 0;height: 23px;display: block;margin-top: 6px;margin-bottom: 3px;}
 .results li .detail .bottom .add_favorites:hover, .results li .detail .bottom .add_favorites.add{background-position: center -23px;}
 .results li .detail .bottom .text_add_favorites{font-family: LatoItalic;}
-.results li .detail .bottom .date{color: #000;padding-top: 5px;display: block;text-align: center;}
+.results li .detail .bottom .date{color: #000;padding-top: 2px;display: block;text-align: center;}
 
 /*JOBS*/
 .top_ciudades .map{height: 300px;width: 228px;overflow: hidden;margin-bottom: 10px;}
@@ -873,6 +896,7 @@ table.posts thead .topic{width: 63%;border-bottom: 7px solid #2d3e52;}
 table.posts thead .replies{width: 7%;border-bottom: 7px solid #01b7f2;}
 table.posts thead .created{width: 20%;border-bottom: 7px solid #fdb714;}
 table.posts tbody tr.odd{background-color: #fff;padding: 10px;}
+table.posts tbody tr.pair{background-color: #f5f5f5;padding: 10px;}
 table.posts tbody tr.box td{padding: 15px 20px;}
 table.posts tbody td{font-size: 13px;}
 table.posts tbody td h3 a{font-size: 25px; color: #000;margin-bottom: 5px;display: block;}
@@ -882,4 +906,4 @@ table.posts tbody td .pais{color: #000;margin-left: 25px;line-height: 40px;displ
 table.posts tbody td .title:hover, table.posts tbody td .pais:hover{text-decoration:underline}
 table.posts tbody td span.center{text-align: center;display: block;}
 table.posts tbody td span.center.bold{color: #000;}
-table.posts tbody td span.time span{display: block;line-height: 24px;}
+table.posts tbody td span.time span{display: block;line-height: 24px;} 

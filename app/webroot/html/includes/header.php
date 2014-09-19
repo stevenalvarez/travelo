@@ -70,6 +70,7 @@
                     <span class="arrow left">&nbsp;</span>
                 </h1>
             </div>
+            <!--
             <div class="right" style="padding: 15px 0;">
                 <ul>
                     <li>
@@ -83,6 +84,7 @@
                     </li>
                 </ul>
             </div>
+            -->
         </div>
     </div>
     <?php endif; ?>
