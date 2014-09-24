@@ -4,7 +4,7 @@
     	<meta http-equiv="content-type" content="text/html" />
     	<meta name="author" content="jhonny" />
         <meta name="viewport" content="width=device-width, initial-scale=1"/>
-    	<title>Travelo</title>
+    	<title>Travel</title>
         
         <link rel="stylesheet" type="text/css" href="css/styles.css"/>
         <!-- include slider.css -->
@@ -35,7 +35,7 @@
                 <div class="navigation"></div><!--.navigation-->
                 <div class="search_destination">
                     <div class="wrap">
-                        <form class="info overflow mbttom20">
+                        <form class="info overflow mbttom20" action="destination_city.php?p=1">
                             <ul>
                                 <li>
                                     <h2>Tu Destino</h2>

@@ -5,7 +5,7 @@
         <button class="left search">Search</button>
     </form>
     <div class="column mbttom30 bwhite oncity">
-        <h4>Temas del Foro</h4>
+        <h4>Todas las categorias</h4>
         <ul class="options">
             <li>
                 <a href="#" title="Aventura">

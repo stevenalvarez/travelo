@@ -47,9 +47,6 @@
                             </form>
                         </div>
                         <div class="padding20 bwhite mbttom30 overflow">
-                            <span class="results" style="font-size: 14px;"><b>1,984</b> trabajos encontrados.</span>
-                        </div>
-                        <div class="padding20 bwhite mbttom30 overflow">
                             <h4>TOP ciudades</h4>
                             <div class="top_ciudades">
                                 <div class="map">
@@ -140,22 +137,67 @@
                                     </li>
                                 </ul>
                             </div>
-                        </div>                         
+                        </div>
+                        <div class="mbttom4 overflow square">
+                            <div class="top padding20 bb_gray" style="padding-bottom: 15px;">
+                                <h4>
+                                    <span class="block">Añade tu Oferta</span>
+                                    <span class="fontsize13 colorblue">Sube tu oferta de trabajo</span>
+                                </h4>
+                            </div>
+                            <div class="bottom padding20">
+                                <p>Tienes una oferta de Trabajo para anunciar? Buscas un candidato?
+                                <br />
+                                En solo unos pasos puedes ver tu anuncio publicado
+                                </p>
+                                <br />
+                                <a class="btn_submit" href="#">Anunciar mi trabajo</a>
+                            </div>
+                        </div>                        
                     </div><!--.widget-->
                     <div class="cols2 right">
-                        <div class="padding20 bwhite mbttom30 overflow filtro">
-                            <div class="left">
-                                <label>Ordenar resultados por:</label>
-                                <select class="bfechapublicacion" name="bfechapublicacion">
-                                    <option>fecha de publicaci&oacute;n</option>
-                                </select>
-                                &nbsp;
-                                &nbsp;
-                                <select class="bsalario" name="bsalario">
-                                    <option>salario</option>
-                                </select>
+                        <form class="filtro">
+                            <div class="padding20 bwhite mbttom30 overflow">
+                                <div class="left">
+                                    <div class="left">
+                                        <label style="margin-right: 10px;">Busco un trabajo de:</label>
+                                        <select name="by0">
+                                            <option>Programador</option>
+                                            <option>Secretaria</option>
+                                        </select>
+                                        &nbsp;
+                                        &nbsp;
+                                        &nbsp;
+                                        <input style="width: 200px;" type="text" name="by1" placeholder="ejemplo java(opcional)" />
+                                    </div>
+                                    <div class="left margin">
+                                        <span style="color: #000;font-size: 16px;">en</span>
+                                    </div>
+                                    <div class="left">
+                                        <select name="by2">
+                                            <option>Brighton</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="right">
+                                    <input type="submit" class="btn_search" value="Buscar" style="margin-top: 2px;" />
+                                </div>
                             </div>
-                        </div><!--.filtro-->
+                            <div class="padding20 bwhite mbttom30 overflow">
+                                <div class="left" style="padding: 8px 0;">
+                                    <span class="filtro_results">
+                                        <b>168</b> Trabajos encontrados en <b>Brighton</b>
+                                    </span>	
+                                </div>
+                                <div class="right">
+                                    <label style="margin-right: 10px;">Ordenar por:</label>
+                                    <select class="ord" name="ord">
+                                        <option>Más reciente</option>
+                                        <option>Más antiguos</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </form><!--.filtro-->                        
                         <ul class="jobs">
                             <li>
                                 <div class="top clear overflow">

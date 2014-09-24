@@ -630,222 +630,304 @@
                         </div><!--#subir_alojamiento-->
                         <div id="foro_expats" class="section">
                             <div class="tabs">
-                                <a class="right selected last" href="#" lang="mis_comentarios">MIS COMENTARIOS</a>
-                                <a class="right" href="#" lang="mis_entradas">MIS ENTRADAS</a>
+                                <a class="right last" href="javascript:void(0)" lang="mis_comentarios">MIS COMENTARIOS</a>
+                                <a class="right selected" href="javascript:void(0)" lang="mis_entradas">MIS ENTRADAS</a>
                             </div>
-                            <div id="mis_comentarios">
-                                <h3 style="padding-top: 25px;">Aqui aparecen listados tus comentarios en el foro hasta la fecha</h3>
-                                <table class="posts">
-                                    <thead>
-                                        <tr>
-                                            <td class="topic">
-                                                <span>Topic</span>
-                                            </td>
-                                            <td class="replies">
-                                                <span>Replies</span>
-                                            </td>
-                                            <td class="created">
-                                                <span>Created</span>
-                                            </td>
-                                        </tr>
-                                    </thead>
-                                    <tbody>
-                                        <tr class="odd">
-                                            <td>
-                                                <a href="#" class="title">Hola Buenas!</a>
-                                            </td>
-                                            <td>
-                                                <span class="center">4</span>
-                                            </td>
-                                            <td>hace 13 horas by: <b>Gidi</b></td>
-                                        </tr>
-                                        <tr class="pair">
-                                            <td>
-                                                <a href="#" class="title">Tengo un 20.000 € ahorrados y quiero invertir fuera de España, que me aconsejais?</a>
-                                            </td>
-                                            <td>
-                                                <span class="center">
-                                                    6
-                                                    <i class="colorblue">&nbsp; 1 Nuevo &nbsp;</i>
-                                                </span>
-                                            </td>
-                                            <td>hace 6 dias by: <b>Marcos del Rey</b></td>
-                                        </tr>
-                                        <tr class="odd">
-                                            <td>
-                                                <a href="#" class="title">Alguna Comunidad española en Singapur?</a>
-                                            </td>
-                                            <td>
-                                                <span class="center">12</span>
-                                            </td>
-                                            <td>hace 7 dias by: <b>David Vales</b></td>
-                                        </tr>
-                                        <tr class="pair">
-                                            <td>
-                                                <a href="#" class="title">Boston, Lincolnshire</a>
-                                            </td>
-                                            <td>
-                                                <span class="center">
-                                                    4
-                                                    <i class="colorblue">&nbsp; 12 Nuevo &nbsp;</i>
-                                                </span>
-                                            </td>
-                                            <td>hace 7 dias by: <b>Gidi</b></td>
-                                        </tr>
-                                        <tr class="odd">
-                                            <td>
-                                                <a href="#" class="title">Hola Buenas!</a>
-                                            </td>
-                                            <td>
-                                                <span class="center">4</span>
-                                            </td>
-                                            <td>hace 13 horas by: <b>Gidi</b></td>
-                                        </tr>
-                                        <tr class="pair">
-                                            <td>
-                                                <a href="#" class="title">Tengo un 20.000 € ahorrados y quiero invertir fuera de España, que me aconsejais?</a>
-                                            </td>
-                                            <td>
-                                                <span class="center">6</span>
-                                            </td>
-                                            <td>hace 6 dias by: <b>Marcos del Rey</b></td>
-                                        </tr>
-                                        <tr class="odd">
-                                            <td>
-                                                <a href="#" class="title">Alguna Comunidad española en Singapur?</a>
-                                            </td>
-                                            <td>
-                                                <span class="center">
-                                                    12
-                                                    <i class="colorblue">&nbsp; 20 Nuevo &nbsp;</i>
-                                                </span>
-                                            </td>
-                                            <td>hace 7 dias by: <b>David Vales</b></td>
-                                        </tr>
-                                        <tr class="pair">
-                                            <td>
-                                                <a href="#" class="title">Boston, Lincolnshire</a>
-                                            </td>
-                                            <td>
-                                                <span class="center">4</span>
-                                            </td>
-                                            <td>hace 7 dias by: <b>Gidi</b></td>
-                                        </tr>
-                                        <tr class="odd">
-                                            <td>
-                                                <a href="#" class="title">Hola Buenas!</a>
-                                            </td>
-                                            <td>
-                                                <span class="center">4</span>
-                                            </td>
-                                            <td>hace 13 horas by: <b>Gidi</b></td>
-                                        </tr>
-                                        <tr class="pair">
-                                            <td>
-                                                <a href="#" class="title">Tengo un 20.000 € ahorrados y quiero invertir fuera de España, que me aconsejais?</a>
-                                            </td>
-                                            <td>
-                                                <span class="center">6</span>
-                                            </td>
-                                            <td>hace 6 dias by: <b>Marcos del Rey</b></td>
-                                        </tr>
-                                        <tr class="odd">
-                                            <td>
-                                                <a href="#" class="title">Alguna Comunidad española en Singapur?</a>
-                                            </td>
-                                            <td>
-                                                <span class="center">12</span>
-                                            </td>
-                                            <td>hace 7 dias by: <b>David Vales</b></td>
-                                        </tr>
-                                        <tr class="pair">
-                                            <td>
-                                                <a href="#" class="title">Boston, Lincolnshire</a>
-                                            </td>
-                                            <td>
-                                                <span class="center">4</span>
-                                            </td>
-                                            <td>hace 7 dias by: <b>Gidi</b></td>
-                                        </tr>
-                                        <tr class="odd">
-                                            <td>
-                                                <a href="#" class="title">Hola Buenas!</a>
-                                            </td>
-                                            <td>
-                                                <span class="center">4</span>
-                                            </td>
-                                            <td>hace 13 horas by: <b>Gidi</b></td>
-                                        </tr>
-                                        <tr class="pair">
-                                            <td>
-                                                <a href="#" class="title">Tengo un 20.000 € ahorrados y quiero invertir fuera de España, que me aconsejais?</a>
-                                            </td>
-                                            <td>
-                                                <span class="center">6</span>
-                                            </td>
-                                            <td>hace 6 dias by: <b>Marcos del Rey</b></td>
-                                        </tr>
-                                        <tr class="odd">
-                                            <td>
-                                                <a href="#" class="title">Alguna Comunidad española en Singapur?</a>
-                                            </td>
-                                            <td>
-                                                <span class="center">12</span>
-                                            </td>
-                                            <td>hace 7 dias by: <b>David Vales</b></td>
-                                        </tr>
-                                        <tr class="pair">
-                                            <td>
-                                                <a href="#" class="title">Boston, Lincolnshire</a>
-                                            </td>
-                                            <td>
-                                                <span class="center">
-                                                    4
-                                                    <i class="colorblue">&nbsp; 6 Nuevo &nbsp;</i>
-                                                </span>
-                                            </td>
-                                            <td>hace 7 dias by: <b>Gidi</b></td>
-                                        </tr>
-                                        <tr class="odd">
-                                            <td>
-                                                <a href="#" class="title">Hola Buenas!</a>
-                                            </td>
-                                            <td>
-                                                <span class="center">4</span>
-                                            </td>
-                                            <td>hace 13 horas by: <b>Gidi</b></td>
-                                        </tr>
-                                        <tr class="pair">
-                                            <td>
-                                                <a href="#" class="title">Tengo un 20.000 € ahorrados y quiero invertir fuera de España, que me aconsejais?</a>
-                                            </td>
-                                            <td>
-                                                <span class="center">6</span>
-                                            </td>
-                                            <td>hace 6 dias by: <b>Marcos del Rey</b></td>
-                                        </tr>
-                                        <tr class="odd">
-                                            <td>
-                                                <a href="#" class="title">Alguna Comunidad española en Singapur?</a>
-                                            </td>
-                                            <td>
-                                                <span class="center">12</span>
-                                            </td>
-                                            <td>hace 7 dias by: <b>David Vales</b></td>
-                                        </tr>
-                                        <tr class="pair">
-                                            <td>
-                                                <a href="#" class="title">Boston, Lincolnshire</a>
-                                            </td>
-                                            <td>
-                                                <span class="center">4</span>
-                                            </td>
-                                            <td>hace 7 dias by: <b>Gidi</b></td>
-                                        </tr>
-                                    </tbody>
-                                </table>
-                            </div>
-                            <div id="mis_entradas">
+                            <div class="dtabs tppadding10">
+                                <div id="mis_entradas">
+                                    <ul class="entradas">
+                                        <li>
+                                            <div class="item padding20 mbttom30 overflow bgray">
+                                                <h3 class="overflow">
+                                                    <a href="#" class="left">
+                                                        <b>Contacto:</b> A salir por Brighton!
+                                                    </a>
+                                                    <span class="right country bold">Brighton, UK</span>
+                                                </h3>
+                                                <div class="descripcion bwhite padding20">
+                                                    <p>Hola Spaniards. Llevo un tiempo viviendo en Brighton. Lo elegí porque es una ciudad muy abierta, tiene mucha marcha, ambiente, es acogedora y ...tiene muchos españoles. Pero el tema último es el que me está haciendo plantearme la idea de irme a otra ciudad.</p>
+                                                    <p>Yo vine con un propósito (aprender inglés) y veo que aquí no es muy sencillo, no os imagináis la de Españoles que hay por aquí, -dicen que 1 de cada 12 ciudadanos- y además no es que se vayan a quedar aquí, sino que la gran mayoría vienen temporadas cortas y es complicado...</p>
+                                                    <p>Entonces me estoy planteando seguir con el objetivo que me hizo embarcarme en la aventura Inglesa, y marchar a otra ciudad.</p>
+                                                </div>
+                                                <div class="overflow">
+                                                    <div class="left">
+                                                        <span class="comments">
+                                                            <a href="#" class="bold colorblack">3 Comentarios</a>
+                                                        </span>
+                                                    </div>
+                                                    <ul class="right">
+                                                        <li>
+                                                            <span class="date"> 11 NOV 2013</span>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="item padding20 mbttom30 overflow bgray">
+                                                <h3 class="overflow">
+                                                    <a href="#" class="left">
+                                                        <b>Presentaciones:</b> Cambiando de aires...Malta???
+                                                    </a>
+                                                    <span class="right country bold">Malta</span>
+                                                </h3>
+                                                <div class="descripcion bwhite padding20">
+                                                    <p>Hola buenas, me presento soy Marcos, tengo 29 años soy informático-fotógrafo y llevo una temporada un poco mala en madrid. Me han despedido del curro, me ha dejado la novia..jjeje toy en racha!! por lo que me he dicho: Oye! es una señal del destino que tienes que salir de aqui. Así que como estoy estudiando inglés y tengo algo de paro y tal quería pasarme una temporadita "desconectando" un poco pero sin perder el tiempo, osea practicando inglés, y si puede ser encontrar algún trabajo de lo mio...mejor que mejor! Os planteo un par de dudas...</p>
+                                                    <p>A pesar de que he vivido en otros sitios, pero me iría sólo..y eso nosé, me da un poco de palo es la primera vez. Luego como veis el destino, osea mi idea es mejorar en algo Inglés para dar el salto en un tiempo a Dublin</p>
+                                                </div>
+                                                <div class="overflow">
+                                                    <div class="left">
+                                                        <span class="comments">
+                                                            <a href="#" class="bold colorblack">12 Comentarios</a>
+                                                        </span>
+                                                    </div>
+                                                    <ul class="right">
+                                                        <li>
+                                                            <span class="date"> 11 NOV 2013</span>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="item padding20 mbttom30 overflow bgray">
+                                                <h3 class="overflow">
+                                                    <a href="#" class="left">
+                                                        <b>Trabajo:</b> ayudas montar empresa en UK
+                                                    </a>
+                                                    <span class="right country bold">Reino Unido</span>
+                                                </h3>
+                                                <div class="descripcion bwhite padding20">
+                                                    <p>Hola buenas,estoy viviendo en Brighton, y tengo intención de montar una empresa. Me interesaría mucho saber si hay algún tipo de ayudas a emprendedores, donde me puedo enterar de esto, etc.. mas o menos se como hacer para crear la empresa, pero el tema de las ayudas es lo que no tengo muy claro. Muchas gracias y un saludo!!</p>
+                                                </div>
+                                                <div class="overflow">
+                                                    <div class="left">
+                                                        <span class="comments">
+                                                            <a href="#" class="bold colorblack">12 Comentarios</a>
+                                                        </span>
+                                                    </div>
+                                                    <ul class="right">
+                                                        <li>
+                                                            <span class="date"> 11 NOV 2013</span>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div id="mis_comentarios">
+                                    <h3 style="padding-top: 25px;">Aqui aparecen listados tus comentarios en el foro hasta la fecha</h3>
+                                    <table class="posts">
+                                        <thead>
+                                            <tr>
+                                                <td class="topic">
+                                                    <span>Topic</span>
+                                                </td>
+                                                <td class="replies">
+                                                    <span>Replies</span>
+                                                </td>
+                                                <td class="created">
+                                                    <span>Created</span>
+                                                </td>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr class="odd">
+                                                <td>
+                                                    <a href="#" class="title">Hola Buenas!</a>
+                                                </td>
+                                                <td>
+                                                    <span class="center">4</span>
+                                                </td>
+                                                <td>hace 13 horas by: <b>Gidi</b></td>
+                                            </tr>
+                                            <tr class="pair">
+                                                <td>
+                                                    <a href="#" class="title">Tengo un 20.000 € ahorrados y quiero invertir fuera de España, que me aconsejais?</a>
+                                                </td>
+                                                <td>
+                                                    <span class="center">
+                                                        6
+                                                        <i class="colorblue">&nbsp; 1 Nuevo &nbsp;</i>
+                                                    </span>
+                                                </td>
+                                                <td>hace 6 dias by: <b>Marcos del Rey</b></td>
+                                            </tr>
+                                            <tr class="odd">
+                                                <td>
+                                                    <a href="#" class="title">Alguna Comunidad española en Singapur?</a>
+                                                </td>
+                                                <td>
+                                                    <span class="center">12</span>
+                                                </td>
+                                                <td>hace 7 dias by: <b>David Vales</b></td>
+                                            </tr>
+                                            <tr class="pair">
+                                                <td>
+                                                    <a href="#" class="title">Boston, Lincolnshire</a>
+                                                </td>
+                                                <td>
+                                                    <span class="center">
+                                                        4
+                                                        <i class="colorblue">&nbsp; 12 Nuevo &nbsp;</i>
+                                                    </span>
+                                                </td>
+                                                <td>hace 7 dias by: <b>Gidi</b></td>
+                                            </tr>
+                                            <tr class="odd">
+                                                <td>
+                                                    <a href="#" class="title">Hola Buenas!</a>
+                                                </td>
+                                                <td>
+                                                    <span class="center">4</span>
+                                                </td>
+                                                <td>hace 13 horas by: <b>Gidi</b></td>
+                                            </tr>
+                                            <tr class="pair">
+                                                <td>
+                                                    <a href="#" class="title">Tengo un 20.000 € ahorrados y quiero invertir fuera de España, que me aconsejais?</a>
+                                                </td>
+                                                <td>
+                                                    <span class="center">6</span>
+                                                </td>
+                                                <td>hace 6 dias by: <b>Marcos del Rey</b></td>
+                                            </tr>
+                                            <tr class="odd">
+                                                <td>
+                                                    <a href="#" class="title">Alguna Comunidad española en Singapur?</a>
+                                                </td>
+                                                <td>
+                                                    <span class="center">
+                                                        12
+                                                        <i class="colorblue">&nbsp; 20 Nuevo &nbsp;</i>
+                                                    </span>
+                                                </td>
+                                                <td>hace 7 dias by: <b>David Vales</b></td>
+                                            </tr>
+                                            <tr class="pair">
+                                                <td>
+                                                    <a href="#" class="title">Boston, Lincolnshire</a>
+                                                </td>
+                                                <td>
+                                                    <span class="center">4</span>
+                                                </td>
+                                                <td>hace 7 dias by: <b>Gidi</b></td>
+                                            </tr>
+                                            <tr class="odd">
+                                                <td>
+                                                    <a href="#" class="title">Hola Buenas!</a>
+                                                </td>
+                                                <td>
+                                                    <span class="center">4</span>
+                                                </td>
+                                                <td>hace 13 horas by: <b>Gidi</b></td>
+                                            </tr>
+                                            <tr class="pair">
+                                                <td>
+                                                    <a href="#" class="title">Tengo un 20.000 € ahorrados y quiero invertir fuera de España, que me aconsejais?</a>
+                                                </td>
+                                                <td>
+                                                    <span class="center">6</span>
+                                                </td>
+                                                <td>hace 6 dias by: <b>Marcos del Rey</b></td>
+                                            </tr>
+                                            <tr class="odd">
+                                                <td>
+                                                    <a href="#" class="title">Alguna Comunidad española en Singapur?</a>
+                                                </td>
+                                                <td>
+                                                    <span class="center">12</span>
+                                                </td>
+                                                <td>hace 7 dias by: <b>David Vales</b></td>
+                                            </tr>
+                                            <tr class="pair">
+                                                <td>
+                                                    <a href="#" class="title">Boston, Lincolnshire</a>
+                                                </td>
+                                                <td>
+                                                    <span class="center">4</span>
+                                                </td>
+                                                <td>hace 7 dias by: <b>Gidi</b></td>
+                                            </tr>
+                                            <tr class="odd">
+                                                <td>
+                                                    <a href="#" class="title">Hola Buenas!</a>
+                                                </td>
+                                                <td>
+                                                    <span class="center">4</span>
+                                                </td>
+                                                <td>hace 13 horas by: <b>Gidi</b></td>
+                                            </tr>
+                                            <tr class="pair">
+                                                <td>
+                                                    <a href="#" class="title">Tengo un 20.000 € ahorrados y quiero invertir fuera de España, que me aconsejais?</a>
+                                                </td>
+                                                <td>
+                                                    <span class="center">6</span>
+                                                </td>
+                                                <td>hace 6 dias by: <b>Marcos del Rey</b></td>
+                                            </tr>
+                                            <tr class="odd">
+                                                <td>
+                                                    <a href="#" class="title">Alguna Comunidad española en Singapur?</a>
+                                                </td>
+                                                <td>
+                                                    <span class="center">12</span>
+                                                </td>
+                                                <td>hace 7 dias by: <b>David Vales</b></td>
+                                            </tr>
+                                            <tr class="pair">
+                                                <td>
+                                                    <a href="#" class="title">Boston, Lincolnshire</a>
+                                                </td>
+                                                <td>
+                                                    <span class="center">
+                                                        4
+                                                        <i class="colorblue">&nbsp; 6 Nuevo &nbsp;</i>
+                                                    </span>
+                                                </td>
+                                                <td>hace 7 dias by: <b>Gidi</b></td>
+                                            </tr>
+                                            <tr class="odd">
+                                                <td>
+                                                    <a href="#" class="title">Hola Buenas!</a>
+                                                </td>
+                                                <td>
+                                                    <span class="center">4</span>
+                                                </td>
+                                                <td>hace 13 horas by: <b>Gidi</b></td>
+                                            </tr>
+                                            <tr class="pair">
+                                                <td>
+                                                    <a href="#" class="title">Tengo un 20.000 € ahorrados y quiero invertir fuera de España, que me aconsejais?</a>
+                                                </td>
+                                                <td>
+                                                    <span class="center">6</span>
+                                                </td>
+                                                <td>hace 6 dias by: <b>Marcos del Rey</b></td>
+                                            </tr>
+                                            <tr class="odd">
+                                                <td>
+                                                    <a href="#" class="title">Alguna Comunidad española en Singapur?</a>
+                                                </td>
+                                                <td>
+                                                    <span class="center">12</span>
+                                                </td>
+                                                <td>hace 7 dias by: <b>David Vales</b></td>
+                                            </tr>
+                                            <tr class="pair">
+                                                <td>
+                                                    <a href="#" class="title">Boston, Lincolnshire</a>
+                                                </td>
+                                                <td>
+                                                    <span class="center">4</span>
+                                                </td>
+                                                <td>hace 7 dias by: <b>Gidi</b></td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
                             </div>
                         </div><!--#foro_expats-->
                         <div id="travel_stories" class="section">
@@ -1058,6 +1140,7 @@
                         $(function(){
                             $(".perfil.contact").find(".section").siblings().not(":first").hide();
                             $(".perfil.contact").find(".profile_edit").hide();
+                            $(".perfil.contact").find(".dtabs").find("div:last").hide();
                             $(".perfil.contact").find("a.edit_profile").click(function(){
                                 $(this).parent().parent().parent().slideUp('slow',function(){
                                    $(".perfil.contact").find(".profile_edit").fadeIn("fast");
