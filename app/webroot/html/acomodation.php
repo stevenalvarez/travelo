@@ -33,8 +33,8 @@
     		<?php include("includes/header.php"); ?>
     		<div id="content" class="page">
                 <div class="inner">
-                    <div class="widget acomodation left">
-                        <div class="padding20 bwhite mbttom4 overflow">
+                    <div class="widget left">
+                        <div class="padding20 bwhite mbttom30 overflow">
                             <h4>Precio (por semana)</h4>
                             <div class="precios">
                                 <div class="slider"></div>
@@ -48,7 +48,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="padding20 bwhite mbttom4 overflow">
+                        <div class="padding20 bwhite mbttom30 overflow">
                             <h4>Tipo</h4>
                             <div class="alojamientos">
                                 <ul class="advanced_search">
@@ -92,7 +92,7 @@
                                 <a title="MAS" href="javascript:void(0)" class="lmore btn green">MAS</a>
                             </div>
                         </div>
-                        <div class="padding20 bwhite mbttom4 overflow">
+                        <div class="padding20 bwhite mbttom30 overflow">
                             <h4>Inglaterra</h4>
                             <div class="acountry">
                                 <ul class="advanced_search">
@@ -136,14 +136,21 @@
                                 <a title="MAS" href="javascript:void(0)" class="lmore btn green">MAS</a>
                             </div>
                         </div>
-                        <div class="padding20 bwhite mbttom4 overflow">
-                            <h4>Quieres publicar un anuncio?</h4>
-                            <p>Tienes una habitacion para alquilar, buscas alguien que entre en tu casa?
-                            <br />
-                            En solo unos pasos puedes ver tu anuncio publicado
-                            </p>
-                            <br />
-                            <a class="btn_submit" href="#">Anunciar mi alojamiento</a>
+                        <div class="mbttom4 overflow square">
+                            <div class="top padding20 bb_gray" style="padding-bottom: 15px;">
+                                <h4>
+                                    <span class="block">Añade tu Oferta</span>
+                                    <span class="fontsize13 colorblue">Sube tu Alojamiento</span>
+                                </h4>
+                            </div>
+                            <div class="bottom padding20">
+                                <p>Tienes una habitacion para alquilar, buscas alguien que entre en tu casa?
+                                <br />
+                                En solo unos pasos puedes ver tu anuncio publicado
+                                </p>
+                                <br />
+                                <a class="btn_submit" href="#">Anunciar mi alojamiento</a>
+                            </div>
                         </div>
                     </div><!--.widget-->
                     <div class="cols2 right results">

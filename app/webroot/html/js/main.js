@@ -285,6 +285,12 @@ $(function(){
         $("#"+$(this).attr("lang")).fadeIn("fast").siblings().css("display","none");
     });
     
+    //tabs options
+    $(".perfil .tabs").find("a").click(function(){
+        $(this).addClass("selected").siblings().removeClass("selected");
+        $("#"+$(this).attr("lang")).fadeIn("fast").siblings().css("display","none");
+    });
+    
     //close
     $("a.close").click(function(){
         $(this).parent().slideUp('slow',function(){

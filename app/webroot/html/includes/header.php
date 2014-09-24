@@ -2,7 +2,7 @@
     <div class="access">
         <div class="inner">
             <div class="left">
-                <a class=" left aleft" href="#">MI CUENTA</a>
+                <a class=" left aleft" href="profile.php?p=1">MI CUENTA</a>
                 <form class="form_lenguage left">
                     <select class="language" name="language">
                         <option value="esp" selected="selected">ESPA&Nacute;OL</option>
@@ -26,22 +26,22 @@
             <div class="right">
                 <ul class="list left">
                     <li>
-                        <a class="active" href="#">HOME</a>
+                        <a class="active" href="home.php">HOME</a>
                     </li>
                     <li>
-                        <a href="#">TRABAJO</a>
+                        <a href="jobs.php?p=1">TRABAJO</a>
                     </li>
                     <li>
-                        <a href="#">ALOJAMIENTO</a>
+                        <a href="acomodation.php?p=1">ALOJAMIENTO</a>
                     </li>
                     <li>
-                        <a href="#">ESCUELAS IDIOMAS</a>
+                        <a href="schools_languages.php?p=1">ESCUELAS IDIOMAS</a>
                     </li>
                     <li>
-                        <a href="#">FORO</a>
+                        <a href="forum_main.php?p=1">FORO</a>
                     </li>
                     <li>
-                        <a href="#">BLOG</a>
+                        <a href="blog.php?p=1">BLOG</a>
                     </li>
                 </ul>
                 <ul class="right hsocial">
