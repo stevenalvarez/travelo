@@ -44,8 +44,11 @@
                                     <td class="replies">
                                         <span>Usuarios</span>
                                     </td>
-                                    <td class="created">
+                                    <td class="topics">
                                         <span>Temas</span>
+                                    </td>
+                                    <td class="created_by">
+                                        <span>Creado</span>
                                     </td>
                                 </tr>
                             </thead>
@@ -57,7 +60,10 @@
                                     <td>
                                         <span class="center">432</span>
                                     </td>
-                                    <td>54</td>
+                                    <td>
+                                        <span class="center">54</span>
+                                    </td>
+                                    <td>hace 13 horas by: <b>Gidi</b></td>
                                 </tr>
                                 <tr class="pair">
                                     <td>
@@ -66,7 +72,10 @@
                                     <td>
                                         <span class="center">323</span>
                                     </td>
-                                    <td>32</td>
+                                    <td>
+                                        <span class="center">32</span>
+                                    </td>
+                                    <td>hace 13 horas by: <b>Gidi</b></td>
                                 </tr>
                                 <tr class="odd">
                                     <td>
@@ -75,7 +84,10 @@
                                     <td>
                                         <span class="center">12</span>
                                     </td>
-                                    <td>12</td>
+                                    <td>
+                                        <span class="center">12</span>
+                                    </td>
+                                    <td>hace 13 horas by: <b>Gidi</b></td>
                                 </tr>
                                 <tr class="pair">
                                     <td>
@@ -84,7 +96,10 @@
                                     <td>
                                         <span class="center">41</span>
                                     </td>
-                                    <td>21</td>
+                                    <td>
+                                        <span class="center">21</span>
+                                    </td>
+                                    <td>hace 13 horas by: <b>Gidi</b></td>
                                 </tr>
                                 <tr class="odd">
                                     <td>
@@ -93,7 +108,10 @@
                                     <td>
                                         <span class="center">144</span>
                                     </td>
-                                    <td>212</td>
+                                    <td>
+                                        <span class="center">212</span>
+                                    </td>
+                                    <td>hace 13 horas by: <b>Gidi</b></td>
                                 </tr>
                                 <tr class="pair">
                                     <td>
@@ -102,7 +120,10 @@
                                     <td>
                                         <span class="center">226</span>
                                     </td>
-                                    <td>213</td>
+                                    <td>
+                                        <span class="center">213</span>
+                                    </td>
+                                    <td>hace 13 horas by: <b>Gidi</b></td>
                                 </tr>
                                 <tr class="odd">
                                     <td>
@@ -111,7 +132,10 @@
                                     <td>
                                         <span class="center">12</span>
                                     </td>
-                                    <td>112</td>
+                                    <td>
+                                        <span class="center">212</span>
+                                    </td>
+                                    <td>hace 13 horas by: <b>Gidi</b></td>
                                 </tr>
                                 <tr class="pair">
                                     <td>
@@ -120,7 +144,10 @@
                                     <td>
                                         <span class="center">1214</span>
                                     </td>
-                                    <td>121</td>
+                                    <td>
+                                        <span class="center">221</span>
+                                    </td>
+                                    <td>hace 13 horas by: <b>Gidi</b></td>
                                 </tr>
                                 <tr class="odd">
                                     <td>
@@ -129,7 +156,10 @@
                                     <td>
                                         <span class="center">234</span>
                                     </td>
-                                    <td>1212</td>
+                                    <td>
+                                        <span class="center">1212</span>
+                                    </td>
+                                    <td>hace 13 horas by: <b>Gidi</b></td>
                                 </tr>
                                 <tr class="pair">
                                     <td>
@@ -138,7 +168,10 @@
                                     <td>
                                         <span class="center">126</span>
                                     </td>
-                                    <td>331</td>
+                                    <td>
+                                        <span class="center">331</span>
+                                    </td>
+                                    <td>hace 13 horas by: <b>Gidi</b></td>
                                 </tr>
                                 <tr class="odd">
                                     <td>
@@ -147,7 +180,10 @@
                                     <td>
                                         <span class="center">12</span>
                                     </td>
-                                    <td>154</td>
+                                    <td>
+                                        <span class="center">154</span>
+                                    </td>
+                                    <td>hace 13 horas by: <b>Gidi</b></td>
                                 </tr>
                             </tbody>
                         </table>
