@@ -2100,7 +2100,7 @@ function comment_form( $args = array(), $post_id = null ) {
 	$fields = apply_filters( 'comment_form_default_fields', $fields );
 	$defaults = array(
 		'fields'               => $fields,
-		'comment_field'        => '<p class="comment-form-comment"><label for="comment">' . _x( 'Comment', 'noun' ) . '</label> <textarea id="comment" name="comment" cols="45" rows="8" aria-required="true"></textarea></p>',
+		'comment_field'        => '<p class="comment-form-comment"><label for="comment">' . _x( 'Mensaje', 'noun' ) . '</label> <textarea id="comment" name="comment" cols="45" rows="8" aria-required="true" placeholder="escribe tu mensaje aqu&iacute;"></textarea></p>',
 		/** This filter is documented in wp-includes/link-template.php */
 		'must_log_in'          => '<p class="must-log-in">' . sprintf( __( 'You must be <a href="%s">logged in</a> to post a comment.' ), wp_login_url( apply_filters( 'the_permalink', get_permalink( $post_id ) ) ) ) . '</p>',
 		/** This filter is documented in wp-includes/link-template.php */
@@ -2110,10 +2110,10 @@ function comment_form( $args = array(), $post_id = null ) {
 		'id_form'              => 'commentform',
 		'id_submit'            => 'submit',
 		'name_submit'          => 'submit',
-		'title_reply'          => __( 'Leave a Reply' ),
+		'title_reply'          => __( 'Escribe un comentario' ),
 		'title_reply_to'       => __( 'Leave a Reply to %s' ),
 		'cancel_reply_link'    => __( 'Cancel reply' ),
-		'label_submit'         => __( 'Post Comment' ),
+		'label_submit'         => __( 'Enviar Comentario' ),
 		'format'               => 'xhtml',
 	);
 
@@ -2151,7 +2151,7 @@ function comment_form( $args = array(), $post_id = null ) {
 					do_action( 'comment_form_must_log_in_after' );
 					?>
 				<?php else : ?>
-					<form action="<?php echo site_url( '/wp-comments-post.php' ); ?>" method="post" id="<?php echo esc_attr( $args['id_form'] ); ?>" class="comment-form"<?php echo $html5 ? ' novalidate' : ''; ?>>
+					<form action="<?php echo site_url( '/wp-comments-post.php' ); ?>" method="post" id="<?php echo esc_attr( $args['id_form'] ); ?>" class="comment-form padding20 bwhite"<?php echo $html5 ? ' novalidate' : ''; ?>>
 						<?php
 						/**
 						 * Fires at the top of the comment form, inside the <form> tag.
@@ -2228,7 +2228,7 @@ function comment_form( $args = array(), $post_id = null ) {
 						 */
 						echo apply_filters( 'comment_form_field_comment', $args['comment_field'] );
 						?>
-						<?php echo $args['comment_notes_after']; ?>
+						<?php //echo $args['comment_notes_after']; ?>
 						<p class="form-submit">
 							<input name="<?php echo esc_attr( $args['name_submit'] ); ?>" type="submit" id="<?php echo esc_attr( $args['id_submit'] ); ?>" value="<?php echo esc_attr( $args['label_submit'] ); ?>" />
 							<?php comment_id_fields( $post_id ); ?>

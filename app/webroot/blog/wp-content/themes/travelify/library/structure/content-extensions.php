@@ -112,12 +112,24 @@ function travelify_theloop_for_archive() {
   			<?php do_action( 'travelify_before_post_content' ); ?>
 
 			<?php
+            $categories = get_the_category($post->ID);
+            $separator = ', ';
+            $output = '';
+            if($categories){
+            	foreach($categories as $category) {
+            		$output .= '<a class="tag_custom" href="'.get_category_link( $category->term_id ).'" title="' . esc_attr( sprintf( __( "View all posts in %s" ), $category->name ) ) . '">'.$category->cat_name.'</a>'.$separator;
+            	}
+            }
 			if( has_post_thumbnail() ) {
 				$image = '';
 	     		$title_attribute = apply_filters( 'the_title', get_the_title( $post->ID ) );
 	     		$image .= '<figure class="post-featured-image">';
 	  			$image .= '<a href="' . get_permalink() . '" title="'.the_title( '', '', false ).'">';
 	  			$image .= get_the_post_thumbnail( $post->ID, 'featured', array( 'title' => esc_attr( $title_attribute ), 'alt' => esc_attr( $title_attribute ) ) ).'</a>';
+                $image .= '<span class="date"><span class="number">'.get_the_time( 'd', $post->ID ).'</span><span class="month">'.get_the_time( 'M', $post->ID ).'</span></span>';
+                if( has_category() ) {
+                    $image .= '<span class="category">'.trim($output, $separator).'</span>';
+                }
 	  			$image .= '</figure>';
 
 	  			echo $image;
@@ -138,19 +150,23 @@ function travelify_theloop_for_archive() {
   			<?php do_action( 'travelify_before_post_meta' ); ?>
 
   			<div class="entry-meta-bar clearfix">
-    			<div class="entry-meta">
-	    				<span class="author"><a href="<?php echo get_author_posts_url( get_the_author_meta( 'ID' ) ); ?>"><?php the_author(); ?></a></span>
-	    				<span class="date"><a href="<?php the_permalink(); ?>" title="<?php echo esc_attr( get_the_time() ); ?>"><?php the_time( get_option( 'date_format' ) ); ?></a></span>
-	    				<?php if( has_category() ) { ?>
-	             		<span class="category"><?php the_category(', '); ?></span>
-	             	<?php } ?>
-	    				<?php if ( comments_open() ) { ?>
-	             		<span class="comments"><?php comments_popup_link( __( 'No Comments', 'travelify' ), __( '1 Comment', 'travelify' ), __( '% Comments', 'travelify' ), '', __( 'Comments Off', 'travelify' ) ); ?></span>
-	             	<?php } ?>
+    			<div class="posted">
+                    <div class="left">
+        				<span class="by">
+                            <img class="left" src="<?php bloginfo('template_directory'); ?>/images/default_user.jpg" />
+                            <a href="<?php echo get_author_posts_url( get_the_author_meta( 'ID' ) ); ?>"><?php the_author(); ?></a>
+                        </span>
+                    </div>
+                    <div class="right reviews list">
+        				<?php if ( comments_open() ) { ?>
+                 		    <span class="comentarios"><?php comments_popup_link( __( '0 Comments', 'travelify' ), __( '1 Comment', 'travelify' ), __( '% Comments', 'travelify' ), '', __( 'Comments Off', 'travelify' ) ); ?></span>
+                        <?php } ?>
+                        <?php if ( has_tag() ) { ?>
+                            <span class="etiquetas last"><?php echo the_tags('',', ');?></span>
+                        <?php } ?>
+                    </div>
     			</div><!-- .entry-meta -->
-    			<?php
-    			echo '<a class="readmore" href="' . get_permalink() . '" title="'.the_title( '', '', false ).'">'.__( 'Read more', 'travelify' ).'</a>';
-    			?>
+    			<?php //echo '<a class="readmore" href="' . get_permalink() . '" title="'.the_title( '', '', false ).'">'.__( 'Read more', 'travelify' ).'</a>';?>
     		</div>
 
     		<?php do_action( 'travelify_after_post_meta' ); ?>
@@ -257,75 +273,77 @@ function travelify_theloop_for_single() {
 			do_action( 'travelify_before_post' );
 ?>
 	<section id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
-		<article>
+		<article class="mbttom30">
 
 			<?php do_action( 'travelify_before_post_header' ); ?>
+            
+            <?php
+                $categories = get_the_category($post->ID);
+                $separator = ', ';
+                $output = '';
+                if($categories){
+                	foreach($categories as $category) {
+                		$output .= '<a class="tag_custom" href="'.get_category_link( $category->term_id ).'" title="' . esc_attr( sprintf( __( "View all posts in %s" ), $category->name ) ) . '">'.$category->cat_name.'</a>'.$separator;
+                	}
+                }
+        		if( has_post_thumbnail() ) {
+        			$image = '';
+             		$title_attribute = apply_filters( 'the_title', get_the_title( $post->ID ) );
+             		$image .= '<figure class="post-featured-image">';
+          			$image .= '<a href="' . get_permalink() . '" title="'.the_title( '', '', false ).'">';
+          			$image .= get_the_post_thumbnail( $post->ID, 'featured', array( 'title' => esc_attr( $title_attribute ), 'alt' => esc_attr( $title_attribute ) ) ).'</a>';
+                    $image .= '<span class="date"><span class="number">'.get_the_time( 'd', $post->ID ).'</span><span class="month">'.get_the_time( 'M', $post->ID ).'</span></span>';
+                    if( has_category() ) {
+                        $image .= '<span class="category">'.trim($output, $separator).'</span>';
+                    }
+          			$image .= '</figure>';
+        
+          			echo $image;
+          		}        
+            ?>
 
 			<header class="entry-header">
     			<h2 class="entry-title">
     				<?php the_title(); ?>
     			</h2><!-- .entry-title -->
-  		</header>
+  		    </header>
 
-  		<?php do_action( 'travelify_after_post_header' ); ?>
-
-  		<?php do_action( 'travelify_before_post_meta' ); ?>
-
+  		    <?php do_action( 'travelify_after_post_header' ); ?>
+  		    <?php do_action( 'travelify_before_post_meta' ); ?>
+            <?php do_action( 'travelify_after_post_meta' ); ?>
+            <?php do_action( 'travelify_before_post_content' ); ?>
+            
+  			<div class="entry-content clearfix">
+                <?php the_content(); ?>
+  			</div>
+            
   			<div class="entry-meta-bar clearfix">
-    			<div class="entry-meta">
-	    				<span class="author"><a href="<?php echo get_author_posts_url( get_the_author_meta( 'ID' ) ); ?>"><?php the_author(); ?></a></span>
-	    				<span class="date"><a href="<?php the_permalink(); ?>" title="<?php echo esc_attr( get_the_time() ); ?>"><?php the_time( get_option( 'date_format' ) ); ?></a></span>
-	    				<?php if( has_category() ) { ?>
-	             		<span class="category"><?php the_category(', '); ?></span>
-	             	<?php } ?>
-	    				<?php if ( comments_open() ) { ?>
-	             		<span class="comments"><?php comments_popup_link( __( 'No Comments', 'travelify' ), __( '1 Comment', 'travelify' ), __( '% Comments', 'travelify' ), '', __( 'Comments Off', 'travelify' ) ); ?></span>
-	             	<?php } ?>
+    			<div class="posted">
+                    <div class="left">
+        				<span class="by">
+                            <img class="left" src="<?php bloginfo('template_directory'); ?>/images/default_user.jpg" />
+                            <a href="<?php echo get_author_posts_url( get_the_author_meta( 'ID' ) ); ?>"><?php the_author(); ?></a>
+                        </span>
+                    </div>
+                    <div class="right reviews">
+                        <?php if ( has_tag() ) { ?>
+                            <span class="etiquetas last"><?php echo the_tags('',', ');?></span>
+                        <?php } ?>
+                    </div>
     			</div><!-- .entry-meta -->
     		</div>
-
-				<?php do_action( 'travelify_after_post_meta' ); ?>
-
-				<?php do_action( 'travelify_before_post_content' ); ?>
-
-  			<div class="entry-content clearfix">
-    			<?php the_content();
-    			if( is_single() ) {
-						$tag_list = get_the_tag_list( '', __( ', ', 'travelify' ) );
-
-						if( !empty( $tag_list ) ) {
-							?>
-							<div class="tags">
-								<?php echo $tag_list; ?>
-							</div>
-							<?php
-						}
-					}
-
-               wp_link_pages( array(
-						'before'            => '<div style="clear: both;"></div><div class="pagination clearfix">'.__( 'Pages:', 'travelify' ),
-						'after'             => '</div>',
-						'link_before'       => '<span>',
-						'link_after'        => '</span>',
-						'pagelink'          => '%',
-						'echo'              => 1
-               ) );
-               ?>
-  			</div>
-
+		</article>
   			<?php
 
   			do_action( 'travelify_after_post_content' );
-
+            
   			do_action( 'travelify_before_comments_template' );
+              
+            comments_template();
+            
+            do_action ( 'travelify_after_comments_template' );
 
-         comments_template();
-
-         do_action ( 'travelify_after_comments_template' );
-
-         ?>
-
-		</article>
+         ?>	        
 	</section>
 <?php
 			do_action( 'travelify_after_post' );

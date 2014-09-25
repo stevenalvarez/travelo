@@ -211,7 +211,17 @@ function travelify_headerdetails() {
 	<nav id="main-nav" class="clearfix">
         <div class="container clearfix breadcrumb2">
             <h1>
-                <span class="title left">Todas las entradas</span>
+                <span class="title left">
+                    <?php if( is_home() || is_front_page() ) {
+                        echo "Posts"; 
+                    }else{
+            			if( ( '' != travelify_header_title() ) || function_exists( 'bcn_display_list' ) ) {
+                            echo travelify_header_title();
+            	       }else{
+            	   	       echo the_title();
+            	       }
+                    }?>
+                </span>
                 <span class="arrow left">&nbsp;</span>
             </h1>
         </div><!-- .container -->
@@ -223,23 +233,8 @@ function travelify_headerdetails() {
    				travelify_pass_cycle_parameters();
    			if( function_exists( 'travelify_featured_post_slider' ) )
    				travelify_featured_post_slider();
+   		   }
    		}
-   		}
-		else {
-			if( ( '' != travelify_header_title() ) || function_exists( 'bcn_display_list' ) ) {
-		?>
-			<div class="page-title-wrap">
-	    		<div class="container clearfix">
-	    			<?php
-		    		if( function_exists( 'travelify_breadcrumb' ) )
-						travelify_breadcrumb();
-					?>
-				   <h3 class="page-title"><?php echo travelify_header_title(); ?></h3><!-- .page-title -->
-				</div>
-	    	</div>
-	   <?php
-	   	}
-		}
 }
 
 /****************************************************************************************/
