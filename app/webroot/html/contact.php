@@ -6,7 +6,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1"/>
     	<title>Contact</title>
         
-        <link rel="stylesheet" type="text/css" href="css/styles.css"/>
+        <link rel="stylesheet" type="text/css" href="css/reset.css"/>
         <!-- include slider.css -->
         <link rel="stylesheet" type="text/css" href="css/owl.carousel.css"/>
         <link rel="stylesheet" type="text/css" href="css/owl.theme.css"/>
