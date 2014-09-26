@@ -8,7 +8,7 @@
 	<?php
         echo $this->Html->meta('icon');
         
-        echo $this->Html->css(array('reset','admin'));
+        echo $this->Html->css(array('admin'));
 	?>
 </head>
 <body onload="document.forms['form_login'].elements[0].focus();">

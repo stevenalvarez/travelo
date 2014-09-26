@@ -31,7 +31,7 @@ $cakeDescription = __d('cake_dev', 'Travelo -  admin');
 	</title>
 	<?php
 		echo $this->Html->meta('icon');
-        echo $this->Html->css(array('cake.generic','bootstrap.min.css','style_admin','uploadify.css','flick/jquery-ui-1.8.16.custom.css'));
+        echo $this->Html->css(array('cake.generic','bootstrap.min.css','admin','uploadify.css','flick/jquery-ui-1.8.16.custom.css'));
         echo $this->fetch('css');
         echo $this->fetch('meta');
 	?>
