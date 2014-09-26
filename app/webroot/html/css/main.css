@@ -337,7 +337,7 @@ ul.advanced_search li:hover > a, ul.advanced_search li.selected > a{background-p
 #content .how_it_works_cicle li.row h4{color: #000;font-weight: normal;font-size: 18px;margin-bottom: 5px;}
 #content .how_it_works_cicle li.row p{clear: both;color: #708cac;line-height: 22px;}
 #content .how_it_works_cicle li.center{width: 50%;text-align: center;}
-#content .search_for_approximation{padding: 80px 0 50px 0; overflow: hidden;}
+#content .search_for_approximation{padding: 80px 0 50px 0;}
 #content .search_for_approximation form{background: url('../img/bg_map.jpg') no-repeat center top #f5f5f5;height: 390px;padding: 50px 0;}
 #content .videos{padding: 50px 0; overflow: hidden;}
 #content .videos h3{margin-bottom: 20px;font-weight: normal;font-size: 18px;}
