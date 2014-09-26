@@ -113,7 +113,7 @@
                                     <div class="item">
                                         <p>Nunc cursus libero purus ac congue arcu cursus ut sed vitae pulvinar massa idporta nequetiam.</p>
                                     </div>
-                                    <div class="item like textalign">
+                                    <div class="item like aligncenter">
                                         <a href="#" title="22 likes">22 likes</a>
                                     </div>
                                     <div class="item line uploaded">
@@ -124,7 +124,7 @@
                                             <img src="img/guest1.jpg"/>
                                         </div>
                                     </div>
-                                    <div class="item textalign">
+                                    <div class="item aligncenter">
                                         <a class="btn green go" href="#">IR A LA CIUDAD</a>
                                     </div>
                                 </div>
@@ -147,7 +147,7 @@
                                     <div class="item">
                                         <p>Nunc cursus libero purus ac congue arcu cursus ut sed vitae pulvinar massa idporta nequetiam.</p>
                                     </div>
-                                    <div class="item like textalign">
+                                    <div class="item like aligncenter">
                                         <a href="#" title="26 likes">26 likes</a>
                                     </div>
                                     <div class="item line uploaded">
@@ -158,7 +158,7 @@
                                             <img src="img/guest1.jpg"/>
                                         </div>
                                     </div>
-                                    <div class="item textalign">
+                                    <div class="item aligncenter">
                                         <a class="btn green go" href="#">IR A LA CIUDAD</a>
                                     </div>
                                 </div>
@@ -181,7 +181,7 @@
                                     <div class="item">
                                         <p>Nunc cursus libero purus ac congue arcu cursus ut sed vitae pulvinar massa idporta nequetiam.</p>
                                     </div>
-                                    <div class="item like textalign">
+                                    <div class="item like aligncenter">
                                         <a href="#" title="16 likes">16 likes</a>
                                     </div>
                                     <div class="item line uploaded">
@@ -192,7 +192,7 @@
                                             <img src="img/guest1.jpg"/>
                                         </div>
                                     </div>
-                                    <div class="item textalign">
+                                    <div class="item aligncenter">
                                         <a class="btn green go" href="#">IR A LA CIUDAD</a>
                                     </div>
                                 </div>
@@ -215,7 +215,7 @@
                                     <div class="item">
                                         <p>Nunc cursus libero purus ac congue arcu cursus ut sed vitae pulvinar massa idporta nequetiam.</p>
                                     </div>
-                                    <div class="item like textalign">
+                                    <div class="item like aligncenter">
                                         <a href="#" title="12 likes">12 likes</a>
                                     </div>
                                     <div class="item line uploaded">
@@ -226,7 +226,7 @@
                                             <img src="img/guest1.jpg"/>
                                         </div>
                                     </div>
-                                    <div class="item textalign">
+                                    <div class="item aligncenter">
                                         <a class="btn green go" href="#">IR A LA CIUDAD</a>
                                     </div>
                                 </div>
@@ -249,7 +249,7 @@
                                     <div class="item">
                                         <p>Nunc cursus libero purus ac congue arcu cursus ut sed vitae pulvinar massa idporta nequetiam.</p>
                                     </div>
-                                    <div class="item like textalign">
+                                    <div class="item like aligncenter">
                                         <a href="#" title="5 likes">5 likes</a>
                                     </div>
                                     <div class="item line uploaded">
@@ -260,7 +260,7 @@
                                             <img src="img/guest1.jpg"/>
                                         </div>
                                     </div>
-                                    <div class="item textalign">
+                                    <div class="item aligncenter">
                                         <a class="btn green go" href="#">IR A LA CIUDAD</a>
                                     </div>
                                 </div>
@@ -283,7 +283,7 @@
                                     <div class="item">
                                         <p>Nunc cursus libero purus ac congue arcu cursus ut sed vitae pulvinar massa idporta nequetiam.</p>
                                     </div>
-                                    <div class="item like textalign">
+                                    <div class="item like aligncenter">
                                         <a href="#" title="45 likes">45 likes</a>
                                     </div>
                                     <div class="item line uploaded">
@@ -294,7 +294,7 @@
                                             <img src="img/guest1.jpg"/>
                                         </div>
                                     </div>
-                                    <div class="item textalign">
+                                    <div class="item aligncenter">
                                         <a class="btn green go" href="#">IR A LA CIUDAD</a>
                                     </div>
                                 </div>

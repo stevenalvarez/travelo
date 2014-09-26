@@ -20,8 +20,17 @@ p{margin: 0 0 10px;}
 .clear{clear: both;}
 .block{display: block;}
 .alignleft{text-align: left;}
+.aligncenter{text-align: center;}
 .alignright{text-align: right;}
 .bold{font-weight: bold;}
+.bwhite{background: #fff;}
+.bgray{background: #f5f5f5;}
+.overflow{overflow: hidden;}
+.fontsize11{font-size: 11px;}
+.fontsize13{font-size: 13px;}
+.colorblack{color: #000;}
+.colorblue{color: #01b7f2;}
+.uppercase{text-transform: uppercase;}
 
 /* fonts */
 @font-face {
